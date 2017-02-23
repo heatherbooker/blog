@@ -1,4 +1,8 @@
-# Day Whatever @ RC
+---
+layout: post
+title:  "Day Whatever @ RC"
+tags: RC code thoughts
+---
 
 ## What am I doing?
 I'm waiting for git to finish cloning Mozilla's Bedrock repo.
