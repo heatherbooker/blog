@@ -39,7 +39,7 @@ layout: default
       <p>
         {{ post.excerpt }}
         {% unless post.ends-early %}
-          <a class="normal-text" href="{{ post.link }}" alt="see whole post">...</a>
+          <a class="normal-text" href="{{ site.url }}{{ post.url }}" alt="see whole post">...</a>
         {% endunless%}
       </p>
     </div>
