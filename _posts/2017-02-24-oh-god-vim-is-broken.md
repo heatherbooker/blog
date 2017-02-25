@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Oh god Vim is broken"
 categories: code
 tags: code plz-help
 ---
