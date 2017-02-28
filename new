@@ -1,0 +1,44 @@
+#!/bin/bash
+# This script creates a new post or draft in jekyll with pre-filled front matter.
+# Run `./script <some title for your post>` to generate a post.
+# Use `-d` option (BEFORE your post title) for a draft.
+
+FILEDIR="_posts/"
+ISDRAFT=false
+
+while getopts "d" opt; do
+    case $opt in
+        d)
+            ISDRAFT=true
+            ;;
+    esac
+done
+shift $((OPTIND-1))
+
+TITLE=""
+for word in $@
+do
+    # ${word,,} <-- This converts the word to lowercase.
+    TITLE+="-${word,,}"
+done
+
+FILENAME="$FILEDIR$(date +%Y-%m-%d)$TITLE.md"
+
+echo "---" > $FILENAME
+echo "layout: post" >> $FILENAME
+
+if [ $# -gt 0 ]
+  then
+    echo "title: \"$@\"" >> $FILENAME
+fi
+
+echo "categories: FILL ME IN!!" >> $FILENAME
+echo "tags: DON'T FORGET!!" >> $FILENAME
+
+if $ISDRAFT; then
+    echo "draft: true" >> $FILENAME
+fi
+
+echo "---" >> $FILENAME
+
+vim $FILENAME
