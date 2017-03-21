@@ -2,7 +2,7 @@
 layout: post
 title: "Things that seem like they happen in jobs but never in job interviews"
 categories: code
-tags: code mozilla thoughts
+tags: code Mozilla thoughts
 ---
 
 Maybe it's just because I've been setting up wackloads of dev environments and picking projects, but this whole _Prepping for [Outreachy](https://wiki.gnome.org/Outreachy)_ business is making me think that there's a lot more to jobs than all these job interviews involving little code challenges get at. <!--more--> There's a baloney-ton of: 
