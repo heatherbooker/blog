@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script creates a new post or draft in jekyll with pre-filled front matter.
-# Run `./script <some title for your post>` to generate a post.
-# Use `-d` option (BEFORE your post title) for a draft.
+# Run `./new <some title for your post>` to generate a post.
+# Run `./new -d <title AFTER -d flag>` for a draft.
 
 FILEDIR="_posts/"
 ISDRAFT=false
@@ -18,8 +18,10 @@ shift $((OPTIND-1))
 TITLE=""
 for word in $@
 do
-    # ${word,,} <-- This converts the word to lowercase.
-    TITLE+="-${word,,}"
+    # `sed` will replace all chars except alphanum with empty string.
+    alphanumericword=$(echo $word | sed "s/[^A-Za-z0-9]//g")
+    # ${alphanumericword,,} <-- This converts the word to lowercase.
+    TITLE+="-${alphanumericword,,}"
 done
 
 FILENAME="$FILEDIR$(date +%Y-%m-%d)$TITLE.md"
