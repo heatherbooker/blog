@@ -29,8 +29,6 @@ layout: default
       <span class="post-date">
         {{ page.date | date: "%-d %b %Y" | upcase }}
       </span>
-      •
-      {% include read_time.html %}
     </span>
 
   </header>
@@ -40,8 +38,3 @@ layout: default
   </article>
 </div>
 
-
-{% if site.owner.disqus-shortname and page.comments == true %}
-<div id="disqus_thread"></div>
-{% include disqus.html %}
-{% endif %}
