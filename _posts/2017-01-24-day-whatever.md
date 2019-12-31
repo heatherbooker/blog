@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Day Whatever @ RC"
-categories: code
 tags: RC code thoughts Mozilla
 made-at-rc: true
 ---

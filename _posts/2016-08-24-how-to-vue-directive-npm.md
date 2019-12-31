@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to publish an Vue.js directive to npm
-categories: code
 tags: code how-to
 ---
 

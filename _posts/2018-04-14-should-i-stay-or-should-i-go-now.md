@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Should I stay or should I go now"
-categories: life
 tags: thoughts
 ---
 

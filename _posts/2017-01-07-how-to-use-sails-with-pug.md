@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to use Sails.js with Pug
-categories: code
 tags: code how-to
 made-at-rc: true
 ---

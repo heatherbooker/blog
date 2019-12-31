@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "MobX + React: Can you use this.props in @computeds?"
-categories: code
 tags: code
 ---
 

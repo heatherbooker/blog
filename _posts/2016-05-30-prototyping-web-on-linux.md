@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Prototyping a web app on Linux"
-categories: code
 tags: code
 ---
 

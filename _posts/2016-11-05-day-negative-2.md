@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "RC: Day -2"
-categories: code
 tags: code RC
 ---
 

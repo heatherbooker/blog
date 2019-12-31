@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "If GULP were a person…"
-categories: code
 tags: code thoughts
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "What is route protection?"
-categories: code
 tags: code
 ---
  

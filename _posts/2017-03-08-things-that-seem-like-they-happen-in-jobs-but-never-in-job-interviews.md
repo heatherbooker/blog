@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Things that seem like they happen in jobs but never in job interviews"
-categories: code
 tags: code Mozilla thoughts
 ---
 

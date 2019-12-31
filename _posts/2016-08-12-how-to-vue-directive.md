@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to make a reusable “directive” in Vue.js
-categories: code
 tags: code how-to
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Wat the FLIP does Firefox think it's doing with 138% of my CPU power?!"
-categories: code
 tags: code plz-help OS
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "How to make an interactive map in React"
-categories: code
 tags: code how-to
 ---
 

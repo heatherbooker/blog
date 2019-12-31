@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Vue.js vs React.js"
-categories: code
 tags: code
 ---
 

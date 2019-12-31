@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Adventures with Mozilla Con't"
-categories: code
 tags: code Mozilla
 ---
 

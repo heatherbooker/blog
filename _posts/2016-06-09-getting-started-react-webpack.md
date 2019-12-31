@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Getting started with React and Webpack"
-categories: code
 tags: code how-to
 ---
 

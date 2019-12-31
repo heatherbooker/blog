@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "How to use Heroku Scheduler with Node.js"
-categories: code
 tags: code how-to
 ---
 
