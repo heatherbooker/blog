@@ -6,7 +6,7 @@ tags: Mozilla thoughts
 
 It's all in the title. I formally submitted my application to participate in the wonderful Outreachy today. If you haven't heard of it, Outreachy is an amazing internship opportunity to be a (paid!) contributor to FOSS (Free and Open Source Software) for underrepresented groups in tech (more details [here](https://wiki.gnome.org/Outreachy)). For Outreachy, this means:
 
-- women, cis and trans <!--more-->
+- women: cis and trans <!--more-->
 - trans men
 - genderqueer persons
 - Black/African Americans
