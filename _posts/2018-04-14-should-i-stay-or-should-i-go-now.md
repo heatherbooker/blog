@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Should I stay or should I go now"
-tags: thoughts
+tags: thoughts code
 ---
 
 __: Wherein I discuss the weirdness of half ppl being like "GTFO L8ER !\*#$&S", and the other half like "wut where u goin jus chill out"__
