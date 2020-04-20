@@ -42,4 +42,9 @@ fi
 
 echo "---" >> $FILENAME
 
-vim $FILENAME
+if command -v nvim
+then
+    nvim $FILENAME
+else
+    vi $FILENAME
+fi
