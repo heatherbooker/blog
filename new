@@ -34,7 +34,6 @@ if [ $# -gt 0 ]
     echo "title: \"$@\"" >> $FILENAME
 fi
 
-echo "categories: FILL ME IN!!" >> $FILENAME
 echo "tags: DON'T FORGET!!" >> $FILENAME
 
 if $ISDRAFT; then
