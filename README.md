@@ -17,7 +17,3 @@ echo $PATH
 ln -s ~/dev/blog/new.sh /usr/local/bin/new
 ```
 Then just run `new <look ma im blogging>` or whatever :)
-
-## To do:
-
-- add next/prev buttons when viewing a single post

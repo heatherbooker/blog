@@ -117,7 +117,18 @@ a.read-more {
 
 .post-navigation {
   background-color: #f6f6f6;
-  @include box-shadow;
+
+  div.row {
+    display: flex;
+    justify-content: space-between;
+    &::after {
+      content: unset;
+    }
+    .shrink-to-link {
+      width: unset;
+    }
+  }
+
 }
 .leonids-icon {
   margin: 0 auto;
@@ -130,7 +141,6 @@ a.read-more {
 .post-nav-prev,
 .post-nav-next {
   min-height: 10px;
-  width: 100%;
 }
 .post-nav-next {
   text-align: right;
