@@ -29,6 +29,15 @@ layout: default
       <span class="post-date">
         {{ page.date | date: "%-d %b %Y" | upcase }}
       </span>
+      {% if page.tags.size > 0 %}
+      •
+      {% for tag in page.tags %}
+        <a class="post-tag" href="{{ site.url }}/tags/#{{ tag }}">{{ tag }}</a>
+        {% unless forloop.last %}
+        <span>/</span>
+        {% endunless %}
+      {% endfor %}
+      {% endif %}
     </span>
 
   </header>
