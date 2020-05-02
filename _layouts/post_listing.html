@@ -14,7 +14,7 @@ layout: default
       {% for tag in post.tags %}
         <a class="post-tag" href="{{ site.url }}/tags/#{{ tag }}">{{ tag }}</a>
         {% unless forloop.last %}
-        <span>/</span>
+        <span>•</span>
         {% endunless %}
       {% endfor %}
       {% endif %}
