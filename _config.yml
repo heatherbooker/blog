@@ -28,7 +28,7 @@ excerpt_separator: <!--more-->
 # Build settings
 markdown: kramdown
 # theme: leonids
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
