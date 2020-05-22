@@ -3,9 +3,7 @@
 # Run `./new <some title for your post>` to generate a post.
 # Run `./new -d <title AFTER -d flag>` for a draft.
 
-FILEDIR="_posts/"
 ISDRAFT=false
-
 while getopts "d" opt; do
     case $opt in
         d)
@@ -24,9 +22,12 @@ do
     TITLE+="-${alphanumericword,,}"
 done
 
-FILENAME="$FILEDIR$(date +%Y-%m-%d)$TITLE.md"
+FILEDIR="_posts"
+FILENAME="$FILEDIR/$(date +%Y-%m-%d)$TITLE.md"
 
+# Insert frontmatter in post
 echo "---" > $FILENAME
+
 echo "layout: post" >> $FILENAME
 
 if [ $# -gt 0 ]

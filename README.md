@@ -6,7 +6,7 @@ Uses [Jekyll](https://jekyllrb.com) with [leonids](https://github.com/renyuanz/l
 
 `bundle exec jekyll serve` to preview
 
-`./new <words to title your new post here>` to generate new post
+`./new '<words to title your new post here>'` to generate new post
 
 Or, add `new` to the path (same for `thought`):
 ```sh
@@ -14,6 +14,6 @@ Or, add `new` to the path (same for `thought`):
 echo $PATH
 
 # Symlink
-ln -s ~/dev/blog/new.sh /usr/local/bin/new
+ln -s ~/dev/blog/new /usr/local/bin/new
 ```
 Then just run `new <look ma im blogging>` or whatever :)
