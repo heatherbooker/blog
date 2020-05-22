@@ -34,6 +34,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+collections:
+  - thoughts
 
 owner:
   name: Heather Booker

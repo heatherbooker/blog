@@ -8,7 +8,7 @@ Uses [Jekyll](https://jekyllrb.com) with [leonids](https://github.com/renyuanz/l
 
 `./new <words to title your new post here>` to generate new post
 
-Or, add `new` to the path:
+Or, add `new` to the path (same for `thought`):
 ```sh
 # Pick somewhere in your path, I used /usr/local/bin
 echo $PATH

@@ -1,0 +1,19 @@
+#!/bin/bash
+# This script creates a new thought in jekyll with pre-filled front matter.
+# Run `./thought` to generate a thought.
+
+FILEDIR="_thoughts"
+FILENAME="$FILEDIR/$(date +%F-%H-%M-%S).md"
+
+echo "---" > $FILENAME
+echo "date: $(date '+%F %T')" >> $FILENAME
+echo "---" >> $FILENAME
+
+if command -v nvim
+then
+    nvim $FILENAME
+else
+    vi $FILENAME
+fi
+
+echo $FILENAME

@@ -14,7 +14,7 @@ The [original implementation](https://github.com/marenbeam/thoughts) doesn't inv
 
 First thought is this hilarious ad on a website for a local music store that I thought was very cute and saved a few weeks ago, for this exact purpose:
 
-![steves music store - wash those hands!](/assets/img/steves.png)
+![steves music store - wash those hands!]({{ '/assets/img/steves.png' | relative_url }})
 
 20 May, 2020
 
@@ -23,3 +23,7 @@ I think this format will not do; it is going to make me censor myself more, beca
 20 May, 2020
 
 I am a parasite to humanity.
+
+21 May, 2020
+
+[I did it!]({{ '/thoughts' | relative_url }}) Bye!
