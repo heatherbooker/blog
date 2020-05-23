@@ -8,9 +8,9 @@ permalink: /thoughts/
   <div>
     {% for thought in site.thoughts reversed %}
     <span class="post-meta">
-      <span class="post-date">
+      <a href="#{{ thought.date | date: '%F-%H-%M-%S' }}" class="post-date">
         {{ thought.date | date: "%-d %b %Y" | upcase }}
-      </span>
+      </a>
     </span>
     <div>{{ thought.content }}</div>
     {% endfor %}
