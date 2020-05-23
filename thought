@@ -16,4 +16,7 @@ else
     vi $FILENAME
 fi
 
-echo $FILENAME
+# Useful post-post stuff
+git add $FILENAME
+git commit -m "Think a thought"
+echo "You thinked a thought! Run 'git push' to tell the world! Or just to get it off your chest."

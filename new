@@ -50,3 +50,7 @@ then
 else
     vi $FILENAME
 fi
+
+# Useful post-post stuff
+git add -N $FILENAME
+echo "New post \"$FILENAME\" has been added to git tracked files"
