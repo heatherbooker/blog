@@ -9,7 +9,7 @@ echo "---" > $FILENAME
 echo "date: $(date '+%F %T')" >> $FILENAME
 echo "---" >> $FILENAME
 
-if command -v nvim
+if command -v nvim >/dev/null 2>&1
 then
     nvim $FILENAME
 else

@@ -43,7 +43,8 @@ fi
 
 echo "---" >> $FILENAME
 
-if command -v nvim
+# Write the post
+if command -v nvim >/dev/null 2>&1
 then
     nvim $FILENAME
 else
