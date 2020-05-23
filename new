@@ -16,8 +16,8 @@ shift $((OPTIND-1))
 TITLE=""
 for word in $@
 do
-    # `sed` will replace all chars except alphanum with empty string.
-    alphanumericword=$(echo $word | sed "s/[^A-Za-z0-9]//g")
+    # `sed` to replace all chars except alphanum or - with empty string.
+    alphanumericword=$(echo $word | sed "s/[^A-Za-z0-9-]//g")
     # ${alphanumericword,,} <-- This converts the word to lowercase.
     TITLE+="-${alphanumericword,,}"
 done
