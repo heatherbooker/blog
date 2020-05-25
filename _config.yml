@@ -13,12 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Heather B-Log
-# email: 
 description: > # the '>' means to ignore newlines until the next key.
   These are the words that I've had to say in the past whenever.
   Go ahead and consume them.
-url: "https://heatherbooker.github.io/blog" # the base hostname & protocol for your site, e.g. http://example.com
+
+url: 'https://heatherbooker.github.io/blog'
+
+# Why are only these two here??
 twitter_username: hboo_codes
 github_username:  heatherbooker
 
@@ -26,17 +29,16 @@ github_username:  heatherbooker
 excerpt_separator: <!--more-->
 
 # Build settings
-markdown: kramdown
+
 # theme: leonids
+
 plugins:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
 
 collections:
   - thoughts
 
+# Custom settings
 owner:
   name: Heather Booker
   avatar: heatherlearns.svg
@@ -44,34 +46,6 @@ owner:
   bio: "These are the words that I've had to say in the past whenever."
   bio2: "Go ahead and consume them."
   personal-site: "https://heatherbooker.github.io"
-  email:
-  disqus-shortname:
-  twitter: "hboo_codes"
-  facebook: #username
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
+  twitter: hboo_codes
   github: heatherbooker
   rss: "feed.xml"
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
-  skype: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
