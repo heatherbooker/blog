@@ -19,7 +19,7 @@ Anyway, you can see this snippet from my (appallingly large collection of) deskt
 
 ![it has a lot of exclamation points. because i wanted it.]({{ site.url }}/assets/img/post-generator-wanted.png)
 
-And then, in checking out the Blaggregator feed (that I finally added myself to! \*cue emoji with monkey covering its eyes\*), I came upon Xianny's blog post where she wrote the PERFECT SCRIPT! You should definitely [read it](http://journal.xianny.com/2017/02/21/autogen-jekyll-new-post.html)! Go. Right now.
+And then, in checking out the Blaggregator feed (that I finally added myself to! \*cue emoji with monkey covering its eyes\*), I came upon Xianny's blog post where she wrote the PERFECT SCRIPT! ~~You should definitely [read it](http://journal.xianny.com/2017/02/21/autogen-jekyll-new-post.html)! Go. Right now.~~ Link is dead! :'(
 
 This was beyond perfect. I am so happy right now. 
 
