@@ -52,5 +52,5 @@ To conclude, I learned some stuff about Google Chrome's design, and I solved not
 UPDATE OH MY DOG Opera has calmed down while I've been writing and each process is now using under 10% it's a miracle??!!?
 
 
-[^1] "Yo, why the heck you need two browsers and two text editors?!" Whatever, don't judge me! Sometimes one sucks and you gotta switch over but then that one sucks too so...well...NYEH. *sticks tongue out*
+[^1]: "Yo, why the heck you need two browsers and two text editors?!" Whatever, don't judge me! Sometimes one sucks and you gotta switch over but then that one sucks too so...well...NYEH. *sticks tongue out*
 
