@@ -2,6 +2,8 @@
 # This script creates a new thought in jekyll with pre-filled front matter.
 # Run `./thought` to generate a thought.
 
+set -e
+
 FILEDIR="_thoughts"
 FILENAME="$FILEDIR/$(date +%F-%H-%M-%S).md"
 
