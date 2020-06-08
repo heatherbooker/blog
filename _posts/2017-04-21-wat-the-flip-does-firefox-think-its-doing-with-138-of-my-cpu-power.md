@@ -47,10 +47,11 @@ This comic is 39 pages long and I am on page 29. I'll get there eventually. Mayb
 
 Bonus - remember how I said I don't need to enable hardware acceleration? I decided this because in my settings, the checkbox for "Enable hardware acceleration" is ticked. Seems pretty clear right? Nah, jk. Checking some more advanced settings page tucked away somewhere (as these things always are) exposed that actually, apparently my OS was blocking this from happening. From what I understand, I don't want to force enable this because bad things could happen, ie, something about webby acceleration scripts exploiting OS vulnerabilities, or something. So I'm just gonna not touch that.
 
-To conclude, I learned some stuff about Google Chrome's design, and I solved nothing so my computer is still a slave to the browsers siphoning as much power as their grubby paws can. Do let me know if you think you are more smarticle than I in this matter and wish to assist. :)
+To conclude, I learned some stuff about Google Chrome's design, and I solved nothing so my computer is still a minion[^2] to the browsers siphoning as much power as their grubby paws can. Do let me know if you think you are more smarticle than I in this matter and wish to assist. :)
 
 UPDATE OH MY DOG Opera has calmed down while I've been writing and each process is now using under 10% it's a miracle??!!?
 
 
 [^1]: "Yo, why the heck you need two browsers and two text editors?!" Whatever, don't judge me! Sometimes one sucks and you gotta switch over but then that one sucks too so...well...NYEH. *sticks tongue out*
 
+[^2]: This line used to read "...my computer is still a slave". I am trying to remove uses of common tech terms that perpetuate white supremacy from 1) my vocabulary and 2) my bubble, starting with blacklist/whitelist and master/slave.
