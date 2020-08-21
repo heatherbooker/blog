@@ -17,3 +17,8 @@ echo $PATH
 ln -s ~/dev/blog/new /usr/local/bin/new
 ```
 Then just run `new <look ma im blogging>` or whatever :)
+
+__Troubleshooting bundle whatever__
+
+bundle install and enter your password as many times as it wants it
+sudo gem pristine ffi --version XX.XX
