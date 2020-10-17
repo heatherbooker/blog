@@ -42,6 +42,10 @@ if $ISDRAFT; then
 fi
 
 echo "---" >> $FILENAME
+echo "" >> $FILENAME
+
+# Don't forget to put the marker to hide some of the post on the front page :)
+echo "<!--more-->" >> $FILENAME
 
 # Write the post
 if command -v nvim >/dev/null 2>&1
