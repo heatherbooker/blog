@@ -63,7 +63,7 @@ On the sad side of things, I did not succeed at taking a screen recording of me 
 
 On the to-do side of things, I really would like to be able to give the program an answer and then tell it to quit instead of it starting another number. I'm thinking something like
 
-```sh
+```shell
 what numba?
 > 42 done
 correct and goodbye!
@@ -71,7 +71,7 @@ correct and goodbye!
 
 Because right now it's like
 
-```sh
+```shell
 what numba?
 > 42
 what numba?

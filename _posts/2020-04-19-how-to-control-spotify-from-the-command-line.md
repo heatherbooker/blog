@@ -20,7 +20,7 @@ Look at the output from `echo $PATH` - every path between colons (`:`) is where 
 There's a couple more puzzle pieces around making the script easy to call. First, what will we type to invoke the script? I want to control spotify by typing `sp`, as inspired by the original gist title, because that's short and I'm lazy. You might choose `spotify` or `musica_pls_dj` or whatever.
 
 So, to symlink the script:
-```sh
+```shell
 ln -s ~/code/control-spotify.sh /usr/local/bin/sp
 ```
 
@@ -69,7 +69,7 @@ Don't do this:
 - nor base64 encode the whole thing, without removing newlines
 
 I don't really know what base64 encoding is, so I just thought the credentials I copied from spotify were already encoded. That was my first problem. The second was trying to encode each part separately then join them with a `:`. Both of these were leading me to a `{"error":"invalid_client"}` error from curl. Anyway, it took some noodling as a bash noob, but my eventual process to encode all of this was:
-```sh
+```shell
 CREDENTIALS=dxfjgbjbkjhgfbjhwhatevermyclientidcopieddirectlyfromspotifyis:jbjhkbkjhgbfsdjhgbkjhsfwhatevermysecretcopieddirectlyfromspotfyis
 # make sure it worked
 echo $CREDENTIALS
@@ -101,12 +101,12 @@ Oh god, this whole time I thought the bash output produced when I set `set -x` w
 > We now have a shell variable. This variable is available in our current session, but will not be passed down to child processes.
 
 D'oh! I need `export` to make `$CREDENTIALS` available to the `sp` script.
-```sh
+```shell
 export CREDENTIALS
 ```
 
 In the long term, that needs to be exported in my `/.zshrc`, with the actual base64 encoded string.
-```sh
+```shell
 export CREDENTIALS=jhdfgkjsdbfkugabuyb34ouyfbosdufgyurWHEEEwhatever
 ```
 

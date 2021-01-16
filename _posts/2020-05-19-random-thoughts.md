@@ -200,13 +200,13 @@ Next up, I made some improvements to this script and the new post generator scri
 
 Every time I would finish editing a post, when I would close it, the path to my editor would be printed in the terminal, because of this line:
 
-```sh
+```shell
 if command -v nvim
 ```
 
 That `command -v` thing checks if `nvim` is available. But then if it is, it prints the path to nvim, `/usr/bin/nvim`, which is slightly confusing every time I see it. So the magical world of internet told me I could try appending `>/dev/null 2>&1` to the end of the check. I don't know what each part of it does, something about not mashing standard error into standard out, but it sends the output into oblivion aka `/dev/null`[^2] which is good enough for me! So that line became
 
-```sh
+```shell
 if command -v nvim >/dev/null 2>&1
 ```
 
@@ -216,7 +216,7 @@ The next improvement brought the thought generator closer to that from which is 
 
 For the thought generator:
 
-```sh
+```shell
 git add $FILENAME
 git commit -m "Think a thought"
 echo "You thinked a thought! Run 'git push' to tell the world! Or just to get it off your chest."
@@ -228,7 +228,7 @@ Also `git commit` spits some output to the terminal, so you get to see the filen
 
 Whereas for the new post generator, I kept it a little simpler:
 
-```sh
+```shell
 git add -N $FILENAME
 echo "New post \"$FILENAME\" has been added to git tracked files"
 ```
