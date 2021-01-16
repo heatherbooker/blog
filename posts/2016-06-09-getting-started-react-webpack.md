@@ -20,7 +20,7 @@ npm is a dandy package manager we will be using to set up webpack and react. Mak
 
 Run `npm init -y` to get started — this will initialize your project with a package.json file. The -y option tells npm to use default settings; if you forget to use it, just press enter until you have gone through all of the questions. Running npm init -f accomplishes the same, but it also warns you:  
 
-![npm being a know-it-all]({{ site.url }}/assets/img/npm-warn.png)  
+![npm being a know-it-all](/img/npm-warn.png)  
 
 Alarming! Better stick to -y which gets the job done without sassing you. (not the css type…)  
 
@@ -140,7 +140,7 @@ npm run build
 
 And open dev/anyProject/build/index.html in your browser and you should see this:  
 
-!['Hello world' in top left corner of your page]({{ site.url }}/assets/img/hello-world.png)  
+!['Hello world' in top left corner of your page](/img/hello-world.png)  
 
 
 Awesome! It works! You have successfully set up a project with webpack and react! But you might be thinking : we copied that index.html file manually, that was stupid. You’re right! Let’s prepare this project a little more for the real world. We want to handle html files, and we might as well also use webpack for one of its great skills — requiring in all sorts of tidbits, such as images. I like using SVGs as they are highly editable, and resize well.  

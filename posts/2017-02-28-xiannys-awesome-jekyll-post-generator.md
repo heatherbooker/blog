@@ -1,4 +1,3 @@
----
 layout: post
 title: "Xianny's awesome Jekyll post generator"
 tags: code shell
@@ -17,7 +16,7 @@ AJ thought that was funny, because bash doesn't have a type system. What?! That 
 
 Anyway, you can see this snippet from my (appallingly large collection of) desktop notes that _desperately_ desires this Jekyll-generating script in my life:  
 
-![it has a lot of exclamation points. because i wanted it.]({{ site.url }}/assets/img/post-generator-wanted.png)
+![it has a lot of exclamation points. because i wanted it.](/img/post-generator-wanted.png)
 
 And then, in checking out the Blaggregator feed (that I finally added myself to! \*cue emoji with monkey covering its eyes\*), I came upon Xianny's blog post where she wrote the PERFECT SCRIPT! ~~You should definitely [read it](http://journal.xianny.com/2017/02/21/autogen-jekyll-new-post.html)! Go. Right now.~~ Link is dead! :'(
 
@@ -47,7 +46,7 @@ Thank you Xianny!!
 
 
 PS - If I forget to fill in the `categories` field in the front matter, this happens:   
-![nonsense categories on the post]({{ site.url }}/assets/img/fill-me-in.png)  
+![nonsense categories on the post](/img/fill-me-in.png)  
 because I set it to do that, so I won't forget. It's sorta functional to that end I guess? I am snort-laughing because I tried to help myself but it turns out I am un-helpable.
 
 PPS - If you don't use Jekyll, you may not know why I want to strip apostrophes, or what front matter is.

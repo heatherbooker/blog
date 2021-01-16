@@ -28,12 +28,12 @@ Anyway, where I _was_ going with this was to say that it kept claiming it couldn
 
 My Heroku scheduled tasks now looked like this:  
 
-!['node task.js' and 'task']({{ site.url }}/assets/img/heroku-scheduler.png)  
+!['node task.js' and 'task'](/img/heroku-scheduler.png)  
 
 I gratefully soon received an email from my task! It was from the file I had originally included - the one that made structural sense to me. Phew. Maybe I do understand things after all.
 
 Now I wait to see if the other file will also send me an email! I hope the suspense doesn't kill me. If it doesn't, I'll just delete it. If it does, I'll delete it anyway.* Teehee - it's all for __science__!
 
 
-\* I'll delete it anyway because I don't need two files for one task, and I wanna keep the one I came up with all on my own! ![heart eyes face]({{ site.url }}/assets/img/heart-emoji.png)
+\* I'll delete it anyway because I don't need two files for one task, and I wanna keep the one I came up with all on my own! ![heart eyes face](/img/heart-emoji.png)
 

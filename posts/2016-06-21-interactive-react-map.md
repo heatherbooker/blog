@@ -8,7 +8,7 @@ I am going to share with you a great and magnificent secret: the stages of creat
 
 Wait, first here’s the map, being clicked on (ooh, ahh):  
 
-![clickable map being clicked]({{ site.url }}/assets/img/map-being-clicked.gif)  
+![clickable map being clicked](/img/map-being-clicked.gif)  
 <!--more-->
 
 (And if you just want to skip straight to the good stuff, click [here to get my clickable SVG-based React component world map](https://www.npmjs.com/package/react-world-map) on npm!)  

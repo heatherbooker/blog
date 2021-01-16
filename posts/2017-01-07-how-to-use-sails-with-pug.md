@@ -6,7 +6,7 @@ made-at-rc: true
 ---
 You may know by now that I like to make [tutorials for things with dismal search results](/posts/2016-08-24-how-to-vue-directive-npm), and this is no different. The search results when I queried for the title of this post included the following:  
 
-![pugs on sailboats. not the sails or pugs I wanted.]({{ site.url }}/assets/img/use-sails-with-pug.png)  
+![pugs on sailboats. not the sails or pugs I wanted.](/img/use-sails-with-pug.png)  
 
 Yeah. Not exactly what I was looking for.<!--more--> So I started by following [a video tutorial](https://www.youtube.com/watch?v=ep6EQ5f82Ts&list=PLf8i4fc0zJBzLhOe6FwHpGhBDgqwInJWZ&index=3) (just kidding, actually I started by blindly trying to merge the basic sails app with my pre-existing code, which was painfully unsuccessful) to the T just to get an idea of how sails works, seeing as I’m still more than a little confused about routing and http and servers and databases. I shall now extrapolate the process of converting this project to use pug, to a tutorial on starting a sails app with pug.  
 
