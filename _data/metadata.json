@@ -1,5 +1,5 @@
 {
-  "title": "Your Blog Name",
+  "title": "Heather's B-Log",
   "url": "https://example.com/",
   "description": "I am writing about my experiences as a naval navel-gazer.",
   "feed": {
@@ -13,8 +13,7 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
+    "name": "hboo",
     "url": "https://example.com/about-me/"
   }
 }
