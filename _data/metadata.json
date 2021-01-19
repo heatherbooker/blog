@@ -1,19 +1,12 @@
 {
-  "title": "Heather's B-Log",
-  "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Heather B-Log",
+  "url": "https://heatherbooker.github.io/blog",
+  "description": "These are the words that I've had to say in the past whenever.\nGo ahead and consume them.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "id": "https://example.com/"
-  },
-  "jsonfeed": {
-    "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "path": "/feed.xml"
   },
   "author": {
-    "name": "hboo",
-    "url": "https://example.com/about-me/"
+    "name": "hboo"
   }
 }
