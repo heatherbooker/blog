@@ -1,6 +1,8 @@
 layout: post
 title: "Xianny's awesome Jekyll post generator"
-tags: code shell
+tags:
+- code
+- shell
 ---
 
 Oops, note to self - need to strip special characters such as apostrophes from file names. (Guess how I came up with that one..[1]).

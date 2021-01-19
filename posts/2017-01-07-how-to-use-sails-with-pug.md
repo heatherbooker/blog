@@ -1,7 +1,9 @@
 ---
 layout: post
 title: How to use Sails.js with Pug
-tags: code how-to
+tags:
+- code
+- how-to
 made-at-rc: true
 ---
 You may know by now that I like to make [tutorials for things with dismal search results](/posts/2016-08-24-how-to-vue-directive-npm), and this is no different. The search results when I queried for the title of this post included the following:  

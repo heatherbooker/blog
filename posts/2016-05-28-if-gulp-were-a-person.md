@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "If GULP were a person…"
-tags: code thoughts
+tags:
+- code
+- thoughts
 ---
 
 Ze* would be pretty amazing. I don’t know zir* very well yet, but ze* sure seems to have a lot of people who like zir. Granted, there are also a fair few who are not afraid to speak out against gulp — but that’s hardly unusual when someone wonderful shows up on the scene.  

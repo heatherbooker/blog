@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Getting started with React and Webpack"
-tags: code how-to
+tags:
+- code
+- how-to
 ---
 
 I [recently wrote about](/posts/2016-05-28-if-gulp-were-a-person) the wonders of gulp. Ironically, as soon as it was published, I ditched gulp for webpack. Actually that’s not quite true — I first tried to incorporate browserify into gulp. I knew I needed some sort of packaging system in order to use JSX and React, and of these two most popular, browserify and webpack, webpack was touted to be a real mind-bender to set up. Everywhere I looked suggested that people who weren’t terribly experienced with other module-requiring systems like CommonJS should probably use browserify. So I got to work setting it up, only to realize that webpack would pay off in the long run.  

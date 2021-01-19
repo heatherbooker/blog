@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Learning les chiffres en français"
-tags: code french
+tags:
+- code
+- french
 ---
 
 >Oh, Miss hboo:

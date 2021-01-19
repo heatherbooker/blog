@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "RC: Day -2"
-tags: code RC
+tags:
+- code
+- RC
 ---
 
 Today is the day before the day before I will begin a series of days at [the Recurse Center](https://recurse.com). I have two reasons for writing this — One, they suggest keeping a blog to track your learning etc., but even before that, I read a few blogs from people who went to RC and did just that, like [Julia Evans](https://jvns.ca/blog/2013/09/26/hacker-school-day-4-c-unit-testing/). It was really cool to see what they were doing, and I kindof want a place to organize my thoughts.  

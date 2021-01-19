@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "How to use Heroku Scheduler with Node.js"
-tags: code how-to
+tags:
+- code
+- how-to
 ---
 
 While there are [multiple](http://stackoverflow.com/a/13956024) [tutorials](http://www.spacjer.com/blog/2014/02/10/defining-node-dot-js-task-for-heroku-scheduler/) out there on using the Heroku Scheduling add-on with Node.js, they all seem to suggest the same strange series of steps.<!--more--> I can't understand why they all recommend

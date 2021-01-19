@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Prototyping a web app on Linux"
-tags: code
+tags:
+- code
 ---
 
 I take great pride and pleasure in using an operating system sometimes thought of as difficult, risky, and geared towards programmers. Being the extremely novice developer that I am, I like to boost my sense of competence by using this somewhat elite OS so that I can bask in the surprise of others when they find out that I am using neither Windows nor MAC.  

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: "Choosing an Outreachy project"
-tags: Mozilla thoughts code
+tags:
+- Mozilla
+- thoughts
+- code
 ---
 
 So, this post was drafted years (no, _literally_ years) ago when I was applying to Outreachy, and it just stayed a draft forever because I guess I thought there was more to it. It turns out, there wasn't, because if there was, it would be there. Ha! I still think it's interesting though, and I want it out of my "untracked files" when I run `git status`*, so here it comes, in all its overdue glory. ;) <!--more-->

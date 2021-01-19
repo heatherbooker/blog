@@ -1,7 +1,10 @@
 ---
 layout: post
 title: How to control spotify from the command line
-tags: code how-to shell
+tags:
+- code
+- how-to
+- shell
 ---
 Holy buhjeebus the amount of steps. I just want to listen to business casual. Ya know... Let's keep it business. Let's keep it casual. Let's keep it...fun.
 

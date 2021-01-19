@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "MobX + React: Can you use this.props in @computeds?"
-tags: code
+tags:
+- code
 ---
 
 I am an `@computed` evangelist when it comes to `get`ters in the many MobX-React components my team writes for work. I prowl around PRs, hunting for unsuspecting plain ol' innocent getters like this:

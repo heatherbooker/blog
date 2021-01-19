@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "Day Whatever @ RC"
-tags: RC code thoughts Mozilla
+tags:
+- RC
+- code
+- thoughts
+- Mozilla
 made-at-rc: true
 ---
 

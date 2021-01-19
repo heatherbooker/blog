@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "What is route protection?"
-tags: code
+tags:
+- code
 ---
  
 When I searched this, I found a lot of mentions of Laravel and PHP. Whaat? What is this Laravel? And I certainly don’t want to start getting involved with PHP. Surely there is a simpler explanation for this!  

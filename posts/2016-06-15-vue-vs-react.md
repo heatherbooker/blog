@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Vue.js vs React.js"
-tags: code
+tags:
+- code
 ---
 
 Ooh, this is going to be a juicy one! I’m sure many people are fierce supporters of one of these technologies and zealous bashers of the other. Both Vue.js and React.js are both pretty new to the scene — let’s get some background information to begin. I’ll go in reverse alphabetical order to avoid offending anyone right out of the gates. ;)  <!--more-->
