@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Where to gitignore what"
-tags: code
+tags:
+- code
 ---
 
 I downloaded a little plugin the other day; you might use something like it yourself, if you're a super nerd (sorry..): it's called [disable-javascript](https://github.com/dpacassi/disable-javascript). It's a browser addon that I use in Firefox to maximize speed and minimize annoyance when visiting one of the bajillions of overloaded how-to and fake-news and cooking websites, where by "overloaded" I mean there's 999 ads, and auto-playing videos and pop-ups and newsletter subscriptions all vying for my attention when all I want is basic content. <!--more--> However, the addon also breaks many things you may want to use on the interwebs. You've been warned.

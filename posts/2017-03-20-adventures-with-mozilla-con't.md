@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Adventures with Mozilla Con't"
-tags: code Mozilla
+tags:
+- code
+- Mozilla
 ---
 
 "Con't" is how I used to abbreviate "continued" when I took notes in HS/uni. The good old days. I could never use my laptop even in university (ie when I had one) to take notes in class because the instant I would get even remotely disinterested, I would be totally gone and only tune back in to be hella confused. Dis bad. 

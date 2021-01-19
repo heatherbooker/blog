@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Let's talk about sex baby"
-tags: sex thoughts
+tags:
+- sex
+- thoughts
 ---
 
 The title: so overused but so good.

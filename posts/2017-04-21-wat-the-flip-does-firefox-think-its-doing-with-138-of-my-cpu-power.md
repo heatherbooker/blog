@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Wat the FLIP does Firefox think it's doing with 138% of my CPU power?!"
-tags: code plz-help
+tags:
+- code
+- plz-help
 ---
 
 Oh my bananas, I am having a computer crisis. It all started when I was nOT tOUCHING mY cOMPUTER at all and the only application running (to my knowledge) was Firefox, which had like 4 tabs open. "So what?" you think. "Who cares?" you ask. Well, my fan was going as hard as it could for several iterations of several minutes. I was starting to worry for my baby's health.<!--more--> Also, lately my battery has been dying way too fast for a laptop in its first year of life. So I was concerned.

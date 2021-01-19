@@ -1,7 +1,9 @@
 ---
 layout: post
 title: How to publish an Vue.js directive to npm
-tags: code how-to
+tags:
+- code
+- how-to
 ---
 
 Wow, so I’m always amazed when something I want to know how to do doesn’t stare right back at me in the top 5 Google results. I’m sure you can guess why I am writing this article today (hint: check the title), but be assured that I have previously been unsuccessful in my mission to publish my Vue.js directive to npm. Please join me for a thrilling recount of my journey to enlightenment.  

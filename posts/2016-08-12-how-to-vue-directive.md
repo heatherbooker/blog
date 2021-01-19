@@ -1,7 +1,9 @@
 ---
 layout: post
 title: How to make a reusable “directive” in Vue.js
-tags: code how-to
+tags:
+- code
+- how-to
 ---
 
 I like Vue.js. A lot. (See my [comparison with React.js here](/posts/2016-06-15-vue-vs-react).) It is a beautifully simple, straightforward, and superbly functional view-layer framework. I’ve gone over most of the docs multiple times, and I am absolutely enamoured with the clarity they exude. They don’t use stupidly obscure words or send you around in circles trying to find what you want. They make you and Vue Just Work.  

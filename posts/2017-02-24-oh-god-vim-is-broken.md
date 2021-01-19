@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Oh god Vim is broken"
-tags: code plz-help
+tags:
+- code
+- plz-help
 ---
 
 I tried to start writing another post but vim is back to its old habits of appearing to insert weeeeeiiiiiird characters as I type. 

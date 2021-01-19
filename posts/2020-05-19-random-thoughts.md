@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Random thoughts"
-tags: thoughts code
+tags:
+- thoughts
+- code
 ---
 
 There is a super cool thing a friend of mine did, which I wish to emulate: have an adorable [page of random thoughts](https://glit.sh/~wesleyac/thoughts/). It seems super low pressure, fun as a reader to get a glimpse into someone else's head, and fun as a creator to just collect a mish-mash of glorious tidbits.

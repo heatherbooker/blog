@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "im not a programmer"
-tags: thoughts code
+tags:
+- thoughts
+- code
 ---
 
 Why I don't feel like a programmer:

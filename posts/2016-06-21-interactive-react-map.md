@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "How to make an interactive map in React"
-tags: code how-to
+tags:
+- code
+- how-to
 ---
 
 I am going to share with you a great and magnificent secret: the stages of creating a clickable svg map in a React project. Are you ready? You might want to take notes, because it is super mind-blowing.  

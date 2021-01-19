@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Still meta-talking about sex"
-tags: thoughts sex
+tags:
+- thoughts
+- sex
 ---
 
 I have some sense that I should be sequestering the "sex" posts in some corner of their own, behind a wall that readers have to click "YES I LIKE READING ABOUT SEX" to access. As if to protect them for the horrifying content within. And the more I think about how to do it, the more confused I get. And I think the reality is that I shouldn't do that. The sex posts get to live merrily alongside the code posts and the whatever-else-I-decide-to-write about posts, because they're all part of me, and they're all part of life, and I want to share them all. I am not into this idea of censoring myself; the internet, of all places, is a place to be free, I would say. Certainly enough people seem to use it that way. :joy: So why shouldn't I?<!--more-->

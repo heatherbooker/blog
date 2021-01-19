@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "How to auto-scroll to the bottom of a div"
-tags: code how-to
+tags:
+- code
+- how-to
 ---
 
 This article is just going to be a little nublet of an article. Or a nugget. Whatever.  
