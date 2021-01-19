@@ -3,7 +3,7 @@ layout: layouts/base.njk
 ---
 <div class="thoughts">
   <div>
-    {% for thought in collections.thoughts reversed %}
+    {% for thought in collections.page-of-thoughts reversed %}
     <span class="post-meta">
       <a href="#{{ thought.date | date: '%F-%H-%M-%S' }}" class="post-date">
         {{ thought.date | date: "%d %b %Y" | upcase }}
