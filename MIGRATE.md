@@ -4,3 +4,4 @@
 - redirect from old post urls to new ones
 - styling
 - left sidebar
+- footer
