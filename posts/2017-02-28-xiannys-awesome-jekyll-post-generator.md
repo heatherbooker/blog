@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Xianny's awesome Jekyll post generator"
 tags:
