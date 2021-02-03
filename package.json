@@ -3,7 +3,7 @@
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
-    "start": "eleventy --serve",
+    "start": "eleventy --serve --quiet",
     "debug": "DEBUG=* eleventy"
   },
   "devDependencies": {
