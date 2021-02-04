@@ -1,10 +1,8 @@
 {
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
-    "start": "eleventy --serve --quiet",
-    "debug": "DEBUG=* eleventy"
+    "build": "ELEVENTY_ENV=production eleventy",
+    "start": "ELEVENTY_ENV=development eleventy --serve --quiet",
+    "debug": "DEBUG=* ELEVENTY_ENV=development eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
