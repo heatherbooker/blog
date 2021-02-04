@@ -27,4 +27,3 @@ Then just run `new <look ma im blogging>` or whatever :)
 - make tags page prettier
 - make tags show on post pages (beside date)
 - add sitewide footer with copyright etc
-- add posts footer nav with prev / next
