@@ -14,7 +14,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
-    excerpt_separator: 'then'
+    excerpt_separator: '<!--more-->'
   });
 
   eleventyConfig.setDataDeepMerge(true);
@@ -23,6 +23,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
+  });
+  eleventyConfig.addFilter("md", function (content = "") {
+    return markdownIt({ html: true }).render(content);
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
