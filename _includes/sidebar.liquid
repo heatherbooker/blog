@@ -1,10 +1,8 @@
 <div class="cover-card table-cell table-middle">
-  {% if metadata.author.avatar %}
-  <img src="{{ metadata.url }}/img/{{ metadata.author.avatar }}" alt="" class="avatar">
-  {% endif %}
-  <a href="{{ metadata.author.personal-site }}/" class="author_name">{{ metadata.author.name }}</a>
+  <img src="{{ site.url }}/img/{{ metadata.author.avatar }}" alt="cartoon of my face" class="avatar">
+  <a href="{{ metadata.author.personal_site }}" class="author_name">{{ metadata.author.name }}</a>
   <span class="author_job">{{ metadata.tagline }}</span>
-  <span class="author_bio metadata.author_bio1 mbm">{{ metadata.author.description }}</span>
+  <span class="author_bio metadata.author_bio1 mbm">{{ metadata.author.bio1 }}</span>
   <span class="author_bio mbm">{{ metadata.author.bio2 }}</span>
   <nav class="nav">
     <ul class="nav-list">

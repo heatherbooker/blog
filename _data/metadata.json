@@ -1,7 +1,7 @@
 {
   "title": "Heather B-Log",
   "url": "https://heatherbooker.github.io/blog",
-  "description": "These are the words that I've had to say in the past whenever.\nGo ahead and consume them.",
+  "description": "These are the words that I've had to say in the past whenever. Go ahead and consume them.",
   "tagline": "Good morning.",
   "feed": {
     "filename": "feed.xml",
@@ -9,9 +9,11 @@
   },
   "author": {
     "name": "heather booker",
+    "bio1": "These are the words that I've had to say in the past whenever.",
+    "bio2": " Go ahead and consume them.",
     "avator": "heatherlearns.svg",
     "github": "heatherbooker",
-    "personal-site": "https://heatherbooker.github.io",
+    "personal_site": "https://heatherbooker.github.io",
     "twitter": "hboo_codes"
   }
 }
