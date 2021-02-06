@@ -26,3 +26,4 @@ Then just run `new <look ma im blogging>` or whatever :)
 - fix cartoon of my face in sidebar
 - make tags page prettier
 - make tags show on post pages (beside date)
+- render emogæs in post excerpts on home page
