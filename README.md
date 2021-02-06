@@ -3,6 +3,7 @@
 Ma blog using [Eleventy](https://github.com/11ty/eleventy) static site generator and [eleventy base blog](https://github.com/11ty/eleventy-base-blog) with leonids styling (from Jekyll).
 
 ## New post
+
 `./new '<words to title your new post here>'` to generate new post
 
 Or, add `new` to the path (same for `thought`):

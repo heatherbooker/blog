@@ -1,0 +1,18 @@
+---
+layout: page
+title:  Thoughts
+permalink: /thoughts/
+---
+
+<div class="thoughts">
+  <div>
+    {% for thought in site.thoughts reversed %}
+    <span class="post-meta">
+      <a href="#{{ thought.date | date: '%F-%H-%M-%S' }}" class="post-date">
+        {{ thought.date | date: "%-d %b %Y" | upcase }}
+      </a>
+    </span>
+    <div>{{ thought.content }}</div>
+    {% endfor %}
+  </div>
+</div>
