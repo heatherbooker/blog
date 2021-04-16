@@ -30,6 +30,7 @@ Then just run `new <look ma im blogging>` or whatever :)
 - add archives page
 - add pagination
 - link from old urls to new ones
+- redirect from adventures-with-mozilla-con't to url without apostrophe
 - fix cartoon of my face in sidebar
 - make tags page prettier
 - make tags show on post pages (beside date)
