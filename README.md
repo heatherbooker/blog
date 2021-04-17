@@ -29,7 +29,7 @@ Then just run `new <look ma im blogging>` or whatever :)
 - change 'new' script to not add date to filename??
 - add archives page
 - add pagination
-- link from old urls to new ones
+- make post urls be better (remove dates? at least don't have dates have slashes, that implies ability to see all of 2020/, but 2020- is better)
 - redirect from adventures-with-mozilla-con't to url without apostrophe
 - fix cartoon of my face in sidebar
 - make tags page prettier
