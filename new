@@ -22,7 +22,7 @@ do
     TITLE+="-${alphanumericword,,}"
 done
 
-FILEDIR="_posts"
+FILEDIR="posts"
 FILENAME="$FILEDIR/$(date +%Y-%m-%d)$TITLE.md"
 
 # Insert frontmatter in post

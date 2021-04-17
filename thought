@@ -4,7 +4,7 @@
 
 set -e
 
-FILEDIR="_thoughts"
+FILEDIR="thoughts"
 FILENAME="$FILEDIR/$(date +%F-%H-%M-%S).md"
 
 echo "---" > $FILENAME
