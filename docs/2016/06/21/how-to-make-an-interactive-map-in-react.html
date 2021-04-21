@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to make an interactive map in React</title>
+    <meta name="description" content="These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Heather B-Log">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="table cover">
+          <div class="cover-card table-cell table-middle">
+  <img src="https://heatherbooker.github/blog/img/" alt="cartoon of my face" class="avatar">
+  <a href="https://heatherbooker.github.io" class="author_name">heather booker</a>
+  <span class="author_job">Good morning.</span>
+  <span class="author_bio metadata.author_bio1 mbm">These are the words that I&#39;ve had to say in the past whenever.</span>
+  <span class="author_bio mbm"> Go ahead and consume them.</span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="https://heatherbooker.github/blog/">Home</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github/blog/thoughts/">Thoughts</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github/blog/tags/">Tags</a>
+      </li>
+       
+    </ul>
+  </nav>
+  <div class="social-links">
+    <ul>
+      
+        <li><a href="http://twitter.com/hboo_codes" class="social-link-item"><i class="fa fa-fw fa-twitter"></i></a></li>
+      
+
+      
+        <li><a href="http://github.com/heatherbooker" class="social-link-item"><i class="fa fa-fw fa-github"></i></a></li>
+      
+
+      
+        <li><a href="//feed.xml" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <main class="tmpl-post">
+
+          <a class="btn" href="https://heatherbooker.github/blog/" >
+  Home
+</a>
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="How to make an interactive map in React">How to make an interactive map in React</h1>
+    <span class="post-meta">
+      <time class="post-date" datetime="2016-06-21">
+        21 JUN 2016
+      </time>
+      
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>I am going to share with you a great and magnificent secret: the stages of creating a clickable svg map in a React project. Are you ready? You might want to take notes, because it is super mind-blowing.</p>
+<p>Wait, first here’s the map, being clicked on (ooh, ahh):</p>
+<p><img src="/img/map-being-clicked.gif" alt="clickable map being clicked"></p>
+<p>(And if you just want to skip straight to the good stuff, click <a href="https://www.npmjs.com/package/react-world-map">here to get my clickable SVG-based React component world map</a> on npm!)</p>
+<p>If you are ready, let us begin:</p>
+<p>Stages of creating a clickable SVG map in a React project</p>
+<ol>
+<li>Hatred</li>
+<li>Suffering</li>
+<li>Defeat</li>
+<li>Suffering</li>
+<li>Hatred</li>
+<li>Defeat</li>
+<li>Hatred</li>
+<li>Hated</li>
+<li>Utter hatred</li>
+<li>SUCCESS!</li>
+<li>Just kidding. Have you seen this? Because this. (Edit: that link was broken, <a href="https://s33.postimg.org/niqd2zgwf/code.jpg">try this</a>, or failing that, image search “how to do coding”.)</li>
+</ol>
+<p>Hahaha..haha..ha…<em>lying on floor</em></p>
+<p>No, but actually. So it was hard. For me. A majority of that, I reckon, is attributable to my lack of experience with various tasks and technologies, such as setting event listeners and using React. However, in the end, I don’t think I would actually classify it as too difficult a project for the average front-end developer to take on.</p>
+<p>If you are genuinely interested in creating any sort of clickable SVG-based components for your React application, I have compiled the basic steps I ended up taking to complete my map project below. Good luck and have fun!</p>
+<p>When I started out, I had webpack <a href="https://www.npmjs.com/package/file-loader">file-loader</a> set up to handle svgs:</p>
+<pre class="language-js"><code class="language-js"><span class="token operator">...</span><br><span class="token keyword">const</span> myImage <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span>‘<span class="token punctuation">.</span><span class="token operator">/</span>aFile<span class="token punctuation">.</span>svg’<span class="token punctuation">)</span><br><span class="token keyword">class</span> <span class="token class-name">clickableSvg</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span><br> <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br> <span class="token punctuation">}</span><br> <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">return</span> <span class="token punctuation">(</span><br>   <span class="token operator">&lt;</span>div<span class="token operator">></span><br>    <span class="token operator">&lt;</span>img src<span class="token operator">=</span><span class="token punctuation">{</span>myImage<span class="token punctuation">}</span><span class="token operator">></span><br>   <span class="token operator">&lt;</span>\<span class="token operator">/</span>div<span class="token operator">></span><br>  <span class="token punctuation">)</span><br> <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<p>(If you’re not familiar with ‘class’ or ‘const’ in js, they are new to ES6.)</p>
+<p>However, embedding the svg file in an <code>&lt;img&gt;</code> tag like this means that any links within the svg code are not valid. [Wait, did I just say svg code? Aren’t svgs just images? Oh yeah! You can edit svg code — it’s a markup language like HTML, made of <code>&lt;tags&gt;</code>. Cool.] Sources suggested other options — using an <code>&lt;object&gt;</code> or <code>&lt;iframe&gt;</code> tag instead, or directly embedding the svg code in the document. I wasn’t keen on the last option, as I felt the svg code for an entire world map was terribly bulky and would make my code messy. I set upon using the iframe tag, in which I could add links around paths/objects, using <code>&lt;a xlink:href=“#”&gt;</code>.</p>
+<p>But I could go on forever about things that didn’t work. Let’s summarize some of the key points to making your clickable svg component work with React:</p>
+<ul>
+<li>the svg code must be directly embedded in your React component</li>
+<li>React will not accept any colons (😃 or dashes (-) in tag properties — you can convert to camelCase to circumvent this</li>
+<li>links must use the property xlinkHref, not simply href<br>
+you can use event listeners to communicate that a component has been clicked</li>
+</ul>
+<p>(sidenote: I’m not entirely certain that using event listeners isn’t a slightly hacky way to accomplish communication between components, but it worked for my purposes of alerting users of the map as an npm module )</p>
+<ul>
+<li>to change css when a component is clicked, assign it a variable for a className, and then use an onClick to manipulate the className</li>
+</ul>
+<p>for me, this looked as follows:</p>
+<pre class="language-svg"><code class="language-svg"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>g</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>”AF”</span> <span class="token attr-name">className</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>{this.mapState.af}</span> <span class="token attr-name">onClick</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>{this.onMapClick.bind(this,</span> <span class="token attr-name">‘af’)}</span> <span class="token punctuation">></span></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>path</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>path4307<span class="token punctuation">"</span></span> <span class="token attr-name">d</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>M345.902 112.802c-.17.07 … <span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>g</span><span class="token punctuation">></span></span></code></pre>
+<p>AF represents Africa, which contained two paths. I grouped the paths in Inkscape (where I could easily view which should go together), then in Sublime I assigned a className. Then I added an onClick to call a function which is defined in the class definition, at the same level as the constructor and render functions.</p>
+<p>The classNames are originally set either in the constructor using this.mapState = {<see code below>} if you are using ES6 classes, or the componentDidMount function if using React.createClass:</p>
+<pre class="language-js"><code class="language-js"><span class="token function-variable function">componentDidMount</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br> <span class="token keyword">this</span><span class="token punctuation">.</span>mapState <span class="token operator">=</span> <span class="token punctuation">{</span><br>  na<span class="token operator">:</span> <span class="token string">"map-unselected"</span><span class="token punctuation">,</span><br>  sa<span class="token operator">:</span> <span class="token string">"map-unselected"</span><span class="token punctuation">,</span><br>  af<span class="token operator">:</span> <span class="token string">"map-unselected"</span><span class="token punctuation">,</span><br>  <span class="token comment">//etc through all continents</span><br> <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre>
+<p>To make my code as clean as possible, after grouping elements into the areas that will need to be individually manipulated (ex continents), I used an svg optimization tool. I thought I would need path IDs so I instructed the tool not to remove them, but it turns out I haven’t needed them so they could have been removed. One option you might need to uncheck though, is for removal of unnecessary groupings — the tool may see the groupings we just worked hard to create as unnecessary, and that is definitely not what we want!</p>
+<p>Now, getting into the nitty-gritty of it: The map component has the following features in the source code:</p>
+<ul>
+<li>React state declared in constructor(ES6) or getInitialState(ES5) and used to track “clicked” state:</li>
+</ul>
+<pre class="language-js"><code class="language-js"><span class="token function-variable function">getInitialState</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br> <span class="token keyword">return</span> <span class="token punctuation">{</span>clicked<span class="token operator">:</span> ‘none’<span class="token punctuation">}</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre>
+<ul>
+<li>Fire an event when clicked, denoting current clicked state:</li>
+</ul>
+<pre class="language-js"><code class="language-js"><span class="token function-variable function">componentDidUpdate</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">emitEvent</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br> <span class="token punctuation">}</span><span class="token punctuation">,</span><br> <span class="token function-variable function">emitEvent</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">const</span> clickedEvent <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">CustomEvent</span><span class="token punctuation">(</span><br>   ‘WorldMapClicked’<span class="token punctuation">,</span><br>   <span class="token punctuation">{</span>detail<span class="token operator">:</span> <span class="token punctuation">{</span>clickedState<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>clicked<span class="token punctuation">}</span><span class="token punctuation">}</span><br>  <span class="token punctuation">)</span><span class="token punctuation">;</span><br>  window<span class="token punctuation">.</span><span class="token function">dispatchEvent</span><span class="token punctuation">(</span>clickedEvent<span class="token punctuation">)</span><span class="token punctuation">;</span><br> <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre>
+<p>The event is dispatched on componentDidUpdate, which guarantees that it is receiving the new state. Firing an event allows users of the npm module to easily track what is happening (again, I think this might be hacky).</p>
+<p>There are two functions which handle the state and classNames — the first determines what to set <code>this.state.clicked</code> to by using some if/else statements and comparing the area clicked to the previous state, and the second manages classNames for css purposes by resetting all to the default, unselected, then if necessary, changing only the selected area to have a className reflecting that.</p>
+<p>It is important to note that the states should be suitable class names, such as “map-selected” and “map-unselected”, as they are assigned as className attributes to the groups in the svg! These classNames can then be referenced through CSS to change the appearance.</p>
+<p>Tune in next week for some choice words on making a React component available as an npm module and through a CDN.</p>
+<p>And that’s it! That’s all there is to using SVG to its full clickable, CSS-able potential. Don’t forget to <a href="https://github.com/heatherbooker/clickable-svg-map">check out the project on github</a> if you need any clarification, or would like to use it yourself! Happy map-making!</p>
+<p><em>Note</em>: This post was migrated from its <a href="https://medium.com/@heatherbooker/how-to-make-an-interactive-map-in-react-f4e6e074b500#.entvl9iu5">original home on Medium</a> on February 23, 2017.</p>
+
+  </article>
+
+  <nav class="post-navigation" role="navigation">
+  <div class="row">
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-prev">
+        
+        
+        <a href="https://heatherbooker.github/blog/2016/06/15/vue.js-vs-react.js.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="primary-text-color"><i class="fa fa-angle-left"></i></span>&nbsp;
+              <span class="hidden-md primary-text-color">Older</span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="col shrink-to-link">
+      <a href="https://heatherbooker.github/blog/">
+        <div class="leonids-icon">
+          <i class="fas fa-glasses"></i>HOME
+        </div>
+      </a>
+    </div>
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-next">
+        
+        
+        <a href="https://heatherbooker.github/blog/2016/08/12/how-to-auto-scroll-to-the-bottom-of-a-div.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="hidden-md primary-text-color">Newer</span>
+              <span class="primary-text-color">&nbsp;<i class="fa fa-angle-right"></i></span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+        </main>
+
+        <footer>
+  <span>
+    <i class="rc-logo__mini"></i>
+    You should check out <a class="rc-link" href="https://www.recurse.com">the Recurse Center</a>.
+  </span>
+  &copy; 2021
+  <a href="https://heatherbooker.github.io" style="text-transform: capitalize;">heather booker</a>.
+
+  Powered by <a href="https://www.11ty.dev/">11ty</a>.
+  Made with modified <a href="https://github.com/renyuanz/leonids/">leonids theme</a>.
+</footer>
+
+      </div>
+    </div>
+
+    <!-- Current page: /2016/06/21/how-to-make-an-interactive-map-in-react.html -->
+    </div>
+  </body>
+
+</html>

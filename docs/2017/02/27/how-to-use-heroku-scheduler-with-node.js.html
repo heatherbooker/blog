@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to use Heroku Scheduler with Node.js</title>
+    <meta name="description" content="These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Heather B-Log">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="table cover">
+          <div class="cover-card table-cell table-middle">
+  <img src="https://heatherbooker.github/blog/img/" alt="cartoon of my face" class="avatar">
+  <a href="https://heatherbooker.github.io" class="author_name">heather booker</a>
+  <span class="author_job">Good morning.</span>
+  <span class="author_bio metadata.author_bio1 mbm">These are the words that I&#39;ve had to say in the past whenever.</span>
+  <span class="author_bio mbm"> Go ahead and consume them.</span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="https://heatherbooker.github/blog/">Home</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github/blog/thoughts/">Thoughts</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github/blog/tags/">Tags</a>
+      </li>
+       
+    </ul>
+  </nav>
+  <div class="social-links">
+    <ul>
+      
+        <li><a href="http://twitter.com/hboo_codes" class="social-link-item"><i class="fa fa-fw fa-twitter"></i></a></li>
+      
+
+      
+        <li><a href="http://github.com/heatherbooker" class="social-link-item"><i class="fa fa-fw fa-github"></i></a></li>
+      
+
+      
+        <li><a href="//feed.xml" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <main class="tmpl-post">
+
+          <a class="btn" href="https://heatherbooker.github/blog/" >
+  Home
+</a>
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="How to use Heroku Scheduler with Node.js">How to use Heroku Scheduler with Node.js</h1>
+    <span class="post-meta">
+      <time class="post-date" datetime="2017-02-27">
+        27 FEB 2017
+      </time>
+      
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>While there are <a href="http://stackoverflow.com/a/13956024">multiple</a> <a href="http://www.spacjer.com/blog/2014/02/10/defining-node-dot-js-task-for-heroku-scheduler/">tutorials</a> out there on using the Heroku Scheduling add-on with Node.js, they all seem to suggest the same strange series of steps. I can't understand why they all recommend</p>
+<ul>
+<li>putting your scheduled task in a file without an extension...</li>
+<li>in a directory called 'bin', and...</li>
+<li>executing it without specifying <code>node</code> in the command, but instead adding <code>#!/path/to/node</code> to the top of the task file.</li>
+</ul>
+<p>I originally didn't look at any of these tutorials - I guessed from the examples using other languages in the <a href="">Heroku docs</a> that I could just write a normal <code>javascriptfile.js</code> and execute it by running <code>heroku run node javascriptfile.js</code>.</p>
+<p>However, Heroku also asserts that you should be able to test your task by running <code>heroku run my task</code> locally, but every time I tried this, it would fail with the following error:</p>
+<pre class="language-bash"><code class="language-bash"></code></pre>
+<p>Wait, hold on just one cott'n pickin' secon'. I just went to run it so I could dutifully copy the <em>exact</em> error message for y'all, and it ran WITHOUT GLITCHES. wAT?!??</p>
+<p>Well. My only proposed explanation is that all the times I ran this in the past, I either</p>
+<ol>
+<li>hadn't added, committed, and pushed the file to Heroku, or</li>
+<li>hadn't waited long enough after adding, committing, and pushing to Heroku for it to be available.</li>
+</ol>
+<p>Idk if that last one makes any sense. But I swear it has to be something like that, because after reading a tutorial that (said I should be able to do it the way I <a href="http://www.modeo.co/blog/2015/1/8/heroku-scheduler-with-nodejs-tutorial">was doing it</a>, plus) specified adding and committing and pushing the file before trying to <code>heroku run</code> it, I definitely made sure I had done that.</p>
+<p>Anyway, where I <em>was</em> going with this was to say that it kept claiming it couldn't find the <code>javascriptfile.js</code> that I was telling it to run. Because my task wouldn't necessarily output anything every time it ran, I simply added an extra line  so it would email me every time the file was executed. I also added a similar line to the sibling file that I had copied into the /bin dir and removed the .js from and added the path/to/node to, plus a comment telling me which was which.</p>
+<p>My Heroku scheduled tasks now looked like this:</p>
+<p><img src="/img/heroku-scheduler.png" alt="'node task.js' and 'task'"></p>
+<p>I gratefully soon received an email from my task! It was from the file I had originally included - the one that made structural sense to me. Phew. Maybe I do understand things after all.</p>
+<p>Now I wait to see if the other file will also send me an email! I hope the suspense doesn't kill me. If it doesn't, I'll just delete it. If it does, I'll delete it anyway.* Teehee - it's all for <strong>science</strong>!</p>
+<p>* I'll delete it anyway because I don't need two files for one task, and I wanna keep the one I came up with all on my own! <img src="/img/heart-emoji.png" alt="heart eyes face"></p>
+
+  </article>
+
+  <nav class="post-navigation" role="navigation">
+  <div class="row">
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-prev">
+        
+        
+        <a href="https://heatherbooker.github/blog/2017/02/24/oh-god-vim-is-broken.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="primary-text-color"><i class="fa fa-angle-left"></i></span>&nbsp;
+              <span class="hidden-md primary-text-color">Older</span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="col shrink-to-link">
+      <a href="https://heatherbooker.github/blog/">
+        <div class="leonids-icon">
+          <i class="fas fa-glasses"></i>HOME
+        </div>
+      </a>
+    </div>
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-next">
+        
+        
+        <a href="https://heatherbooker.github/blog/2017/02/28/xianny&#39;s-awesome-jekyll-post-generator.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="hidden-md primary-text-color">Newer</span>
+              <span class="primary-text-color">&nbsp;<i class="fa fa-angle-right"></i></span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+        </main>
+
+        <footer>
+  <span>
+    <i class="rc-logo__mini"></i>
+    You should check out <a class="rc-link" href="https://www.recurse.com">the Recurse Center</a>.
+  </span>
+  &copy; 2021
+  <a href="https://heatherbooker.github.io" style="text-transform: capitalize;">heather booker</a>.
+
+  Powered by <a href="https://www.11ty.dev/">11ty</a>.
+  Made with modified <a href="https://github.com/renyuanz/leonids/">leonids theme</a>.
+</footer>
+
+      </div>
+    </div>
+
+    <!-- Current page: /2017/02/27/how-to-use-heroku-scheduler-with-node.js.html -->
+    </div>
+  </body>
+
+</html>

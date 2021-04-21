@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting started with React and Webpack</title>
+    <meta name="description" content="These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Heather B-Log">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="table cover">
+          <div class="cover-card table-cell table-middle">
+  <img src="https://heatherbooker.github/blog/img/" alt="cartoon of my face" class="avatar">
+  <a href="https://heatherbooker.github.io" class="author_name">heather booker</a>
+  <span class="author_job">Good morning.</span>
+  <span class="author_bio metadata.author_bio1 mbm">These are the words that I&#39;ve had to say in the past whenever.</span>
+  <span class="author_bio mbm"> Go ahead and consume them.</span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="https://heatherbooker.github/blog/">Home</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github/blog/thoughts/">Thoughts</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github/blog/tags/">Tags</a>
+      </li>
+       
+    </ul>
+  </nav>
+  <div class="social-links">
+    <ul>
+      
+        <li><a href="http://twitter.com/hboo_codes" class="social-link-item"><i class="fa fa-fw fa-twitter"></i></a></li>
+      
+
+      
+        <li><a href="http://github.com/heatherbooker" class="social-link-item"><i class="fa fa-fw fa-github"></i></a></li>
+      
+
+      
+        <li><a href="//feed.xml" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <main class="tmpl-post">
+
+          <a class="btn" href="https://heatherbooker.github/blog/" >
+  Home
+</a>
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="Getting started with React and Webpack">Getting started with React and Webpack</h1>
+    <span class="post-meta">
+      <time class="post-date" datetime="2016-06-09">
+        09 JUN 2016
+      </time>
+      
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>I <a href="/posts/2016-05-28-if-gulp-were-a-person">recently wrote about</a> the wonders of gulp. Ironically, as soon as it was published, I ditched gulp for webpack. Actually that’s not quite true — I first tried to incorporate browserify into gulp. I knew I needed some sort of packaging system in order to use JSX and React, and of these two most popular, browserify and webpack, webpack was touted to be a real mind-bender to set up. Everywhere I looked suggested that people who weren’t terribly experienced with other module-requiring systems like CommonJS should probably use browserify. So I got to work setting it up, only to realize that webpack would pay off in the long run.</p>
+<p>Scratch browserify. Move on to webpack. The internet was right — it was a pain to set up. Let’s dig right in and see if we can’t set up our own project right now using React and Webpack. (If you can’t be bothered to follow along, feel free to git clone my <a href="https://github.com/heatherbooker/webpack-react-starter">Webpack-React starter</a> — a complete environment to use React and Webpack, as well as SCSS.)</p>
+<p>We will be creating a project ‘anyProject’ in a directory ‘dev’. Feel free to adapt these to your needs.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">mkdir</span> dev/anyProject<br><span class="token builtin class-name">cd</span> dev/anyProject</code></pre>
+<p>npm is a dandy package manager we will be using to set up webpack and react. Make sure you have npm installed by typing <code>npm -v</code> — check <a href="https://docs.npmjs.com/getting-started/installing-node">here</a> or <a href="http://blog.npmjs.org/post/85484771375/how-to-install-npm">here</a> for details.</p>
+<p>Run <code>npm init -y</code> to get started — this will initialize your project with a package.json file. The -y option tells npm to use default settings; if you forget to use it, just press enter until you have gone through all of the questions. Running npm init -f accomplishes the same, but it also warns you:</p>
+<p><img src="/img/npm-warn.png" alt="npm being a know-it-all"></p>
+<p>Alarming! Better stick to -y which gets the job done without sassing you. (not the css type…)</p>
+<p>Next, we install webpack:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> i webpack -S</code></pre>
+<p>This should have initialized a node_modules folder in your current directory (dev/anyProject, in this example). If not, webpack may have been downloaded to a node_modules folder found higher up in your directory tree. Webpack should now also be listed in the ‘dependencies’ section of your package.json. Let’s create a configuration file for webpack now, to tell it how to handle our files and what we want it do.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">touch</span> webpack.config.js</code></pre>
+<p>Open webpack.config.js, and type the following:</p>
+<pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span><br>  entry<span class="token operator">:</span> “<span class="token punctuation">.</span><span class="token operator">/</span>src<span class="token operator">/</span>index<span class="token punctuation">.</span>jsx”<span class="token punctuation">,</span><br>  output<span class="token operator">:</span> <span class="token punctuation">{</span><br>    path<span class="token operator">:</span> ‘build’<span class="token punctuation">,</span><br>    filename<span class="token operator">:</span> “index<span class="token punctuation">.</span>js”<br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+<p>This sets the first file webpack looks at as ‘index.jsx’ located in directory ‘src’, and writes the output to a file ‘index.js’ located in dir ‘build’. But how does our JSX become plain ol JS? Webpack uses ‘loaders’ to essentially translate code; we need to add loaders for whatever functionality we desire. First npm install some loaders: Babel will help the transition from JSX to js:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> i babel-loader babel-preset-es2015 babel-preset-react -S</code></pre>
+<p>Then go back to the webpack.config.js, and at the same level as ‘entry’ and ‘output’, add a key ‘module’ which will contain configuration information for our loaders, starting with babel:</p>
+<pre class="language-js"><code class="language-js">  <span class="token operator">...</span><br>  <span class="token punctuation">,</span> module<span class="token operator">:</span> <span class="token punctuation">{</span><br>    loaders<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span><br>      test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.jsx$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span><br>      exclude<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">node_modules</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span><br>      loader<span class="token operator">:</span> ‘babel’<span class="token punctuation">,</span><br>      query<span class="token operator">:</span> <span class="token punctuation">{</span><br>        presets<span class="token operator">:</span> <span class="token punctuation">[</span>‘es2015’<span class="token punctuation">,</span> ‘react’<span class="token punctuation">]</span><br>      <span class="token punctuation">}</span><br>    <span class="token punctuation">}</span><span class="token punctuation">]</span><br>  <span class="token punctuation">}</span></code></pre>
+<p>But where are our heads?! (not the git type…) We don’t even have React in our project yet! Better fix that. Run:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> i react react-dom -S</code></pre>
+<p>Let’s check that everything we’ve done so far is working. We will need directories ‘src’ and ‘build’, an index.jsx file and an index.html file.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">mkdir</span> src build<br><span class="token function">touch</span> src/index.jsx<br><span class="token function">touch</span> src/index.html</code></pre>
+<p>Hopefully you are using an editor like Sublime which will auto-generate a basic HTML doc by typing ‘html’ and pressing tab. Then throw in a quick <div> with an id=“app”, and a script tag so the index.html looks like this:</p>
+<pre class="language-html"><code class="language-html"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>”app”</span><span class="token punctuation">></span></span><br> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>index.js<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span></code></pre>
+<p>Next we’ll create a quick component in index.jsx using React. Start by requiring in react and react-dom, then create a class and render a component:</p>
+<pre class="language-jsx"><code class="language-jsx"><span class="token keyword">var</span> React <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span>‘react’<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token keyword">var</span> ReactDOM <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span>‘react<span class="token operator">-</span>dom’<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token keyword">var</span> AComponent <span class="token operator">=</span> React<span class="token punctuation">.</span><span class="token function">createClass</span> <span class="token punctuation">(</span><span class="token punctuation">{</span><br>  <span class="token function-variable function">render</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span><span class="token plain-text">HELLO WORLD!</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>ReactDOM<span class="token punctuation">.</span><span class="token function">render</span><span class="token punctuation">(</span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">AComponent</span></span> <span class="token punctuation">/></span></span><span class="token punctuation">,</span><br>  document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span>‘app’<span class="token punctuation">)</span><br><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>(PS — you may want to install a plugin for your text editor that you can set to parse JSX files (ex, Babel).)<br>
+For now, we will need to manually copy our index.html into the build directory:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">cp</span> src/index.html build</code></pre>
+<p>Now all we have to do is run webpack! We will put a command into our package.json in the ‘scripts’, so that npm can help us run webpack (the ‘test’ script should have been auto-generated with the package.json file):</p>
+<pre class="language-js"><code class="language-js"><span class="token string">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">{</span><br> <span class="token string">"test"</span><span class="token operator">:</span> <span class="token string">"echo \"Error: no test specified\" &amp;&amp; exit 1"</span><span class="token punctuation">,</span><br> <span class="token string">"build"</span><span class="token operator">:</span> <span class="token string">"webpack"</span><br> <span class="token punctuation">}</span><span class="token punctuation">,</span></code></pre>
+<p>Now in your terminal/command line just type:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run build</code></pre>
+<p>And open dev/anyProject/build/index.html in your browser and you should see this:</p>
+<p><img src="/img/hello-world.png" alt="'Hello world' in top left corner of your page"></p>
+<p>Awesome! It works! You have successfully set up a project with webpack and react! But you might be thinking : we copied that index.html file manually, that was stupid. You’re right! Let’s prepare this project a little more for the real world. We want to handle html files, and we might as well also use webpack for one of its great skills — requiring in all sorts of tidbits, such as images. I like using SVGs as they are highly editable, and resize well.</p>
+<p>Start by installing html-webpack-plugin and file-loader:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> i html-webpack-plugin file-loader -D</code></pre>
+<p>As their names suggest, the former is a plugin while the latter is a loader. To use the plugin, we require it at the top of the webpack.config.js:</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">var</span> HtmlWebpackPlugin <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span>‘html<span class="token operator">-</span>webpack<span class="token operator">-</span>plugin’<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Then after the loaders, we add a new section called plugins to the module.exports, and reference the HtmlWebpackPlugin var we just created. I like to instruct it to use a template, so that in the template I can have the one <div id=“app”> for React to inject content into:</p>
+<pre class="language-js"><code class="language-js">  <span class="token punctuation">}</span><span class="token punctuation">,</span><br>  plugins<span class="token operator">:</span> <span class="token punctuation">[</span><br>    <span class="token keyword">new</span> <span class="token class-name">HtmlWebpackPlugin</span><span class="token punctuation">(</span><span class="token punctuation">{</span><br>      template<span class="token operator">:</span> ‘<span class="token punctuation">.</span><span class="token operator">/</span>src<span class="token operator">/</span>index<span class="token punctuation">.</span>html’<br>    <span class="token punctuation">}</span><span class="token punctuation">)</span><br>  <span class="token punctuation">]</span><br><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+<p>Scroll down to see how to set up the file loader (along with a SCSS loader).</p>
+<p>Now two last things: I like to be able to use SCSS , so we will set up a loader for that, and we can also set up React HMR for to serve our webpage and update it every time we make a change to a file. This is an excellent time-saver for development!</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> i babel-preset-react-hmre sass-loader node-sass css-loader style-loader -D</code></pre>
+<p>To set up the file loader for images and the SCSS loader, add the following to the ‘loaders’ array in the webpack.config.js:</p>
+<pre class="language-js"><code class="language-js"><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><br>    test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.scss$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span><br>    loaders<span class="token operator">:</span> <span class="token punctuation">[</span>“style”<span class="token punctuation">,</span> “css”<span class="token punctuation">,</span> “sass”<span class="token punctuation">]</span><br>   <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><br>    test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.svg$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span><br>    loader<span class="token operator">:</span> ‘file’<br>   <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">]</span></code></pre>
+<p>And finally, setting up hot module reloading is very easy. Simply add ‘react-hmre’ to the presets array in the babel loader:</p>
+<pre class="language-js"><code class="language-js">presets<span class="token operator">:</span> <span class="token punctuation">[</span>‘es2015’<span class="token punctuation">,</span> ‘react’<span class="token punctuation">,</span> ‘react<span class="token operator">-</span>hmre’<span class="token punctuation">]</span></code></pre>
+<p>Then in package.json, add a new script which can be run with ‘npm start’:</p>
+<pre class="language-js"><code class="language-js"><span class="token string">"start"</span><span class="token operator">:</span> <span class="token string">"webpack-dev-server --progress --inline --hot"</span></code></pre>
+<p>Once you run ‘npm start’, you can open localhost:8080 to see your app change as you develop it. Voila, that’s it! Now you can write SCSS and JSX and use React to create awesome apps. Get to it!</p>
+<p><em>Note</em>: This post was migrated from its <a href="https://medium.com/@heatherbooker/vue-js-vs-react-js-28caa8f9b033#.ojssrqrl3">original home on Medium</a> on February 23, 2017.</p>
+
+  </article>
+
+  <nav class="post-navigation" role="navigation">
+  <div class="row">
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-prev">
+        
+        
+        <a href="https://heatherbooker.github/blog/2016/05/30/prototyping-a-web-app-on-linux.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="primary-text-color"><i class="fa fa-angle-left"></i></span>&nbsp;
+              <span class="hidden-md primary-text-color">Older</span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="col shrink-to-link">
+      <a href="https://heatherbooker.github/blog/">
+        <div class="leonids-icon">
+          <i class="fas fa-glasses"></i>HOME
+        </div>
+      </a>
+    </div>
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-next">
+        
+        
+        <a href="https://heatherbooker.github/blog/2016/06/15/vue.js-vs-react.js.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="hidden-md primary-text-color">Newer</span>
+              <span class="primary-text-color">&nbsp;<i class="fa fa-angle-right"></i></span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+        </main>
+
+        <footer>
+  <span>
+    <i class="rc-logo__mini"></i>
+    You should check out <a class="rc-link" href="https://www.recurse.com">the Recurse Center</a>.
+  </span>
+  &copy; 2021
+  <a href="https://heatherbooker.github.io" style="text-transform: capitalize;">heather booker</a>.
+
+  Powered by <a href="https://www.11ty.dev/">11ty</a>.
+  Made with modified <a href="https://github.com/renyuanz/leonids/">leonids theme</a>.
+</footer>
+
+      </div>
+    </div>
+
+    <!-- Current page: /2016/06/09/getting-started-with-react-and-webpack.html -->
+    </div>
+  </body>
+
+</html>
