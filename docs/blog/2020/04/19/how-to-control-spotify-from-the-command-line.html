@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to control spotify from the command line</title>
+    <meta name="description" content="These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Heather B-Log">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="table cover">
+          <div class="cover-card table-cell table-middle">
+  <img src="https://heatherbooker.github.io/blog/img/" alt="cartoon of my face" class="avatar">
+  <a href="https://heatherbooker.github.io" class="author_name">heather booker</a>
+  <span class="author_job">Good morning.</span>
+  <span class="author_bio metadata.author_bio1 mbm">These are the words that I&#39;ve had to say in the past whenever.</span>
+  <span class="author_bio mbm"> Go ahead and consume them.</span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/">Home</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/thoughts/">Thoughts</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/tags/">Tags</a>
+      </li>
+       
+    </ul>
+  </nav>
+  <div class="social-links">
+    <ul>
+      
+        <li><a href="http://twitter.com/hboo_codes" class="social-link-item"><i class="fa fa-fw fa-twitter"></i></a></li>
+      
+
+      
+        <li><a href="http://github.com/heatherbooker" class="social-link-item"><i class="fa fa-fw fa-github"></i></a></li>
+      
+
+      
+        <li><a href="//feed.xml" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <main class="tmpl-post">
+
+          <a class="btn" href="https://heatherbooker.github.io/blog/" >
+  Home
+</a>
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="How to control spotify from the command line">How to control spotify from the command line</h1>
+    <span class="post-meta">
+      <time class="post-date" datetime="2020-04-19">
+        19 APR 2020
+      </time>
+      
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>Holy buhjeebus the amount of steps. I just want to listen to business casual. Ya know... Let's keep it business. Let's keep it casual. Let's keep it...fun.</p>
+<p>So! Here comes, how to listen to spotify from the terminal in fedora. YMMV (Your mileage may vary).</p>
+<p>Copy this handy AF simple AF (you're gonna have to look that acronym up yourself...unless you're my mom, then don't worry about it mom) script from this amazing life saving person, that I only found after downloading 298374 other super complicated things that didn't do what I wanted, at all. Like mobify or mobidy or mondiby or something.</p>
+<p><a href="https://gist.github.com/wandernauta/6800547">https://gist.github.com/wandernauta/6800547</a></p>
+<p>It's just a gist! That's how simple it is! Amazing.</p>
+<p>So, wherever you keep your code, maybe in <code>~/code</code>? Start yourself a nice new file called <code>control-spotify.sh</code> and paste the code from that gist into it. Save. Then we'll make a symlink to that script in somewhere that exists in your path, so you can execute this script easily.</p>
+<p>Look at the output from <code>echo $PATH</code> - every path between colons (<code>:</code>) is where your computer will look for stuff when you type a command. My path includes <code>/usr/local/bin</code>, so I'm gonna put it there.</p>
+<p>There's a couple more puzzle pieces around making the script easy to call. First, what will we type to invoke the script? I want to control spotify by typing <code>sp</code>, as inspired by the original gist title, because that's short and I'm lazy. You might choose <code>spotify</code> or <code>musica_pls_dj</code> or whatever.</p>
+<p>So, to symlink the script:</p>
+<pre class="language-shell"><code class="language-shell"><span class="token function">ln</span> -s ~/code/control-spotify.sh /usr/local/bin/sp</code></pre>
+<p>(PS, I never used symlinks before yesterday. Just in case you think &quot;aw, symlinks, that is magic stuff I'll never understand&quot;, since that's what I thought 3 days ago, and every day before that. 😉 )</p>
+<p>Make sure you specify the whole path <code>~/code/...</code> even if you're already in <code>~/code</code> and think you can simply do <code>control-spotify.sh</code>, because the next time you run <code>sp</code>, our friend computer doesn't know that and can't find the script. Sad face. 😦</p>
+<p>Then we want to make the script executable (files ending in <code>.sh</code> are not by default executable! idk why. probably to save us from our dangerous selves):<br>
+<code>chmod u+x ~/code/control-spotify.sh</code><br>
+I actually used <code>chmod +x</code> (no <code>u</code>), which modifies the permission for everyone; adding <code>u</code> restricts it to the current user, if I understand correctly. I don't really know which one you should use. You do you.</p>
+<p>So, now you should be able to do<br>
+<code>sp</code><br>
+and it should print out a happy little list of possible commands.</p>
+<p>Great! Now, I've already taken the liberty of actually putting the script in a directory so I could version control it using git, because</p>
+<ul>
+<li>I love git</li>
+<li>I make a lot of mistakes - I prefer to live fast and crash often 😄</li>
+<li>I know I will want to make changes, because I can see a lot of comments in the gist</li>
+</ul>
+<p>The first thing I did was try out each command by having a window open with the help output from running <code>sp</code>, and another window open to run each command. Oh, also, open spotify first. I installed it using <code>snap</code> as recommended for linux. Right, so here I am gleefully rejoicing when <code>sp play</code> and <code>sp pause</code> and <code>sp next</code> all work! But then <code>sp previous</code> doesn't work, it just stops the music, and it won't restart using <code>sp play</code>. Sad face. 😦 On further investigation, it turns out my brain translated <code>prev</code>, which is the actual command, into <code>previous</code>, which is not a recognized command and therefore does not have the intended outcome. Ha. So I made a wee change to the script, adding another alias under <code>sp-prev</code> for <code>sp-previous</code>. And updated the version from <code>0.1</code> to <code>0.2.0</code>, because</p>
+<ol>
+<li>I like <a href="https://semver.org/">semantic versioning</a> (x.y.z, rather than x.y), and</li>
+<li>I added a feature, so it gets a &quot;minor&quot; bump (bug fixes get a &quot;patch&quot; bump and breaking changes get a &quot;major&quot; bump)</li>
+</ol>
+<p>Next, I can keep trying out commands. Most of them work, which is frankly incredible to me considering so little code. After all the cruft I was wading through before, piling on packages and addons in an attempt to get anything functional. KISS Keep it simple stupid!! ❤️ Some like <code>sp url</code> don't work, which I don't need so I don't care about 8), and some like <code>sp display</code> need additional packages installed, but I don't need to look at album art, so I also don't care about that. 😃 Whee!!</p>
+<p>The big trick though is <code>sp search</code>, which is really what I need - this is how you find songs to play. And spotify has apparently updated their API to require authorization so the original code does squat. D: Let's take the <a href="https://gist.github.com/wandernauta/6800547#gistcomment-2113314">changes @vorbeiei suggests</a> and try those by replacing the <code>sp-search</code> function in the code. (There's a comment just after from someone who made <code>curl</code> silent for a nice clean output, which is great for when it's working, but I want all the details I can get while developing!)</p>
+<p>Then we need our client ID and secret - follow the <a href="https://developer.spotify.com/documentation/general/guides/app-settings/#register-your-app">spotify docs to register an app</a>, kindly linked by github user @vorbeiei in their comment. Make your ID. Guess how to insert it into the script, and come back in a couple paragraphs for story time and instructions.</p>
+<p>To test, I'm doing a nice easy search for &quot;Moonshine&quot; (by Caravan Palace) - it was on my spotify home page and it's a one word search term, which I assume can only help my cause in getting the search to be successful. It looks like the search syntax is either <code>sp search moonshine</code> or <code>sp moonshine</code>, but neither of them start moonshine playing. They just spit out curl progress, as if things were making good little requests. To debug, we need to drill down into the script a bit more. I took the first <code>curl</code> statement out and started fiddling with it in the command line directly.<br>
+<code>curl -H &quot;Authorization: Basic client_id:secret&quot; -d grant_type=client_credentials https://accounts.spotify.com/api/token</code></p>
+<p>Are you ready for the aforementioned storytime? First I will tell you how to correctly input your freshly generated credentials. Then I will tell you all the ways you could do the <em>wrong</em> thing, all of which I did. Teehee.</p>
+<p>Do do this:</p>
+<ul>
+<li>copy your client_id and secret from the spotify developer page for the app you registered</li>
+<li>stick your client_id and secret together, joined by a <code>:</code></li>
+<li>then base64 encode that whole string, without any newlines (<code>base64 -w 0</code>)*</li>
+<li>jam the whole thing in the auth string for curl: &quot;Authorization: Basic happily_encoded_stuff&quot;</li>
+</ul>
+<p>Don't do this:</p>
+<ul>
+<li>plain old insert your client ID and secret as &quot;Authorization: Basic my_client_id:secret&quot;</li>
+<li>nor base64 encode each part seperately, then join them with a <code>:</code></li>
+<li>nor base64 encode the whole thing, without removing newlines</li>
+</ul>
+<p>I don't really know what base64 encoding is, so I just thought the credentials I copied from spotify were already encoded. That was my first problem. The second was trying to encode each part separately then join them with a <code>:</code>. Both of these were leading me to a <code>{&quot;error&quot;:&quot;invalid_client&quot;}</code> error from curl. Anyway, it took some noodling as a bash noob, but my eventual process to encode all of this was:</p>
+<pre class="language-shell"><code class="language-shell"><span class="token assign-left variable">CREDENTIALS</span><span class="token operator">=</span>dxfjgbjbkjhgfbjhwhatevermyclientidcopieddirectlyfromspotifyis:jbjhkbkjhgbfsdjhgbkjhsfwhatevermysecretcopieddirectlyfromspotfyis<br><span class="token comment"># make sure it worked</span><br><span class="token builtin class-name">echo</span> <span class="token variable">$CREDENTIALS</span><br><span class="token assign-left variable">CREDS_ENCODED</span><span class="token operator">=</span><span class="token variable"><span class="token variable">$(</span><span class="token builtin class-name">echo</span> $CREDENTIALS <span class="token operator">|</span> base64 -w <span class="token number">0</span><span class="token variable">)</span></span><br><span class="token builtin class-name">echo</span> <span class="token variable">$CREDS_ENCODED</span><br><span class="token comment"># you should have a single line of 39yijb7hi23h7i!! who doesn't love that stuff.</span><br><span class="token comment"># now, in the curl command, make the auth string look like:</span><br><span class="token comment"># "Authorization: Basic $CREDS_ENCODED"</span></code></pre>
+<p>Also, I highly recommend adding <code>--verbose</code> as the first argument to <code>curl</code>, so you can see exactly what gets sent once the <code>$CREDS_ENCODED</code> gets evaluated.</p>
+<p>The next problem I ran into was a <code>stream was not closed cleanly: PROTOCOL ERROR</code>. I had some suspicion that this was due to the line break in the encoded credentials, but I thought that line break was part of the encoding, so what could I do about it?! Of course, <a href="https://superuser.com/a/1225139">stack overflow to the rescue</a> - It turns out you can pass a flag to <code>base64</code> to &quot;wrap&quot;. Sweet! Next problem! 😅</p>
+<p>So with that all sorted out, now we're back to <code>{&quot;error&quot;:&quot;invalid_client&quot;}</code>, except now the object contains a new key too: <code>{&quot;error_description&quot;:&quot;Invalid client secret&quot;}</code> -_-. Gah!</p>
+<p>To solve this, since googling the error wasn't getting me anywhere, I searching in the github issues and started checking each one that seemed relevant. Eventually I got to one where somebody responded with <a href="https://github.com/spotify/web-api/issues/1372">very clear instructions</a> to use this site for base64 encoding. Failing other leads, I tried it, and compared the result to my local <code>echo $CREDS_ENCODED</code> - unbelievably, somehow the final character differed, and when I used the web-encoded string, IT WORKED! I got my <code>access_token</code> in the response! No idea what is happening there. None. At all.</p>
+<p>Anyway, onwards to moonshine! Add <code>\&gt;&gt; token\</code> to the end of the curl call we were running, then run it again. PS, this is super hacky. You've been warned. ¯\<em>(ツ)</em>/¯ Open the token file, delete everything except the token itself, even the quotes around it. Then in the terminal, run <code>TOKEN=$(cat token)</code>, and <code>echo $TOKEN</code> - you should see your token. We are starting to feel like <a href="https://jvns.ca/blog/2017/12/01/new-zine--so-you-want-to-be-a-wizard/">wizards</a> at this point. ;D Now take the second curl statement in the sp script, stick it in the terminal, and replace the authorization <code>$ST2</code> with <code>$TOKEN</code>.</p>
+<p>By the way, I would totally just have pasted the token directly into the curl command if I could, but I just re-installed my OS and I haven't figured out how to copy from either the terminal or vi yet. Just saying. 😉</p>
+<p>In the curl statement, we also have to replace the <code>&quot;q=$Q&quot;</code>, because we don't have a <code>$Q</code> defined. (It is defined a couple lines above in the script - we could just copy that and define Q in the terminal, but I like inlining it for clarity.) So instead, put <code>&quot;q=$@&quot;</code>. Haha, no wait. I tried it and it turns out the q is for query - if you run the curl with <code>$@</code>, you get a &quot;400: no search query&quot; response. That's kindof cool! Did you know that? Now you/I/we know. (Bill Nye reference because he's great.) Ok so back to reality, replace that q bit: <code>&quot;q=moonshine&quot;</code>. Oooh we're so close I can taste it! 😂 But why doesn't the script work?! If only I could put a debugger in...huh, the internet suggests <code>set -x</code> in the script to debug a shell script, so I put it as the first line in the <code>sp-search</code> function. Ooh, it sure spits out some info, but nothing particularly enlightening. Maybe I will settle for trying to extract each part to a variable, and hopefully that will mean more helpful output.</p>
+<p>So, if I use <code>&gt;&gt; token_response</code> after the first curl, then <code>cat token_response | grep -E -o &quot;access_token\&quot;:\&quot;[a-zA-Z0-9_-]+\&quot;&quot; -m 1</code>, I do get the access token extracted, so that's cool! It looks like that gets assigned to <code>ST</code> and then <code>ST2</code> becomes characters 15 through 86 of that, so presumably the token itself. That leaves the final <code>grep</code> statement as the final possible culprit, so let's pull it out too and try it in the terminal. (PS, when making hot and sour soup, do cut the daylilies in half. Even short ones are too long. Otherwise you get the spaghetti effect of flinging sauce/liquid everywhere.) Huh, this grep statement seems to work nicely too, returning <code>spotify:track:ID</code>. Does the problem then lie with <code>sp open</code>? Ack! If I take that string, and put it on the end of <code>sp open</code> it works! As a sidenote, I think I am going to discover lots of new music with this - now I am listening to a random song called moonshine that I've never heard before. 😂</p>
+<p>Oh god, this whole time I thought the bash output produced when I set <code>set -x</code> was masking the credentials variable somehow, but in reality it was just ...nothing. So the first query fails, so everything else fails. Facepalm! Preliminary googling reveals <a href="https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps">answers from Digital Ocean</a>...</p>
+<blockquote>
+<p>We now have a shell variable. This variable is available in our current session, but will not be passed down to child processes.</p>
+</blockquote>
+<p>D'oh! I need <code>export</code> to make <code>$CREDENTIALS</code> available to the <code>sp</code> script.</p>
+<pre class="language-shell"><code class="language-shell"><span class="token builtin class-name">export</span> CREDENTIALS</code></pre>
+<p>In the long term, that needs to be exported in my <code>/.zshrc</code>, with the actual base64 encoded string.</p>
+<pre class="language-shell"><code class="language-shell"><span class="token builtin class-name">export</span> <span class="token assign-left variable">CREDENTIALS</span><span class="token operator">=</span>jhdfgkjsdbfkugabuyb34ouyfbosdufgyurWHEEEwhatever</code></pre>
+<p>Aaaand I'm feeling like a genius, now that it finally works! Thanks for tuning in, friends and countrymice. 😃</p>
+<p>PS, here's the final version, nicely wrapped up in a repo with condensed instructions! Enjoy!</p>
+<p><a href="https://github.com/heatherbooker/spotify-cli">https://github.com/heatherbooker/spotify-cli</a></p>
+<p>*Don't do <code>base64 -w 0</code>. I still don't know what it does weird, but...just keep reading.</p>
+
+  </article>
+
+  <nav class="post-navigation" role="navigation">
+  <div class="row">
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-prev">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/blog/2020/04/19/choosing-an-outreachy-project.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="primary-text-color"><i class="fa fa-angle-left"></i></span>&nbsp;
+              <span class="hidden-md primary-text-color">Older</span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="col shrink-to-link">
+      <a href="https://heatherbooker.github.io/blog/">
+        <div class="leonids-icon">
+          <i class="fas fa-glasses"></i>HOME
+        </div>
+      </a>
+    </div>
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-next">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/blog/2020/04/25/glossary.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="hidden-md primary-text-color">Newer</span>
+              <span class="primary-text-color">&nbsp;<i class="fa fa-angle-right"></i></span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+        </main>
+
+        <footer>
+  <span>
+    <i class="rc-logo__mini"></i>
+    You should check out <a class="rc-link" href="https://www.recurse.com">the Recurse Center</a>.
+  </span>
+  &copy; 2021
+  <a href="https://heatherbooker.github.io" style="text-transform: capitalize;">heather booker</a>.
+
+  Powered by <a href="https://www.11ty.dev/">11ty</a>.
+  Made with modified <a href="https://github.com/renyuanz/leonids/">leonids theme</a>.
+</footer>
+
+      </div>
+    </div>
+
+    <!-- Current page: /blog/2020/04/19/how-to-control-spotify-from-the-command-line.html -->
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to make a reusable “directive” in Vue.js</title>
+    <meta name="description" content="These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Heather B-Log">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="table cover">
+          <div class="cover-card table-cell table-middle">
+  <img src="https://heatherbooker.github.io/blog/img/" alt="cartoon of my face" class="avatar">
+  <a href="https://heatherbooker.github.io" class="author_name">heather booker</a>
+  <span class="author_job">Good morning.</span>
+  <span class="author_bio metadata.author_bio1 mbm">These are the words that I&#39;ve had to say in the past whenever.</span>
+  <span class="author_bio mbm"> Go ahead and consume them.</span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/">Home</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/thoughts/">Thoughts</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/tags/">Tags</a>
+      </li>
+       
+    </ul>
+  </nav>
+  <div class="social-links">
+    <ul>
+      
+        <li><a href="http://twitter.com/hboo_codes" class="social-link-item"><i class="fa fa-fw fa-twitter"></i></a></li>
+      
+
+      
+        <li><a href="http://github.com/heatherbooker" class="social-link-item"><i class="fa fa-fw fa-github"></i></a></li>
+      
+
+      
+        <li><a href="//feed.xml" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <main class="tmpl-post">
+
+          <a class="btn" href="https://heatherbooker.github.io/blog/" >
+  Home
+</a>
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="How to make a reusable “directive” in Vue.js">How to make a reusable “directive” in Vue.js</h1>
+    <span class="post-meta">
+      <time class="post-date" datetime="2016-08-12">
+        12 AUG 2016
+      </time>
+      
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>I like Vue.js. A lot. (See my <a href="/posts/2016-06-15-vue-vs-react">comparison with React.js here</a>.) It is a beautifully simple, straightforward, and superbly functional view-layer framework. I’ve gone over most of the docs multiple times, and I am absolutely enamoured with the clarity they exude. They don’t use stupidly obscure words or send you around in circles trying to find what you want. They make you and Vue Just Work.</p>
+<p>However, I had a weak spot — the “Custom Directives” page. I avoided it for the longest time. Not being familiar with Angular (which everyone else seemed to be comparing these “directives” to those “directives”), I did not understand what a “directive” was or why I might want to use it. I couldn’t find a page explicitly labelled “Normal Directives” so I decided these custom “directives” were probably super insanely advanced.</p>
+<p>Anyway, as it turns out, smack dab on the <a href="https://vuejs.org/guide/overview.html">Vue.js overview</a> page is a succinct introduction to “directives”:</p>
+<blockquote>
+<p>Directives are prefixed with v- to indicate that they are special attributes provided by Vue.js, and as you may have guessed, they apply special reactive behavior to the rendered DOM.</p>
+</blockquote>
+<p>Yup, that is right out of the docs. Apparently it was <em>too</em> succinct for me. If any of you are like me, let me see if I can break down what a “directive” is even more.</p>
+<p>“Directives” in Vue.js are handy little tools or services that <em>do something</em> to a component. Simply by adding “v-your-directive-name” as an attribute (like “class” or “v-bind:whatever” or “style” are all attributes) in your markup as follows —</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-some-directive</span><span class="token punctuation">></span></span>BLAh blaH BLAH or whatever<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p>— you will find that this div now has whatever behaviour the directive specifies.<br>
+But what is the difference between:</p>
+<ul>
+<li>a directive and a component?<br>
+See, a component <em>is</em> a thing. A directive <em>does</em> a thing.<br>
+Clear as mud? Good. (We’ll get to an example soon.)<br>
+What about the difference between:<br>
+-a directive and a plugin?<br>
+Wait, what <em>is</em> the difference between a directive and a plugin?</li>
+</ul>
+<p>Well, on this distinction, I admit I really <em>am</em> seeing it clear as mud. It seems that a directive can be, or become, a plugin. Or is it that plugins can be encapsulated in directives? Perhaps if I end up needing to make a plugin, then my comprehension will be strengthened. Please do let me know if you are wiser than I on this topic.</p>
+<p>Anyway, now that I’ve bored you to death with the blabbing, let’s dig right in and see a useful example of a custom directive. <a href="https://github.com/heatherbooker/vue-sticky-scroll">Check out the code on Github</a>.</p>
+<p>I created a directive (as all great things are created) out of necessity: I wanted a div of a fixed height to always auto-scroll down to the bottom if new content is added. A common problem you would think, no? Various attempts at solutions took hours upon hours — using libraries, requestAnimationFrame, home-hacked fixes, until I was satisfied. Then someone pointed out the excellent browser feature, Mutation Observers. This was an infinitely simpler implementation of the behaviour I desired.</p>
+<p>(If what you are really after is how to solve this same problem, I wrote about the exact implementation <a href="">here</a>.)</p>
+<p>My original directive was not a directive. It was just a function that took the class or id of the div in question as an argument, and used that to attach the behaviour to the element. An Angular.js veteran recommended that I extract this functionality into a directive, so that it would automatically attach to the desired element. What witchcraft is this?! That was my reaction to this push that I needed to finally explore directives.</p>
+<p>Oops, that was definitely not digging right in. That was blabbing.</p>
+<p>Javascript:</p>
+<pre class="language-js"><code class="language-js">Vue<span class="token punctuation">.</span><span class="token function">directive</span><span class="token punctuation">(</span><span class="token string">'sticky-scroll'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><br>  <span class="token function-variable function">bind</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">var</span> observer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MutationObserver</span><span class="token punctuation">(</span>scrollToBottom<span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token keyword">var</span> config <span class="token operator">=</span> <span class="token punctuation">{</span>childList<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">}</span><span class="token punctuation">;</span><br>    observer<span class="token punctuation">.</span><span class="token function">observe</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>el<span class="token punctuation">,</span> config<span class="token punctuation">)</span><span class="token punctuation">;</span><br>    <span class="token keyword">function</span> <span class="token function">scrollToBottom</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>      <span class="token comment">// whatever it takes to scroll to the bottom</span><br>    <span class="token punctuation">}</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>Html: (template in your Vue component)</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-sticky-scroll</span><span class="token punctuation">></span></span><br>  <span class="token comment">&lt;!-- new elements will be added here, that's why we want to scroll!--></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+<p>Let’s talk about that.</p>
+<p>The name of the directive is ‘sticky-scroll’, which must be prefaced with ‘v-’ in your template html. The ‘bind’ method found in the directive is one of three possible: bind, update, and unbind, called respectively when the directive is attached, modified, and detached from an element.</p>
+<p>This.el is one of several properties available through the directive-element interface, and is a direct reference to the element. Other properties can specify additional arguments and parameters to modify the directives activity.</p>
+<p>You can now clearly see the distinction between the mysterious “directive” and a component: in the JS file for the directive, there is no html markup. Only behaviour. In contrast, our component has markup, to which the directive is applied.</p>
+<p>Finally, I want to talk about making your directive reusable and available to the whole of the Vue.js community. Sharing is caring, as they say, and Vue.js is currently maintained by essentially one person. This incredible feat merits some serious love, and contributing useful features and stuff you create is a great way to spread the love. Some tips for doing this in the most awesome way possible:</p>
+<ul>
+<li>For maximum simplicity, use a CDN like <a href="https://rawgit.com">RawGit</a> — you can just upload your single directive file to Github and make it available through a CDN</li>
+<li>Make sure your code is clean and readable — users might have problems or want to modify your source code. // Comments can’t hurt.</li>
+<li>Throw in a <a href="http://readme.md">readme.md</a> with a description and usage instructions, and an example preferably</li>
+<li>Then, submit a PR with your shiny new directive to <a href="https://github.com/vuejs/awesome-vue">Awesome Vue</a> for the world to see!</li>
+</ul>
+<p><em>Note</em>: This post was migrated from its <a href="https://medium.com/@heatherbooker/how-to-make-a-reusable-directive-in-vue-js-b28e1dfd76a3#.bt5ya37q2">original home on Medium</a> on February 23, 2017.</p>
+
+  </article>
+
+  <nav class="post-navigation" role="navigation">
+  <div class="row">
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-prev">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/blog/2016/08/12/how-to-auto-scroll-to-the-bottom-of-a-div.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="primary-text-color"><i class="fa fa-angle-left"></i></span>&nbsp;
+              <span class="hidden-md primary-text-color">Older</span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="col shrink-to-link">
+      <a href="https://heatherbooker.github.io/blog/">
+        <div class="leonids-icon">
+          <i class="fas fa-glasses"></i>HOME
+        </div>
+      </a>
+    </div>
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-next">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/blog/2016/08/24/how-to-publish-an-vue.js-directive-to-npm.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="hidden-md primary-text-color">Newer</span>
+              <span class="primary-text-color">&nbsp;<i class="fa fa-angle-right"></i></span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+        </main>
+
+        <footer>
+  <span>
+    <i class="rc-logo__mini"></i>
+    You should check out <a class="rc-link" href="https://www.recurse.com">the Recurse Center</a>.
+  </span>
+  &copy; 2021
+  <a href="https://heatherbooker.github.io" style="text-transform: capitalize;">heather booker</a>.
+
+  Powered by <a href="https://www.11ty.dev/">11ty</a>.
+  Made with modified <a href="https://github.com/renyuanz/leonids/">leonids theme</a>.
+</footer>
+
+      </div>
+    </div>
+
+    <!-- Current page: /blog/2016/08/12/how-to-make-a-reusable-&quot;directive&quot;-in-vue.js.html -->
+    </div>
+  </body>
+
+</html>

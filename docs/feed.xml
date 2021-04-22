@@ -13,9 +13,9 @@
 	
 	<entry>
 		<title>Learning les chiffres en français</title>
-		<link href="https://heatherbooker.github.io/2020/10/16/learning-les-chiffres-en-francais.html"/>
+		<link href="https://heatherbooker.github.io/blog/2020/10/16/learning-les-chiffres-en-francais.html"/>
 		<updated>2020-10-16T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2020/10/16/learning-les-chiffres-en-francais.html</id>
+		<id>https://heatherbooker.github.io/blog/2020/10/16/learning-les-chiffres-en-francais.html</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;Oh, Miss hboo:&lt;/p&gt;
 &lt;p&gt;Many years I have waited&lt;br /&gt;
@@ -76,9 +76,9 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>Random thoughts</title>
-		<link href="https://heatherbooker.github.io/2020/05/19/random-thoughts.html"/>
+		<link href="https://heatherbooker.github.io/blog/2020/05/19/random-thoughts.html"/>
 		<updated>2020-05-19T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2020/05/19/random-thoughts.html</id>
+		<id>https://heatherbooker.github.io/blog/2020/05/19/random-thoughts.html</id>
 		<content type="html">&lt;p&gt;There is a super cool thing a friend of mine did, which I wish to emulate: have an adorable &lt;a href=&quot;https://glit.sh/~wesleyac/thoughts/&quot;&gt;page of random thoughts&lt;/a&gt;. It seems super low pressure, fun as a reader to get a glimpse into someone else&#39;s head, and fun as a creator to just collect a mish-mash of glorious tidbits.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;https://github.com/marenbeam/thoughts&quot;&gt;original implementation&lt;/a&gt; doesn&#39;t involve any manual git-anythings, and makes a nice separate page for these random thoughts. However, I (apparently) am never going to get around to doing that, so a blog post that I update with the thoughts seems good enough. It will be weird, but I am fine with that. 😄&lt;/p&gt;
 &lt;p&gt;19 May, 2020&lt;/p&gt;
@@ -139,9 +139,9 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>Still meta-talking about sex</title>
-		<link href="https://heatherbooker.github.io/2020/05/18/still-meta-talking-about-sex.html"/>
+		<link href="https://heatherbooker.github.io/blog/2020/05/18/still-meta-talking-about-sex.html"/>
 		<updated>2020-05-18T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2020/05/18/still-meta-talking-about-sex.html</id>
+		<id>https://heatherbooker.github.io/blog/2020/05/18/still-meta-talking-about-sex.html</id>
 		<content type="html">&lt;p&gt;I have some sense that I should be sequestering the &amp;quot;sex&amp;quot; posts in some corner of their own, behind a wall that readers have to click &amp;quot;YES I LIKE READING ABOUT SEX&amp;quot; to access. As if to protect them for the horrifying content within. And the more I think about how to do it, the more confused I get. And I think the reality is that I shouldn&#39;t do that. The sex posts get to live merrily alongside the code posts and the whatever-else-I-decide-to-write about posts, because they&#39;re all part of me, and they&#39;re all part of life, and I want to share them all. I am not into this idea of censoring myself; the internet, of all places, is a place to be free, I would say. Certainly enough people seem to use it that way. 😂 So why shouldn&#39;t I?&lt;/p&gt;
 &lt;p&gt;Relatedly, someone emailed me to say my last post &lt;a href=&quot;https://heatherbooker.github.io/posts/2020-04-25-lets-talk-about-sex-baby&quot;&gt;Let&#39;s talk about sex baby&lt;/a&gt; resonated with them, because they&#39;ve been thinking about where to put different parts of their creations and whether they should be separated and what that means. And it just feels like too much overhead and confusion to categorize everything, and if I try to maintain a blog for every one of my interests then I will never maintain any of them because that would be way too many blogs - so, it&#39;s better to consolidate everything in one weird, wonderful place.&lt;/p&gt;
 &lt;p&gt;To be honest, I kept hesitating about posting more about sex. Even though I said I was going to. Because it still felt somewhat wrong. &amp;quot;Wrong.&amp;quot; (Wrong is a terrible word. Ack!) Then this morning I had a session with my therapist (hi! are you reading this??) and I bemoaned how I get stressed about things - so stressed I throw up and miss work and social events and my life. And we got onto the topic of decisions. I was stressed by browsing through cute clothes online because they weren&#39;t quite right and maybe I should buy them but maybe I shouldn&#39;t and spending money is stressful and is this retailer ethical and could I make it better myself and what is even the difference between this one and that one?! And my therapist said basically: don&#39;t you think that your brain has been trained to be scared of decisions? Hunh. It turns out, I don&#39;t think I&#39;m arbitrarily stressed by decisions. Instead, decisions are &amp;quot;dangerous&amp;quot; for me. My brain thinks, hey you better be careful - this is a DECISION and if you do good then you get a gold star, but if you do wrong then you get NO LOVE FOREVER. Or that&#39;s how it feels. And &amp;quot;no love forever&amp;quot; is a pretty scary proposition. 😦&lt;/p&gt;
@@ -155,9 +155,9 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>Where to gitignore what</title>
-		<link href="https://heatherbooker.github.io/2020/05/02/where-to-gitignore-what.html"/>
+		<link href="https://heatherbooker.github.io/blog/2020/05/02/where-to-gitignore-what.html"/>
 		<updated>2020-05-02T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2020/05/02/where-to-gitignore-what.html</id>
+		<id>https://heatherbooker.github.io/blog/2020/05/02/where-to-gitignore-what.html</id>
 		<content type="html">&lt;p&gt;I downloaded a little plugin the other day; you might use something like it yourself, if you&#39;re a super nerd (sorry..): it&#39;s called &lt;a href=&quot;https://github.com/dpacassi/disable-javascript&quot;&gt;disable-javascript&lt;/a&gt;. It&#39;s a browser addon that I use in Firefox to maximize speed and minimize annoyance when visiting one of the bajillions of overloaded how-to and fake-news and cooking websites, where by &amp;quot;overloaded&amp;quot; I mean there&#39;s 999 ads, and auto-playing videos and pop-ups and newsletter subscriptions all vying for my attention when all I want is basic content.  However, the addon also breaks many things you may want to use on the interwebs. You&#39;ve been warned.&lt;/p&gt;
 &lt;p&gt;Anyway, I was playing around with this addon - first I had it in &amp;quot;default on&amp;quot; mode (meaning JS is allowed), and so when I visited annoying websites, I would add them as an &amp;quot;exception&amp;quot;, which would mean they would have javascript disabled. But then I realized that was a losing battle, and it would be much better to use &amp;quot;default off&amp;quot; mode which disables JS everywhere. When I made the switch, however, my list of &amp;quot;exceptions&amp;quot; from phase 1 stuck around, and now they were exceptions in the &lt;em&gt;opposite&lt;/em&gt; direction; that is to say, all the websites I wanted to block were now being permitted. It turns out the exceptions list has no concept of whether sites should be blocked or allowed - it just does the opposite of whatever the current setting is. That&#39;s a little inconvenient for people like me who can&#39;t make up our minds. 😅&lt;/p&gt;
 &lt;p&gt;Now, what better to do when you find a problem than SOLVE IT?? Indeed dear readers, so I hunted down the &lt;a href=&quot;https://github.com/dpacassi/disable-javascript&quot;&gt;code&lt;/a&gt;, forked the project from Github, and started trying to add a flag for &amp;quot;block&amp;quot; vs &amp;quot;allow&amp;quot; locally. Part of the setup was &lt;code&gt;npm install&lt;/code&gt; which generates a local directory &lt;code&gt;node_modules/&lt;/code&gt;, full of libraries that you most definitely (probably, except in weird cases, I guess) do not want to track in Git. Generally this would be accomlished by having a row in the project&#39;s &lt;code&gt;.gitignore&lt;/code&gt;, telling Git not to worry about anything in &lt;code&gt;node_modules/&lt;/code&gt;, so that when you do &lt;code&gt;git status&lt;/code&gt; it doesn&#39;t say that everything in &lt;code&gt;node_modules&lt;/code&gt; is untracked, or when you do &lt;code&gt;git add .&lt;/code&gt; it doesn&#39;t try to add anything in &lt;code&gt;node_modules&lt;/code&gt;, etc. But the &lt;code&gt;.gitignore&lt;/code&gt; for this project (which existed! that was my first question) mysteriously did not contain any mention of &lt;code&gt;node_modules&lt;/code&gt;. Had previous contributors, including the main creator/maintainer, all just quietly and carefully ignored it themselves in their brains?&lt;/p&gt;
@@ -179,9 +179,9 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>Let&#39;s talk about sex baby</title>
-		<link href="https://heatherbooker.github.io/2020/04/25/let&amp;#39;s-talk-about-sex-baby.html"/>
+		<link href="https://heatherbooker.github.io/blog/2020/04/25/let&amp;#39;s-talk-about-sex-baby.html"/>
 		<updated>2020-04-25T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2020/04/25/let&amp;#39;s-talk-about-sex-baby.html</id>
+		<id>https://heatherbooker.github.io/blog/2020/04/25/let&amp;#39;s-talk-about-sex-baby.html</id>
 		<content type="html">&lt;p&gt;The title: so overused but so good.&lt;/p&gt;
 &lt;p&gt;So I want to talk about sex. I think the world needs more frank conversation around Real Life™. Topics like:&lt;/p&gt;
 &lt;ul&gt;
@@ -215,15 +215,15 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>Glossary</title>
-		<link href="https://heatherbooker.github.io/2020/04/25/glossary.html"/>
+		<link href="https://heatherbooker.github.io/blog/2020/04/25/glossary.html"/>
 		<updated>2020-04-25T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2020/04/25/glossary.html</id>
+		<id>https://heatherbooker.github.io/blog/2020/04/25/glossary.html</id>
 		<content type="html">&lt;p&gt;Here&#39;s another glorious tidbit from the past, which is actually really exciting because it demonstrates to me that my grasp of French has, in fact, improved in the last few years! 😂 *&lt;/p&gt;
 &lt;p&gt;*: Some chat clients (slack, signal? discord, zulip) convert certain terms between colons(&lt;code&gt;:&lt;/code&gt;) into emojis! 😂 becomes the crying laughing face, 😭 the crying crying face, :lever_les_yeux_au_ciel: the rolling eyes face when you have slack configured to be in French. (My Francophone colleagues especially find it strange and bemusing that I use slack in French - nobody else does, and it leads me to find weird bugs and develop strange habits like referring to &amp;quot;@ici&amp;quot; instead of &amp;quot;@here&amp;quot;. But how else will I learn to say &amp;quot;roll your eyes&amp;quot;, if not by searching for the emoji in French?!)&lt;/p&gt;
 &lt;p&gt;Anyway, here&#39;s the little stub of a post that doesn&#39;t actually explain anything. Apparently I thought a glossary would be useful, which is cute, but like, a lot of maintenance. So, not gonna happen. 😄&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;8 MAR 2017&lt;/p&gt;
-&lt;p&gt;Voici une collection des termes que je pense que soient nEcessaires ou utiles pour comprendre mes postes. J&#39;espEre que cette vous aide. &lt;!--more--&gt;[&lt;a href=&quot;https://heatherbooker.github.io/2020/04/25/glossary.html#c&#39;est-bon&quot;&gt;Why is this in French?&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Voici une collection des termes que je pense que soient nEcessaires ou utiles pour comprendre mes postes. J&#39;espEre que cette vous aide. &lt;!--more--&gt;[&lt;a href=&quot;https://heatherbooker.github.io/blog/2020/04/25/glossary.html#c&#39;est-bon&quot;&gt;Why is this in French?&lt;/a&gt;]&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -249,7 +249,7 @@ So I&#39;ll work good...&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;{:.table}&lt;/p&gt;
-&lt;h4 id=&quot;c&#39;est-bon&quot;&gt;C&#39;est bon &lt;a class=&quot;direct-link&quot; href=&quot;https://heatherbooker.github.io/2020/04/25/glossary.html#c&#39;est-bon&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;c&#39;est-bon&quot;&gt;C&#39;est bon &lt;a class=&quot;direct-link&quot; href=&quot;https://heatherbooker.github.io/blog/2020/04/25/glossary.html#c&#39;est-bon&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;The preamble to this glossary is in French because I felt like it. It hopefully translates to &amp;quot;Here is a collection of terms that I think are necessary or useful for understanding my posts. I hope it helps.&amp;quot; I like other languages and hope you do too.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Back to the present:&lt;/p&gt;
@@ -262,9 +262,9 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>How to control spotify from the command line</title>
-		<link href="https://heatherbooker.github.io/2020/04/19/how-to-control-spotify-from-the-command-line.html"/>
+		<link href="https://heatherbooker.github.io/blog/2020/04/19/how-to-control-spotify-from-the-command-line.html"/>
 		<updated>2020-04-19T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2020/04/19/how-to-control-spotify-from-the-command-line.html</id>
+		<id>https://heatherbooker.github.io/blog/2020/04/19/how-to-control-spotify-from-the-command-line.html</id>
 		<content type="html">&lt;p&gt;Holy buhjeebus the amount of steps. I just want to listen to business casual. Ya know... Let&#39;s keep it business. Let&#39;s keep it casual. Let&#39;s keep it...fun.&lt;/p&gt;
 &lt;p&gt;So! Here comes, how to listen to spotify from the terminal in fedora. YMMV (Your mileage may vary).&lt;/p&gt;
 &lt;p&gt;Copy this handy AF simple AF (you&#39;re gonna have to look that acronym up yourself...unless you&#39;re my mom, then don&#39;t worry about it mom) script from this amazing life saving person, that I only found after downloading 298374 other super complicated things that didn&#39;t do what I wanted, at all. Like mobify or mobidy or mondiby or something.&lt;/p&gt;
@@ -340,9 +340,9 @@ and it should print out a happy little list of possible commands.&lt;/p&gt;
 	
 	<entry>
 		<title>Choosing an Outreachy project</title>
-		<link href="https://heatherbooker.github.io/2020/04/19/choosing-an-outreachy-project.html"/>
+		<link href="https://heatherbooker.github.io/blog/2020/04/19/choosing-an-outreachy-project.html"/>
 		<updated>2020-04-19T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2020/04/19/choosing-an-outreachy-project.html</id>
+		<id>https://heatherbooker.github.io/blog/2020/04/19/choosing-an-outreachy-project.html</id>
 		<content type="html">&lt;p&gt;So, this post was drafted years (no, &lt;em&gt;literally&lt;/em&gt; years) ago when I was applying to Outreachy, and it just stayed a draft forever because I guess I thought there was more to it. It turns out, there wasn&#39;t, because if there was, it would be there. Ha! I still think it&#39;s interesting though, and I want it out of my &amp;quot;untracked files&amp;quot; when I run &lt;code&gt;git status&lt;/code&gt;*, so here it comes, in all its overdue glory. 😉&lt;/p&gt;
 &lt;p&gt;*: I could have another branch for this draft, and commit it there. But then I will just forget it exists. Also if I did that and ever actually finished it, it would entail way more git overhead than I want to deal with. So - publish or bust, baby!&lt;/p&gt;
 &lt;hr /&gt;
@@ -369,9 +369,9 @@ and it should print out a happy little list of possible commands.&lt;/p&gt;
 	
 	<entry>
 		<title>im not a programmer</title>
-		<link href="https://heatherbooker.github.io/2019/12/24/im-not-a-programmer.html"/>
+		<link href="https://heatherbooker.github.io/blog/2019/12/24/im-not-a-programmer.html"/>
 		<updated>2019-12-24T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2019/12/24/im-not-a-programmer.html</id>
+		<id>https://heatherbooker.github.io/blog/2019/12/24/im-not-a-programmer.html</id>
 		<content type="html">&lt;p&gt;Why I don&#39;t feel like a programmer:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I use a mac at work&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Real programmers don&#39;t like Apple.&lt;br /&gt;
@@ -436,9 +436,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Should I stay or should I go now</title>
-		<link href="https://heatherbooker.github.io/2018/04/14/should-i-stay-or-should-i-go-now.html"/>
+		<link href="https://heatherbooker.github.io/blog/2018/04/14/should-i-stay-or-should-i-go-now.html"/>
 		<updated>2018-04-14T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2018/04/14/should-i-stay-or-should-i-go-now.html</id>
+		<id>https://heatherbooker.github.io/blog/2018/04/14/should-i-stay-or-should-i-go-now.html</id>
 		<content type="html">&lt;p&gt;&lt;strong&gt;: Wherein I discuss the weirdness of half ppl being like &amp;quot;GTFO L8ER !*#$&amp;amp;S&amp;quot;, and the other half like &amp;quot;wut where u goin jus chill out&amp;quot;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I am struck by a strange dichotomy of phenomenons that I find in tech job mentalities.&lt;/p&gt;
 &lt;p&gt;One goes a little like this:&lt;/p&gt;
@@ -480,9 +480,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>MobX + React: Can you use this.props in @computeds?</title>
-		<link href="https://heatherbooker.github.io/2017/11/27/mobx-+-react:-can-you-use-this.props-in-@computeds.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/11/27/mobx-+-react:-can-you-use-this.props-in-@computeds.html"/>
 		<updated>2017-11-27T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/11/27/mobx-+-react:-can-you-use-this.props-in-@computeds.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/11/27/mobx-+-react:-can-you-use-this.props-in-@computeds.html</id>
 		<content type="html">&lt;p&gt;I am an &lt;code&gt;@computed&lt;/code&gt; evangelist when it comes to &lt;code&gt;get&lt;/code&gt;ters in the many MobX-React components my team writes for work. I prowl around PRs, hunting for unsuspecting plain ol&#39; innocent getters like this:&lt;/p&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;@observer &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Potato&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  @observable frend &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Ms. Beans&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grewInTheGround&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;earthlyInfo&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;source &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;the ground&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; look&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token string&quot;&gt;&#39;m a paytaytoe { this.grewInTheGround &amp;amp;&amp;amp; &#39;&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; the ground&#39; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;...and POuNCinG on them: &amp;quot;What if we used &lt;code&gt;@computed&lt;/code&gt; for that grewInTheGround getter? Check out &lt;a href=&quot;https://mobx.js.org/refguide/computed-decorator.html&quot;&gt;the docs&lt;/a&gt;!&amp;quot;&lt;/p&gt;
@@ -518,9 +518,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Wat the FLIP does Firefox think it&#39;s doing with 138% of my CPU power?!</title>
-		<link href="https://heatherbooker.github.io/2017/04/21/wat-the-flip-does-firefox-think-it&amp;#39;s-doing-with-138percent-of-my-cpu-power!.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/04/21/wat-the-flip-does-firefox-think-it&amp;#39;s-doing-with-138percent-of-my-cpu-power!.html"/>
 		<updated>2017-04-21T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/04/21/wat-the-flip-does-firefox-think-it&amp;#39;s-doing-with-138percent-of-my-cpu-power!.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/04/21/wat-the-flip-does-firefox-think-it&amp;#39;s-doing-with-138percent-of-my-cpu-power!.html</id>
 		<content type="html">&lt;p&gt;Oh my bananas, I am having a computer crisis. It all started when I was nOT tOUCHING mY cOMPUTER at all and the only application running (to my knowledge) was Firefox, which had like 4 tabs open. &amp;quot;So what?&amp;quot; you think. &amp;quot;Who cares?&amp;quot; you ask. Well, my fan was going as hard as it could for several iterations of several minutes. I was starting to worry for my baby&#39;s health. Also, lately my battery has been dying way too fast for a laptop in its first year of life. So I was concerned.&lt;/p&gt;
 &lt;p&gt;Let me walk you through my process over the last hour and a half.&lt;/p&gt;
 &lt;p&gt;I notice the fan going and going and GOING AND GOING AND GOING AND --&lt;/p&gt;
@@ -558,9 +558,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Adventures with Mozilla Con&#39;t</title>
-		<link href="https://heatherbooker.github.io/2017/03/20/adventures-with-mozilla-con&amp;#39;t.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/03/20/adventures-with-mozilla-con&amp;#39;t.html"/>
 		<updated>2017-03-20T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/03/20/adventures-with-mozilla-con&amp;#39;t.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/03/20/adventures-with-mozilla-con&amp;#39;t.html</id>
 		<content type="html">&lt;p&gt;&amp;quot;Con&#39;t&amp;quot; is how I used to abbreviate &amp;quot;continued&amp;quot; when I took notes in HS/uni. The good old days. I could never use my laptop even in university (ie when I had one) to take notes in class because the instant I would get even remotely disinterested, I would be totally gone and only tune back in to be hella confused. Dis bad.&lt;/p&gt;
 &lt;p&gt;Anyway, since deciding that continuing to explore &amp;amp; contribute to Mozilla would be better than trying to (frantically, because that&#39;s apparently the &lt;em&gt;only&lt;/em&gt; way) apply for other jobs, I have found myself much happier.&lt;/p&gt;
 &lt;p&gt;Today I set up &lt;a href=&quot;https://opensource.com/resources/what-docker&quot;&gt;Docker&lt;/a&gt;!  Holy smokes finally the time has come! It always gets mentioned - even when I told Stanley I wanted to work on Blaggregator (RC&#39;s internal blog aggregator...don&#39;t you love that name!), he said:&lt;/p&gt;
@@ -586,9 +586,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>I applied to Outreachy, and I didn&#39;t use my name</title>
-		<link href="https://heatherbooker.github.io/2017/03/14/i-applied-to-outreachy-and-i-didn&amp;#39;t-use-my-name.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/03/14/i-applied-to-outreachy-and-i-didn&amp;#39;t-use-my-name.html"/>
 		<updated>2017-03-14T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/03/14/i-applied-to-outreachy-and-i-didn&amp;#39;t-use-my-name.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/03/14/i-applied-to-outreachy-and-i-didn&amp;#39;t-use-my-name.html</id>
 		<content type="html">&lt;p&gt;It&#39;s all in the title. I formally submitted my application to participate in the wonderful Outreachy today. If you haven&#39;t heard of it, Outreachy is an amazing internship opportunity to be a (paid!) contributor to FOSS (Free and Open Source Software) for underrepresented groups in tech (more details &lt;a href=&quot;https://wiki.gnome.org/Outreachy&quot;&gt;here&lt;/a&gt;). For Outreachy, this means:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;women: cis and trans&lt;/li&gt;
@@ -627,9 +627,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Things that seem like they happen in jobs but never in job interviews</title>
-		<link href="https://heatherbooker.github.io/2017/03/08/things-that-seem-like-they-happen-in-jobs-but-never-in-job-interviews.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/03/08/things-that-seem-like-they-happen-in-jobs-but-never-in-job-interviews.html"/>
 		<updated>2017-03-08T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/03/08/things-that-seem-like-they-happen-in-jobs-but-never-in-job-interviews.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/03/08/things-that-seem-like-they-happen-in-jobs-but-never-in-job-interviews.html</id>
 		<content type="html">&lt;p&gt;Maybe it&#39;s just because I&#39;ve been setting up wackloads of dev environments and picking projects, but this whole &lt;em&gt;Prepping for &lt;a href=&quot;https://wiki.gnome.org/Outreachy&quot;&gt;Outreachy&lt;/a&gt;&lt;/em&gt; business is making me think that there&#39;s a lot more to jobs than all these job interviews involving little code challenges get at.  There&#39;s a baloney-ton of:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Talking to people&lt;/li&gt;
@@ -688,9 +688,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Xianny&#39;s awesome Jekyll post generator</title>
-		<link href="https://heatherbooker.github.io/2017/02/28/xianny&amp;#39;s-awesome-jekyll-post-generator.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/02/28/xianny&amp;#39;s-awesome-jekyll-post-generator.html"/>
 		<updated>2017-02-28T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/02/28/xianny&amp;#39;s-awesome-jekyll-post-generator.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/02/28/xianny&amp;#39;s-awesome-jekyll-post-generator.html</id>
 		<content type="html">&lt;p&gt;Oops, note to self - need to strip special characters such as apostrophes from file names. (Guess how I came up with that one..[1]).&lt;/p&gt;
 &lt;p&gt;Having got all this Jekyll stuff finally up and running, I was dying from manually formatting all of my posts and their titles. Seriously, typing out the whole date for every post&#39;s file name?! Terrible. Also, srsly, what kind of programmer am I if I keep doing something manually. What is even the point.&lt;/p&gt;
 &lt;p&gt;Unfortunately, shell scripting is &lt;em&gt;not&lt;/em&gt; my forte. It is so confusing. I remember one day at &lt;a href=&quot;https://recurse.com/&quot;&gt;RC&lt;/a&gt;, AJ (teehee, two two-letter acronyms, I am Heather-two-two over here) showed me a couple quick things about it and I was amazed. Then I read &lt;a href=&quot;https://strugee.net/blog/2017/02/rc-week-7&quot;&gt;this blog&lt;/a&gt; post where he talks about&lt;/p&gt;
@@ -731,16 +731,16 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 	
 	<entry>
 		<title>How to use Heroku Scheduler with Node.js</title>
-		<link href="https://heatherbooker.github.io/2017/02/27/how-to-use-heroku-scheduler-with-node.js.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/02/27/how-to-use-heroku-scheduler-with-node.js.html"/>
 		<updated>2017-02-27T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/02/27/how-to-use-heroku-scheduler-with-node.js.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/02/27/how-to-use-heroku-scheduler-with-node.js.html</id>
 		<content type="html">&lt;p&gt;While there are &lt;a href=&quot;http://stackoverflow.com/a/13956024&quot;&gt;multiple&lt;/a&gt; &lt;a href=&quot;http://www.spacjer.com/blog/2014/02/10/defining-node-dot-js-task-for-heroku-scheduler/&quot;&gt;tutorials&lt;/a&gt; out there on using the Heroku Scheduling add-on with Node.js, they all seem to suggest the same strange series of steps. I can&#39;t understand why they all recommend&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;putting your scheduled task in a file without an extension...&lt;/li&gt;
 &lt;li&gt;in a directory called &#39;bin&#39;, and...&lt;/li&gt;
 &lt;li&gt;executing it without specifying &lt;code&gt;node&lt;/code&gt; in the command, but instead adding &lt;code&gt;#!/path/to/node&lt;/code&gt; to the top of the task file.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I originally didn&#39;t look at any of these tutorials - I guessed from the examples using other languages in the &lt;a href=&quot;https://heatherbooker.github.io/2017/02/27/how-to-use-heroku-scheduler-with-node.js.html&quot;&gt;Heroku docs&lt;/a&gt; that I could just write a normal &lt;code&gt;javascriptfile.js&lt;/code&gt; and execute it by running &lt;code&gt;heroku run node javascriptfile.js&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I originally didn&#39;t look at any of these tutorials - I guessed from the examples using other languages in the &lt;a href=&quot;https://heatherbooker.github.io/blog/2017/02/27/how-to-use-heroku-scheduler-with-node.js.html&quot;&gt;Heroku docs&lt;/a&gt; that I could just write a normal &lt;code&gt;javascriptfile.js&lt;/code&gt; and execute it by running &lt;code&gt;heroku run node javascriptfile.js&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;However, Heroku also asserts that you should be able to test your task by running &lt;code&gt;heroku run my task&lt;/code&gt; locally, but every time I tried this, it would fail with the following error:&lt;/p&gt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Wait, hold on just one cott&#39;n pickin&#39; secon&#39;. I just went to run it so I could dutifully copy the &lt;em&gt;exact&lt;/em&gt; error message for y&#39;all, and it ran WITHOUT GLITCHES. wAT?!??&lt;/p&gt;
@@ -761,9 +761,9 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 	
 	<entry>
 		<title>Oh god Vim is broken</title>
-		<link href="https://heatherbooker.github.io/2017/02/24/oh-god-vim-is-broken.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/02/24/oh-god-vim-is-broken.html"/>
 		<updated>2017-02-24T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/02/24/oh-god-vim-is-broken.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/02/24/oh-god-vim-is-broken.html</id>
 		<content type="html">&lt;p&gt;I tried to start writing another post but vim is back to its old habits of appearing to insert weeeeeiiiiiird characters as I type.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/vim-is-corrupt.png&quot; alt=&quot;weird stuff happening here. boxes with 0s and 1s and Bs, and qs and 6s.&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;It does this from time to time...I must have messed with some config somewhere. Anyway, PLZ HALP, AM NEED HALP.&lt;/p&gt;
@@ -782,9 +782,9 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 	
 	<entry>
 		<title>What is route protection?</title>
-		<link href="https://heatherbooker.github.io/2017/02/23/what-is-route-protection.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/02/23/what-is-route-protection.html"/>
 		<updated>2017-02-23T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/02/23/what-is-route-protection.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/02/23/what-is-route-protection.html</id>
 		<content type="html">&lt;p&gt;When I searched this, I found a lot of mentions of Laravel and PHP. Whaat? What is this Laravel? And I certainly don’t want to start getting involved with PHP. Surely there is a simpler explanation for this!&lt;/p&gt;
 &lt;p&gt;Well, now there is! Right here. On your very own screen.&lt;/p&gt;
 &lt;p&gt;“Route protection” is a term referring to the idea that not all users should be able to access all parts of your app. These parts of your app are (theoretically) accessible at various &lt;em&gt;routes&lt;/em&gt; or &lt;em&gt;URLs&lt;/em&gt;. For example, perhaps users who are not logged in should be denied access to &lt;a href=&quot;http://somewebsite.com/fancystuffyouhadtopayfor&quot;&gt;somewebsite.com/fancystuffyouhadtopayfor&lt;/a&gt;. Therefore, you may wish to either use a service/plugin, or add some simple logic to your app to &amp;quot;protect&amp;quot; any private or restricted routes.&lt;/p&gt;
@@ -795,9 +795,9 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 	
 	<entry>
 		<title>Day Whatever @ RC</title>
-		<link href="https://heatherbooker.github.io/2017/01/24/day-whatever-@-rc.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/01/24/day-whatever-@-rc.html"/>
 		<updated>2017-01-24T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/01/24/day-whatever-@-rc.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/01/24/day-whatever-@-rc.html</id>
 		<content type="html">&lt;p&gt;&lt;strong&gt;What am I doing?&lt;/strong&gt;&lt;br /&gt;
 I&#39;m waiting for git to finish cloning Mozilla&#39;s Bedrock repo.&lt;br /&gt;
 &lt;strong&gt;Why?&lt;/strong&gt;&lt;br /&gt;
@@ -821,9 +821,9 @@ The tests for some reason don&#39;t all pass! So I ran them one by one until I f
 	
 	<entry>
 		<title>How to use Sails.js with Pug</title>
-		<link href="https://heatherbooker.github.io/2017/01/07/how-to-use-sails.js-with-pug.html"/>
+		<link href="https://heatherbooker.github.io/blog/2017/01/07/how-to-use-sails.js-with-pug.html"/>
 		<updated>2017-01-07T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2017/01/07/how-to-use-sails.js-with-pug.html</id>
+		<id>https://heatherbooker.github.io/blog/2017/01/07/how-to-use-sails.js-with-pug.html</id>
 		<content type="html">&lt;p&gt;You may know by now that I like to make &lt;a href=&quot;https://heatherbooker.github.io/posts/2016-08-24-how-to-vue-directive-npm&quot;&gt;tutorials for things with dismal search results&lt;/a&gt;, and this is no different. The search results when I queried for the title of this post included the following:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/use-sails-with-pug.png&quot; alt=&quot;pugs on sailboats. not the sails or pugs I wanted.&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Yeah. Not exactly what I was looking for. So I started by following &lt;a href=&quot;https://www.youtube.com/watch?v=ep6EQ5f82Ts&amp;amp;list=PLf8i4fc0zJBzLhOe6FwHpGhBDgqwInJWZ&amp;amp;index=3&quot;&gt;a video tutorial&lt;/a&gt; (just kidding, actually I started by blindly trying to merge the basic sails app with my pre-existing code, which was painfully unsuccessful) to the T just to get an idea of how sails works, seeing as I’m still more than a little confused about routing and http and servers and databases. I shall now extrapolate the process of converting this project to use pug, to a tutorial on starting a sails app with pug.&lt;/p&gt;
@@ -864,9 +864,9 @@ From this point you can basically follow &lt;a href=&quot;https://www.npmjs.com/
 	
 	<entry>
 		<title>Day 11 (or 8) @ RC</title>
-		<link href="https://heatherbooker.github.io/2016/11/16/day-11-(or-8)-@-rc.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/11/16/day-11-(or-8)-@-rc.html"/>
 		<updated>2016-11-16T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/11/16/day-11-(or-8)-@-rc.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/11/16/day-11-(or-8)-@-rc.html</id>
 		<content type="html">&lt;p&gt;This post was originally labelled &amp;quot;Where am I&amp;quot;.&lt;br /&gt;
 I&#39;m not entirely sure whether I should count Monday to Fridays, or weekends too - weekends too I guess, since Fridays themselves aren&#39;t even techically normal work days.&lt;/p&gt;
 &lt;p&gt;Day 11 it is then.&lt;br /&gt;
@@ -902,9 +902,9 @@ Here&#39;s some things I have been doing:&lt;/p&gt;
 	
 	<entry>
 		<title>Day 3 @ RC</title>
-		<link href="https://heatherbooker.github.io/2016/11/09/day-3-@-rc.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/11/09/day-3-@-rc.html"/>
 		<updated>2016-11-09T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/11/09/day-3-@-rc.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/11/09/day-3-@-rc.html</id>
 		<content type="html">&lt;p&gt;TO DO:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ask Michelle about Markov chains&lt;/li&gt;
@@ -914,9 +914,9 @@ Here&#39;s some things I have been doing:&lt;/p&gt;
 	
 	<entry>
 		<title>Day 2 @ RC</title>
-		<link href="https://heatherbooker.github.io/2016/11/08/day-2-@-rc.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/11/08/day-2-@-rc.html"/>
 		<updated>2016-11-08T05:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/11/08/day-2-@-rc.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/11/08/day-2-@-rc.html</id>
 		<content type="html">&lt;p&gt;&lt;strong&gt;My Computer&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Su helped me fix my Windows partition!! Holy smokes! She is a magician!! ❤️&lt;br /&gt;
 I should definitely have been able to do it myself - we just reset the whole thing. But it was fun to not have Windows for a while and just live that way. Because whatever.&lt;/p&gt;
@@ -941,9 +941,9 @@ Then I was accidentally sitting in a checkin room and Michelle came in so I told
 	
 	<entry>
 		<title>RC: Day -2</title>
-		<link href="https://heatherbooker.github.io/2016/11/05/rc:-day-2.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/11/05/rc:-day-2.html"/>
 		<updated>2016-11-05T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/11/05/rc:-day-2.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/11/05/rc:-day-2.html</id>
 		<content type="html">&lt;p&gt;Today is the day before the day before I will begin a series of days at &lt;a href=&quot;https://recurse.com/&quot;&gt;the Recurse Center&lt;/a&gt;. I have two reasons for writing this — One, they suggest keeping a blog to track your learning etc., but even before that, I read a few blogs from people who went to RC and did just that, like &lt;a href=&quot;https://jvns.ca/blog/2013/09/26/hacker-school-day-4-c-unit-testing/&quot;&gt;Julia Evans&lt;/a&gt;. It was really cool to see what they were doing, and I kindof want a place to organize my thoughts.&lt;/p&gt;
 &lt;p&gt;I was looking at some job postings and a surprising number of them mentioned ‘Scala’. I don’t even know what category of language Scala is. Also, a lot of them were data science or machine learning based; or maybe it just seems disproportionately that way because they are “off-limits” to me. I would love to dive into some of that stuff, machine learning and AI in particular, but I don’t see 3 months being quite sufficient to really get very far.&lt;/p&gt;
 &lt;p&gt;To Do:&lt;/p&gt;
@@ -958,9 +958,9 @@ Then I was accidentally sitting in a checkin room and Michelle came in so I told
 	
 	<entry>
 		<title>How to publish an Vue.js directive to npm</title>
-		<link href="https://heatherbooker.github.io/2016/08/24/how-to-publish-an-vue.js-directive-to-npm.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/08/24/how-to-publish-an-vue.js-directive-to-npm.html"/>
 		<updated>2016-08-24T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/08/24/how-to-publish-an-vue.js-directive-to-npm.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/08/24/how-to-publish-an-vue.js-directive-to-npm.html</id>
 		<content type="html">&lt;p&gt;Wow, so I’m always amazed when something I want to know how to do doesn’t stare right back at me in the top 5 Google results. I’m sure you can guess why I am writing this article today (hint: check the title), but be assured that I have previously been unsuccessful in my mission to publish my Vue.js directive to npm. Please join me for a thrilling recount of my journey to enlightenment.&lt;/p&gt;
 &lt;p&gt;So the original version of &lt;a href=&quot;https://github.com/heatherbooker/vue-sticky-scroll&quot;&gt;my directive&lt;/a&gt; just had&lt;/p&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;name-of-directive&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token comment&quot;&gt;// Definition&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -980,9 +980,9 @@ Then I was accidentally sitting in a checkin room and Michelle came in so I told
 	
 	<entry>
 		<title>How to make a reusable “directive” in Vue.js</title>
-		<link href="https://heatherbooker.github.io/2016/08/12/how-to-make-a-reusable-%22directive%22-in-vue.js.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/08/12/how-to-make-a-reusable-%22directive%22-in-vue.js.html"/>
 		<updated>2016-08-12T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/08/12/how-to-make-a-reusable-%22directive%22-in-vue.js.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/08/12/how-to-make-a-reusable-%22directive%22-in-vue.js.html</id>
 		<content type="html">&lt;p&gt;I like Vue.js. A lot. (See my &lt;a href=&quot;https://heatherbooker.github.io/posts/2016-06-15-vue-vs-react&quot;&gt;comparison with React.js here&lt;/a&gt;.) It is a beautifully simple, straightforward, and superbly functional view-layer framework. I’ve gone over most of the docs multiple times, and I am absolutely enamoured with the clarity they exude. They don’t use stupidly obscure words or send you around in circles trying to find what you want. They make you and Vue Just Work.&lt;/p&gt;
 &lt;p&gt;However, I had a weak spot — the “Custom Directives” page. I avoided it for the longest time. Not being familiar with Angular (which everyone else seemed to be comparing these “directives” to those “directives”), I did not understand what a “directive” was or why I might want to use it. I couldn’t find a page explicitly labelled “Normal Directives” so I decided these custom “directives” were probably super insanely advanced.&lt;/p&gt;
 &lt;p&gt;Anyway, as it turns out, smack dab on the &lt;a href=&quot;https://vuejs.org/guide/overview.html&quot;&gt;Vue.js overview&lt;/a&gt; page is a succinct introduction to “directives”:&lt;/p&gt;
@@ -1005,7 +1005,7 @@ Wait, what &lt;em&gt;is&lt;/em&gt; the difference between a directive and a plug
 &lt;p&gt;Well, on this distinction, I admit I really &lt;em&gt;am&lt;/em&gt; seeing it clear as mud. It seems that a directive can be, or become, a plugin. Or is it that plugins can be encapsulated in directives? Perhaps if I end up needing to make a plugin, then my comprehension will be strengthened. Please do let me know if you are wiser than I on this topic.&lt;/p&gt;
 &lt;p&gt;Anyway, now that I’ve bored you to death with the blabbing, let’s dig right in and see a useful example of a custom directive. &lt;a href=&quot;https://github.com/heatherbooker/vue-sticky-scroll&quot;&gt;Check out the code on Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I created a directive (as all great things are created) out of necessity: I wanted a div of a fixed height to always auto-scroll down to the bottom if new content is added. A common problem you would think, no? Various attempts at solutions took hours upon hours — using libraries, requestAnimationFrame, home-hacked fixes, until I was satisfied. Then someone pointed out the excellent browser feature, Mutation Observers. This was an infinitely simpler implementation of the behaviour I desired.&lt;/p&gt;
-&lt;p&gt;(If what you are really after is how to solve this same problem, I wrote about the exact implementation &lt;a href=&quot;https://heatherbooker.github.io/2016/08/12/how-to-make-a-reusable-%22directive%22-in-vue.js.html&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;(If what you are really after is how to solve this same problem, I wrote about the exact implementation &lt;a href=&quot;https://heatherbooker.github.io/blog/2016/08/12/how-to-make-a-reusable-%22directive%22-in-vue.js.html&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
 &lt;p&gt;My original directive was not a directive. It was just a function that took the class or id of the div in question as an argument, and used that to attach the behaviour to the element. An Angular.js veteran recommended that I extract this functionality into a directive, so that it would automatically attach to the desired element. What witchcraft is this?! That was my reaction to this push that I needed to finally explore directives.&lt;/p&gt;
 &lt;p&gt;Oops, that was definitely not digging right in. That was blabbing.&lt;/p&gt;
 &lt;p&gt;Javascript:&lt;/p&gt;
@@ -1029,9 +1029,9 @@ Wait, what &lt;em&gt;is&lt;/em&gt; the difference between a directive and a plug
 	
 	<entry>
 		<title>How to auto-scroll to the bottom of a div</title>
-		<link href="https://heatherbooker.github.io/2016/08/12/how-to-auto-scroll-to-the-bottom-of-a-div.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/08/12/how-to-auto-scroll-to-the-bottom-of-a-div.html"/>
 		<updated>2016-08-12T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/08/12/how-to-auto-scroll-to-the-bottom-of-a-div.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/08/12/how-to-auto-scroll-to-the-bottom-of-a-div.html</id>
 		<content type="html">&lt;p&gt;This article is just going to be a little nublet of an article. Or a nugget. Whatever.&lt;br /&gt;
 I found it ridiculously difficult to add what I thought was a common, simple feature to a web app: the ability for a div to automatically scroll to the bottom whenever new content is added. I didn’t want the page to scroll, and I didn’t want the div height to grow, or the content to expand outside the div.&lt;/p&gt;
 &lt;p&gt;I tried using a library which is supposed to provide this functionality, but I was having no luck. It would sometimes jump around for the first couple of additions, but was terribly inconsistent, and I couldn’t understand the source code well enough to tweak and make it work.&lt;/p&gt;
@@ -1052,9 +1052,9 @@ I found it ridiculously difficult to add what I thought was a common, simple fea
 	
 	<entry>
 		<title>How to make an interactive map in React</title>
-		<link href="https://heatherbooker.github.io/2016/06/21/how-to-make-an-interactive-map-in-react.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/06/21/how-to-make-an-interactive-map-in-react.html"/>
 		<updated>2016-06-21T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/06/21/how-to-make-an-interactive-map-in-react.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/06/21/how-to-make-an-interactive-map-in-react.html</id>
 		<content type="html">&lt;p&gt;I am going to share with you a great and magnificent secret: the stages of creating a clickable svg map in a React project. Are you ready? You might want to take notes, because it is super mind-blowing.&lt;/p&gt;
 &lt;p&gt;Wait, first here’s the map, being clicked on (ooh, ahh):&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/map-being-clicked.gif&quot; alt=&quot;clickable map being clicked&quot; /&gt;&lt;/p&gt;
@@ -1118,9 +1118,9 @@ you can use event listeners to communicate that a component has been clicked&lt;
 	
 	<entry>
 		<title>Vue.js vs React.js</title>
-		<link href="https://heatherbooker.github.io/2016/06/15/vue.js-vs-react.js.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/06/15/vue.js-vs-react.js.html"/>
 		<updated>2016-06-15T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/06/15/vue.js-vs-react.js.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/06/15/vue.js-vs-react.js.html</id>
 		<content type="html">&lt;p&gt;Ooh, this is going to be a juicy one! I’m sure many people are fierce supporters of one of these technologies and zealous bashers of the other. Both Vue.js and React.js are both pretty new to the scene — let’s get some background information to begin. I’ll go in reverse alphabetical order to avoid offending anyone right out of the gates. 😉&lt;/p&gt;
 &lt;p&gt;First of all, Vue and React are very similar. They are both libraries intended to be used to make composable “views”(Vue’s words) or “user interfaces”(React’s words), with reactive data binding. Composable, in this case, meaning based on the separation of view concerns into units described as “components”. In terms of data, both recommend a uni-directional flow of data.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://vuejs.org/&quot;&gt;Vue.js&lt;/a&gt; was created and maintained by Evan You and released publicly in early 2014. It positions itself as a simpler, more straightforward implementation of the component-based data-binding view concept.&lt;/p&gt;
@@ -1145,9 +1145,9 @@ you can use event listeners to communicate that a component has been clicked&lt;
 	
 	<entry>
 		<title>Getting started with React and Webpack</title>
-		<link href="https://heatherbooker.github.io/2016/06/09/getting-started-with-react-and-webpack.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/06/09/getting-started-with-react-and-webpack.html"/>
 		<updated>2016-06-09T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/06/09/getting-started-with-react-and-webpack.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/06/09/getting-started-with-react-and-webpack.html</id>
 		<content type="html">&lt;p&gt;I &lt;a href=&quot;https://heatherbooker.github.io/posts/2016-05-28-if-gulp-were-a-person&quot;&gt;recently wrote about&lt;/a&gt; the wonders of gulp. Ironically, as soon as it was published, I ditched gulp for webpack. Actually that’s not quite true — I first tried to incorporate browserify into gulp. I knew I needed some sort of packaging system in order to use JSX and React, and of these two most popular, browserify and webpack, webpack was touted to be a real mind-bender to set up. Everywhere I looked suggested that people who weren’t terribly experienced with other module-requiring systems like CommonJS should probably use browserify. So I got to work setting it up, only to realize that webpack would pay off in the long run.&lt;/p&gt;
 &lt;p&gt;Scratch browserify. Move on to webpack. The internet was right — it was a pain to set up. Let’s dig right in and see if we can’t set up our own project right now using React and Webpack. (If you can’t be bothered to follow along, feel free to git clone my &lt;a href=&quot;https://github.com/heatherbooker/webpack-react-starter&quot;&gt;Webpack-React starter&lt;/a&gt; — a complete environment to use React and Webpack, as well as SCSS.)&lt;/p&gt;
 &lt;p&gt;We will be creating a project ‘anyProject’ in a directory ‘dev’. Feel free to adapt these to your needs.&lt;/p&gt;
@@ -1206,9 +1206,9 @@ For now, we will need to manually copy our index.html into the build directory:&
 	
 	<entry>
 		<title>Prototyping a web app on Linux</title>
-		<link href="https://heatherbooker.github.io/2016/05/30/prototyping-a-web-app-on-linux.html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/05/30/prototyping-a-web-app-on-linux.html"/>
 		<updated>2016-05-30T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/05/30/prototyping-a-web-app-on-linux.html</id>
+		<id>https://heatherbooker.github.io/blog/2016/05/30/prototyping-a-web-app-on-linux.html</id>
 		<content type="html">&lt;p&gt;I take great pride and pleasure in using an operating system sometimes thought of as difficult, risky, and geared towards programmers. Being the extremely novice developer that I am, I like to boost my sense of competence by using this somewhat elite OS so that I can bask in the surprise of others when they find out that I am using neither Windows nor MAC.&lt;/p&gt;
 &lt;p&gt;However, along with the perks of using an a slightly atypical OS come its inevitable, intrinsically linked downfalls: in this case, namely a lack of support for and access to popular proprietary programs. Luckily, the open-source community is beautiful and prolific, its efforts affording the ability to hack together a solution to nearly any problem you should wish to tackle.&lt;/p&gt;
 &lt;p&gt;My latest endeavour, prototyping my next project, has been no exception. The objective: create a high-fidelity, really pretty, visually-identical, interactive approximation of what I envision my web app looking like and being able to do. I began by trying out some web apps advertised for prototyping, InVision and Marvel App — which, of course, are indifferent to my OS — I was off to a good start. InVision didn’t work out, but Marvel App was promising, allowing you create designs with its &lt;a href=&quot;http://blog.marvelapp.com/introducing-canvas-design-wireframe-and-animate-directly-in-marvel/&quot;&gt;canvas function&lt;/a&gt;. However, there was a glaring flaw: once you move on from creating screen1 to screen2, screen3 &lt;em&gt;must&lt;/em&gt; be based off screen2 — there’s no way to use screen1 as a starting point. This becomes extremely frustrating extremely quickly, and I was getting really tempted to cut corners and just omit entire interactions and features.&lt;/p&gt;
@@ -1226,14 +1226,14 @@ Usually I am too stubborn — I try until I’m mad and then declare it impo
 	
 	<entry>
 		<title>If GULP were a person…</title>
-		<link href="https://heatherbooker.github.io/2016/05/28/if-gulp-were-a-person....html"/>
+		<link href="https://heatherbooker.github.io/blog/2016/05/28/if-gulp-were-a-person....html"/>
 		<updated>2016-05-28T04:00:00Z</updated>
-		<id>https://heatherbooker.github.io/2016/05/28/if-gulp-were-a-person....html</id>
+		<id>https://heatherbooker.github.io/blog/2016/05/28/if-gulp-were-a-person....html</id>
 		<content type="html">&lt;p&gt;Ze* would be pretty amazing. I don’t know zir* very well yet, but ze* sure seems to have a lot of people who like zir. Granted, there are also a fair few who are not afraid to speak out against gulp — but that’s hardly unusual when someone wonderful shows up on the scene.&lt;/p&gt;
 &lt;p&gt;Gulp was a little hard to follow at first. Ze uses all this language that, like everyone in the field, is a little perplexing until you’re used to it. I suppose you would call that &lt;em&gt;jargon&lt;/em&gt;. Zir four main capabilities are expressed as &lt;code&gt;.task&lt;/code&gt;, &lt;code&gt;.pipe&lt;/code&gt;, &lt;code&gt;.src&lt;/code&gt;, and &lt;code&gt;.dest&lt;/code&gt;. The latter two are simply used to denote the source and destination of the files you would like gulp to operate on. &lt;code&gt;.task&lt;/code&gt; is, of course, a description of the task you would like gulp to execute. Now, &lt;code&gt;.pipe&lt;/code&gt; is, to my untrained eyes, the most wonderful and curious constituent of gulp. Ze isn’t showy about it, but once you understand it, it is the backbone of all the incredible functionality gulp so humbly offers. You see, the aptly named &lt;code&gt;.pipe&lt;/code&gt; function takes a reference to a plugin you would like to see used on your code, and then pipes your code through that plugin from &lt;code&gt;.src&lt;/code&gt; to &lt;code&gt;.dest&lt;/code&gt;, leaving a new, neatly wrapped, perfectly articulated version of your code in wherever you have designated as the destination. The most beautiful thing about gulp, in my view, is the conceptualization afforded by the use of this code that represents sending code through a pipeline where it undergoes various transformations.&lt;/p&gt;
 &lt;p&gt;If there’s one thing I know for sure, it’s that gulp loves to accessorize. In fact, ze wouldn’t be that notable at all without all zir little friends. Gulp gets along with pug (formerly jade) for html, sass for css, mocha for testing, and basically anyone or anything else you’d like zir to. Ze can help you uglify your code for running, while leaving your original code untouched so when you come back to edit it/check it out, you aren’t bewildered by the wall of text that is uglified code. Ze can also lint your code, simplify the use of frameworks like react.js and express, compile coffeescript, and do a million other handy things that just makes zir a great companion.&lt;/p&gt;
 &lt;p&gt;Now, don’t get me wrong — there are probably other gizmos and gadgets that accomplish the same things in various permutations and combinations. But gulp can just do so MUCH! By golly, just in researching this article I discovered that ze can work with git for version control! Unbelievable! I tell ya folks, whatever you want to, you talk to gulp and the two of you will work something out to your satisfaction. With all zir connections, you won’t be disappointed.&lt;/p&gt;
-&lt;p&gt;*Note on “ze”, “zir” &amp;amp; “zirs”: these are commonly used gender-neutral pronouns, intended to lack any connotation of gender. I do not wish to assign a gender to Gulp, and thus I have selected these non-specific pronouns. For more information, feel free to check out this &lt;a href=&quot;https://heatherbooker.github.io/2016/05/28/%5Cgenderneutralpronoun.wordpress.com&quot;&gt;explanation&lt;/a&gt; from the Gender Neutral Pronoun Blog.&lt;/p&gt;
+&lt;p&gt;*Note on “ze”, “zir” &amp;amp; “zirs”: these are commonly used gender-neutral pronouns, intended to lack any connotation of gender. I do not wish to assign a gender to Gulp, and thus I have selected these non-specific pronouns. For more information, feel free to check out this &lt;a href=&quot;https://heatherbooker.github.io/blog/2016/05/28/%5Cgenderneutralpronoun.wordpress.com&quot;&gt;explanation&lt;/a&gt; from the Gender Neutral Pronoun Blog.&lt;/p&gt;
 &lt;p&gt;**Thanks to Dylan Harness for motivating this post.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: This post was migrated from its &lt;a href=&quot;https://medium.com/@heatherbooker/if-gulp-were-a-person-82a6cd6e3e38#.fhs0i3owm&quot;&gt;original home on Medium&lt;/a&gt; on February 23, 2017.&lt;/p&gt;
 </content>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobX + React: Can you use this.props in @computeds?</title>
+    <meta name="description" content="These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Heather B-Log">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="table cover">
+          <div class="cover-card table-cell table-middle">
+  <img src="https://heatherbooker.github.io/blog/img/" alt="cartoon of my face" class="avatar">
+  <a href="https://heatherbooker.github.io" class="author_name">heather booker</a>
+  <span class="author_job">Good morning.</span>
+  <span class="author_bio metadata.author_bio1 mbm">These are the words that I&#39;ve had to say in the past whenever.</span>
+  <span class="author_bio mbm"> Go ahead and consume them.</span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/">Home</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/thoughts/">Thoughts</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/tags/">Tags</a>
+      </li>
+       
+    </ul>
+  </nav>
+  <div class="social-links">
+    <ul>
+      
+        <li><a href="http://twitter.com/hboo_codes" class="social-link-item"><i class="fa fa-fw fa-twitter"></i></a></li>
+      
+
+      
+        <li><a href="http://github.com/heatherbooker" class="social-link-item"><i class="fa fa-fw fa-github"></i></a></li>
+      
+
+      
+        <li><a href="//feed.xml" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <main class="tmpl-post">
+
+          <a class="btn" href="https://heatherbooker.github.io/blog/" >
+  Home
+</a>
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="MobX + React: Can you use this.props in @computeds?">MobX + React: Can you use this.props in @computeds?</h1>
+    <span class="post-meta">
+      <time class="post-date" datetime="2017-11-27">
+        27 NOV 2017
+      </time>
+      
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>I am an <code>@computed</code> evangelist when it comes to <code>get</code>ters in the many MobX-React components my team writes for work. I prowl around PRs, hunting for unsuspecting plain ol' innocent getters like this:</p>
+<pre class="language-js"><code class="language-js">@observer <span class="token keyword">class</span> <span class="token class-name">Potato</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span> <span class="token punctuation">{</span><br>  @observable frend <span class="token operator">=</span> <span class="token string">'Ms. Beans'</span><span class="token punctuation">;</span><br><br>  <span class="token keyword">get</span> <span class="token function">grewInTheGround</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> props<span class="token punctuation">.</span>earthlyInfo<span class="token punctuation">.</span>source <span class="token operator">===</span> <span class="token string">'the ground'</span><span class="token punctuation">;</span> <span class="token punctuation">}</span><br><br>  <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>    <span class="token keyword">return</span> <span class="token operator">&lt;</span>div<span class="token operator">></span> look<span class="token punctuation">,</span> i<span class="token string">'m a paytaytoe { this.grewInTheGround &amp;&amp; '</span><span class="token keyword">from</span> the ground' <span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span><span class="token punctuation">;</span><br>  <span class="token punctuation">}</span><br><span class="token punctuation">}</span></code></pre>
+<p>...and POuNCinG on them: &quot;What if we used <code>@computed</code> for that grewInTheGround getter? Check out <a href="https://mobx.js.org/refguide/computed-decorator.html">the docs</a>!&quot;</p>
+<p>This was a gleeful pastime of mine until one day I was rudely* interrupted by a co-worker not so easily convinced.  They mentioned that for a getter function containing solely MobX observed properties, they would of course also advocate for the use of computed, but <em>this</em> getter relied on only React props from a parent component. They doubted the effectiveness of the decorator in the case where props could influence the getter.</p>
+<p>Huh, I thought. (Well actually, first I thought HMPH!, but then I thought better of it and realized ah ha, a learning opportunity!) I hadn't considered the fact that props might not be supervised in the same way other MobX observables are.</p>
+<p>Some background:</p>
+<ul>
+<li>Decorators are like, JS functions with <code>@</code> in front that just magically do stuff to whatever they're applied to.</li>
+<li>Mobx is a state management library that is based on observables.</li>
+</ul>
+<p>So I went straight to the MobX docs and checked if they mentioned props. I checked about computed, and observables, and observer, and React, and optimization, and common pitfalls, and best practices. Result: no. (Sidenote, I wrote the notes for this blog post nearly a month ago now so I am fuzzy on some details, like exactly how much the answer to my question was not contained in the docs. -_-)</p>
+<p>Next, to google with variations on 'Can you use this.props in computed mobx'. I found exactly 0 anythings that were helpful. Eventually I migrated my efforts to <a href="https://github.com/mobxjs/mobx">mobxjs/mobx</a> on Github and searched just 'computed props', then opened every issue that looked remotely relevant.</p>
+<p>(In retrospect, I should have been looking for whether props are <em>observable</em> and not whether they belong in @computeds, but this did not occur to me because changes in props clearly impacted the render function. Upon realizing this, I decided I had thought that because obviously React was managing the render function. This is also not true because that would totally at least 50% defeat the purpose of using MobX to optimize(minimize) renderings. Whatever.)</p>
+<p>I started on one issue, &quot;Discrepancy between re-computation between render and computed&quot;, and then found the gold mine <a href="https://github.com/mobxjs/mobx/issues/1075#issuecomment-312801921">in one comment</a>:</p>
+<blockquote>
+<p>Since 4.0 props are an observable...</p>
+</blockquote>
+<p>Dammnnnnnnn! Ok to <a href="https://github.com/mobxjs/mobx-react/blob/master/CHANGELOG.md#thisprops-and-thisstate-in-react-components-are-now-observables-as-well">the changelog</a> we go. A sub-header of v4.0 is entitled &quot;this.props and this.state in React components are now observables as well&quot; - bingo!! Well, there you go. The answer is yes, we should use @computed for getters that access props values as well as internal class observed values.</p>
+<p>But we can't stop now, we're just getting started. They threw a little teaser into the changelog description there:</p>
+<blockquote>
+<p>For more details see <a href="https://github.com/mobxjs/mobx-react/pull/136">#136</a></p>
+</blockquote>
+<p>And whoowee, there's a lot of chattin' in that thread. Also the whole description is &quot;see <a href="https://github.com/mobxjs/mobx-react/issues/124">#124</a>&quot; - #124 is an issue containing discussion leading up to the making of this.props being observed.</p>
+<p>At this point I was jumping around between all of these tabs, trying to make sense of it all and answer questions like &quot;what is this HoC they keep mentioning?&quot;(spoiler, higher-order-component) and &quot;wait, so how deeply or shallowly is props observed?&quot;.</p>
+<p>If we look again at the first example code above, where the computed accesses <code>this.props.earthlyInfo.source</code>, with pre-4.0 MobX, the computed would run if <code>this.props.earthlyInfo.source</code> was modified. Now, the computed also re-runs if <code>this.props.earthlyInfo</code> itself is changed, like if the component was rendered with new data: <code>&lt;Potato earthlyInfo={{source: 'kindly neighbour'}} /&gt;</code>. Good to know! You can see an example of how this was implemented in <a href="https://github.com/mobxjs/mobx-react/pull/136/files/0bcf70bee3068a1b3df51b1969c28805625b59e5">this PR</a>; it pretty much cycles through props and observes each one.</p>
+<p>Pleasingly, I am now able to sleep at night and continue my <code>@computed</code> calling during the day, in full knowledge that I am bettering the efficiency of our code ever ever so slightly. 😉</p>
+<p>Life is beautiful and birds are singing, as they say.</p>
+<p>And hey, a lovely unexpected side effect of this knowledge slurping extravangza was that it recharged my interest in what I was doing at work, at a time when I felt very dulled by menial tasks and repetitve going-ons. It reminds me that sometimes it's important to take some time out of the grind in order to refresh my perspective and remember that Stuff Is Interesting! I really respect that my manager can't resist digging into the internals of everything they touch and I hope to keep channeling that. Props to them and to you and to everyone who doesn't just skim the surface but gets their hands dirty!</p>
+<p>SHORT ANSWER IF YOU SKIMMED IN THE HOPES OF JUST FINDING THE FRICK OUT BECAUSE the docs are pretending to be all fancy n whatever but u got sTUFF to do: YA PROPS ARE OBSERVED U can use them in ur @computed 👍 .</p>
+<p>* Note: No offense to the speaker of this statement intended; 'rudely' is merely employed as a figure of speech. 😃</p>
+
+  </article>
+
+  <nav class="post-navigation" role="navigation">
+  <div class="row">
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-prev">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/blog/2017/04/21/wat-the-flip-does-firefox-think-it&#39;s-doing-with-138percent-of-my-cpu-power!.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="primary-text-color"><i class="fa fa-angle-left"></i></span>&nbsp;
+              <span class="hidden-md primary-text-color">Older</span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="col shrink-to-link">
+      <a href="https://heatherbooker.github.io/blog/">
+        <div class="leonids-icon">
+          <i class="fas fa-glasses"></i>HOME
+        </div>
+      </a>
+    </div>
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-next">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/blog/2018/04/14/should-i-stay-or-should-i-go-now.html" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="hidden-md primary-text-color">Newer</span>
+              <span class="primary-text-color">&nbsp;<i class="fa fa-angle-right"></i></span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+        </main>
+
+        <footer>
+  <span>
+    <i class="rc-logo__mini"></i>
+    You should check out <a class="rc-link" href="https://www.recurse.com">the Recurse Center</a>.
+  </span>
+  &copy; 2021
+  <a href="https://heatherbooker.github.io" style="text-transform: capitalize;">heather booker</a>.
+
+  Powered by <a href="https://www.11ty.dev/">11ty</a>.
+  Made with modified <a href="https://github.com/renyuanz/leonids/">leonids theme</a>.
+</footer>
+
+      </div>
+    </div>
+
+    <!-- Current page: /blog/2017/11/27/mobx-+-react:-can-you-use-this.props-in-@computeds.html -->
+    </div>
+  </body>
+
+</html>
