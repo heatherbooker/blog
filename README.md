@@ -31,7 +31,6 @@ Then just run `new <look ma im blogging>` or whatever :)
 - add pagination
 - make post urls be better (remove dates? at least don't have dates have slashes, that implies ability to see all of 2020/, but 2020- is better)
 - redirect from adventures-with-mozilla-con't to url without apostrophe
-- fix cartoon of my face in sidebar
 - make tags page prettier
 - make tags show on post pages (beside date)
 - render emogæs in post excerpts on home page
