@@ -24,7 +24,7 @@
       {% endif %}
 
       {% if metadata.feed.path %}
-        <li><a href="{{ metadata.baseurl }}/{{ metadata.feed.path }}" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+        <li><a href="{{ metadata.feed.path | url }}" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
       {% endif %}
     </ul>
   </div>
