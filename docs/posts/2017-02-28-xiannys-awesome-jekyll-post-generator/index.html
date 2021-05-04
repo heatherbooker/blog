@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xianny&#39;s awesome Jekyll post generator</title>
+    <meta name="description" content="These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Heather B-Log">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="table cover">
+          <div class="cover-card table-cell table-middle">
+  <img src="https://heatherbooker.github.io/blog/img/" alt="cartoon of my face" class="avatar">
+  <a href="https://heatherbooker.github.io" class="author_name">heather booker</a>
+  <span class="author_job">Good morning.</span>
+  <span class="author_bio metadata.author_bio1 mbm">These are the words that I&#39;ve had to say in the past whenever.</span>
+  <span class="author_bio mbm"> Go ahead and consume them.</span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/">Home</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/thoughts/">Thoughts</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/tags/">Tags</a>
+      </li>
+       
+    </ul>
+  </nav>
+  <div class="social-links">
+    <ul>
+      
+        <li><a href="http://twitter.com/hboo_codes" class="social-link-item"><i class="fa fa-fw fa-twitter"></i></a></li>
+      
+
+      
+        <li><a href="http://github.com/heatherbooker" class="social-link-item"><i class="fa fa-fw fa-github"></i></a></li>
+      
+
+      
+        <li><a href="//feed.xml" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <main class="tmpl-post">
+
+          <a class="btn" href="https://heatherbooker.github.io/blog/" >
+  Home
+</a>
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="Xianny&#39;s awesome Jekyll post generator">Xianny&#39;s awesome Jekyll post generator</h1>
+    <span class="post-meta">
+      <time class="post-date" datetime="2017-02-28">
+        28 FEB 2017
+      </time>
+      
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>Oops, note to self - need to strip special characters such as apostrophes from file names. (Guess how I came up with that one..[1]).</p>
+<p>Having got all this Jekyll stuff finally up and running, I was dying from manually formatting all of my posts and their titles. Seriously, typing out the whole date for every post's file name?! Terrible. Also, srsly, what kind of programmer am I if I keep doing something manually. What is even the point.</p>
+<p>Unfortunately, shell scripting is <em>not</em> my forte. It is so confusing. I remember one day at <a href="https://recurse.com">RC</a>, AJ (teehee, two two-letter acronyms, I am Heather-two-two over here) showed me a couple quick things about it and I was amazed. Then I read <a href="https://strugee.net/blog/2017/02/rc-week-7">this blog</a> post where he talks about</p>
+<ol>
+<li>how he and Aditya solved a Code Dojo with a bash script (!!!), and how</li>
+<li>Aditya asked about type-casting in bash.</li>
+</ol>
+<p>AJ thought that was funny, because bash doesn't have a type system. What?! That explains this one problem I couldn't solve a while back, and why the internet wouldn't tell me how to coerce a string to a number in my shell script... -_-</p>
+<p>Anyway, you can see this snippet from my (appallingly large collection of) desktop notes that <em>desperately</em> desires this Jekyll-generating script in my life:</p>
+<p><img src="/img/post-generator-wanted.png" alt="it has a lot of exclamation points. because i wanted it."></p>
+<p>And then, in checking out the Blaggregator feed (that I finally added myself to! *cue emoji with monkey covering its eyes*), I came upon Xianny's blog post where she wrote the PERFECT SCRIPT! <s>You should definitely <a href="http://journal.xianny.com/2017/02/21/autogen-jekyll-new-post.html">read it</a>! Go. Right now.</s> Link is dead! 😢</p>
+<p>This was beyond perfect. I am so happy right now.</p>
+<p>I made a couple of <a href="https://gist.github.com/heatherbooker/50672cef429e667270b39c0d19f44fe3">tweaks</a>, namely:</p>
+<ul>
+<li>if <code>-d</code> is passed as a command line option, add <code>draft: true</code> to the front matter[2] of the post instead of adding it to a _drafts dir.</li>
+<li>make post titles all lowercase in filenames.</li>
+</ul>
+<p>This second undertaking involved a very tiny addition, surprisingly.</p>
+<pre><code># Before:
+# (The - before the $ is not fancy bash shtuff...it's just a dash.)
+TITLE+=&quot;-$word&quot; 
+ 
+# After:
+TITLE+=&quot;-${word,,}&quot;
+</code></pre>
+<p>Not bad hunh?! And now all I did to write this post was type <code>./new &quot;Xianny's awesome Jekyll post generator&quot;</code>!</p>
+<p>(Also I had to write the rest of the post and screenshot my note, but...ya know, that was CHILD'S PLAY.)</p>
+<p>Thank you Xianny!!</p>
+<p>PS - If I forget to fill in the <code>categories</code> field in the front matter, this happens:<br>
+<img src="/img/fill-me-in.png" alt="nonsense categories on the post"><br>
+because I set it to do that, so I won't forget. It's sorta functional to that end I guess? I am snort-laughing because I tried to help myself but it turns out I am un-helpable.</p>
+<p>PPS - If you don't use Jekyll, you may not know why I want to strip apostrophes, or what front matter is.</p>
+<p>[1] I want to strip non-alphanumeric chars from titles when they become filenames. I have a feeling they don't belong there.<br>
+[2] Front matter is this configuration crap that goes at the top of every post. Stuff like the layout, title, categories, etc.</p>
+<p>PPPS - Help, I think I am addicted to writing blog posts.</p>
+
+  </article>
+
+  <nav class="post-navigation" role="navigation">
+  <div class="row">
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-prev">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/posts/2017-02-27-how-to-use-heroku-scheduler-with-node/" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="primary-text-color"><i class="fa fa-angle-left"></i></span>&nbsp;
+              <span class="hidden-md primary-text-color">Older</span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="col shrink-to-link">
+      <a href="https://heatherbooker.github.io/blog/">
+        <div class="leonids-icon">
+          <i class="fas fa-glasses"></i>HOME
+        </div>
+      </a>
+    </div>
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-next">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/posts/2017-03-08-things-that-seem-like-they-happen-in-jobs-but-never-in-job-interviews/" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="hidden-md primary-text-color">Newer</span>
+              <span class="primary-text-color">&nbsp;<i class="fa fa-angle-right"></i></span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+        </main>
+
+        <footer>
+  <span>
+    <i class="rc-logo__mini"></i>
+    You should check out <a class="rc-link" href="https://www.recurse.com">the Recurse Center</a>.
+  </span>
+  &copy; 2021
+  <a href="https://heatherbooker.github.io" style="text-transform: capitalize;">heather booker</a>.
+
+  Powered by <a href="https://www.11ty.dev/">11ty</a>.
+  Made with modified <a href="https://github.com/renyuanz/leonids/">leonids theme</a>.
+</footer>
+
+      </div>
+    </div>
+
+    <!-- Current page: /posts/2017-02-28-xiannys-awesome-jekyll-post-generator/ -->
+    </div>
+  </body>
+
+</html>

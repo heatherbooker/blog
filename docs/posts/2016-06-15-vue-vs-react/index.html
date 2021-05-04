@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js vs React.js</title>
+    <meta name="description" content="These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Heather B-Log">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="table cover">
+          <div class="cover-card table-cell table-middle">
+  <img src="https://heatherbooker.github.io/blog/img/" alt="cartoon of my face" class="avatar">
+  <a href="https://heatherbooker.github.io" class="author_name">heather booker</a>
+  <span class="author_job">Good morning.</span>
+  <span class="author_bio metadata.author_bio1 mbm">These are the words that I&#39;ve had to say in the past whenever.</span>
+  <span class="author_bio mbm"> Go ahead and consume them.</span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/">Home</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/thoughts/">Thoughts</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="https://heatherbooker.github.io/blog/tags/">Tags</a>
+      </li>
+       
+    </ul>
+  </nav>
+  <div class="social-links">
+    <ul>
+      
+        <li><a href="http://twitter.com/hboo_codes" class="social-link-item"><i class="fa fa-fw fa-twitter"></i></a></li>
+      
+
+      
+        <li><a href="http://github.com/heatherbooker" class="social-link-item"><i class="fa fa-fw fa-github"></i></a></li>
+      
+
+      
+        <li><a href="//feed.xml" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <main class="tmpl-post">
+
+          <a class="btn" href="https://heatherbooker.github.io/blog/" >
+  Home
+</a>
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="Vue.js vs React.js">Vue.js vs React.js</h1>
+    <span class="post-meta">
+      <time class="post-date" datetime="2016-06-15">
+        15 JUN 2016
+      </time>
+      
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>Ooh, this is going to be a juicy one! I’m sure many people are fierce supporters of one of these technologies and zealous bashers of the other. Both Vue.js and React.js are both pretty new to the scene — let’s get some background information to begin. I’ll go in reverse alphabetical order to avoid offending anyone right out of the gates. 😉</p>
+<p>First of all, Vue and React are very similar. They are both libraries intended to be used to make composable “views”(Vue’s words) or “user interfaces”(React’s words), with reactive data binding. Composable, in this case, meaning based on the separation of view concerns into units described as “components”. In terms of data, both recommend a uni-directional flow of data.</p>
+<p><a href="https://vuejs.org">Vue.js</a> was created and maintained by Evan You and released publicly in early 2014. It positions itself as a simpler, more straightforward implementation of the component-based data-binding view concept.</p>
+<p><a href="https://facebook.github.io/react/">React.js</a> was released a year earlier, after being created by Jordan Walke for use at Facebook. Frankly, until I began researching for this article, I had no idea there was a single person behind it — Facebook definitely gets the acclaim for React.</p>
+<p>Vue is arguably the underdog at the moment. React absolutely took the javascript world by storm — it is currently the 6th most starred project ever on Github, and you would be hard pressed to be a front-end developer currently and not have heard anything about it. Vue even directly likens itself to React in its “<a href="http://blog.evanyou.me/2015/10/25/vuejs-re-introduction/">(re)introduction” article</a>:</p>
+<blockquote>
+<p>When it comes to structuring complex interfaces, Vue takes an approach that is very similar to React: it’s components all the way down.</p>
+</blockquote>
+<p>The uni-directional data flow is an idea originally referred to by React as “Flux”. In this idea, data changes flow through a central container of state before they are sent back out to wherever the data may be needed. They each have their own personalized versions of Flux — the most popular for React is Redux*, written by Dan Abramov. Since its inception, Redux has been widely praised by the community as well as the React team at Facebook themselves. Redux is also compatible with Vue, though Vuex is an architecture similarly based on Flux while being more specifically tailored to Vue.</p>
+<p>Alright. Now that all that factual stuff is out of the way, lets talk about our feelings. My first foray into React was decidedly painful. I had never used such an architecture before, and many people agree with me on the following point: the documentation is not beginner friendly. In this excellent article <a href="http://blog.andrewray.me/reactjs-for-stupid-people/">ReactJS for Stupid People</a>, Andrew Ray points out React’s bewilderingly full and disorganized sidebar with multiple, competing entry points. React’s use of JSX, which looks like HTML tags written in the middle of a JS file, makes things hard enough, without additions such as — a mix of ES6 syntax and “safe” JS throughout React’s documentation and the hoardes of other tutorials found throughout the interwebs, superfluous yet pervasive use of webpack(which also has notoriously poor documentation), and the whole flux/redux/state/props mess(at least in my brain it was a mess). All in all, I think three things are the root of my lesser valuation of React:</p>
+<ol>
+<li>A ton of nearly inextricable tools (webpack, babel, jsx, redux/reflux/alt..)</li>
+<li>Unnecessary complication, in my opinion, compared to Vue</li>
+<li>Confusing documentation</li>
+</ol>
+<p>These three aforementioned items are surely related. However, I feel that Vue scores significantly higher than React on all three. I barely needed to venture away from the official Vue docs to get started using it; even when I did turn to Google, I frequently ended up back in the official docs to find my answer! To me, this is a major win — to have a technology clear enough that it can be sufficiently explained in one go, and to sufficiently and clearly do so. I expect that the Vue docs were written by the creator of Vue, which would afford the absolute clarity that accompanies such a position.</p>
+<p>I must end by saying that I enjoy using both — I appreciate React’s current far-reach, as well as Vue’s dedication to simplicity. But I can’t help but lean towards team Vue. In any case, long live component based UIs!</p>
+<p>*Redux is technically not flux. But it was heavily inspired by it.</p>
+<p><em>Note</em>: This post was migrated from its <a href="https://medium.com/@heatherbooker/vue-js-vs-react-js-28caa8f9b033#.ojssrqrl3">original home on Medium</a> on February 23, 2017.</p>
+
+  </article>
+
+  <nav class="post-navigation" role="navigation">
+  <div class="row">
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-prev">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/posts/2016-06-09-getting-started-react-webpack/" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="primary-text-color"><i class="fa fa-angle-left"></i></span>&nbsp;
+              <span class="hidden-md primary-text-color">Older</span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="col shrink-to-link">
+      <a href="https://heatherbooker.github.io/blog/">
+        <div class="leonids-icon">
+          <i class="fas fa-glasses"></i>HOME
+        </div>
+      </a>
+    </div>
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-next">
+        
+        
+        <a href="https://heatherbooker.github.io/blog/posts/2016-06-21-interactive-react-map/" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="hidden-md primary-text-color">Newer</span>
+              <span class="primary-text-color">&nbsp;<i class="fa fa-angle-right"></i></span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+        </main>
+
+        <footer>
+  <span>
+    <i class="rc-logo__mini"></i>
+    You should check out <a class="rc-link" href="https://www.recurse.com">the Recurse Center</a>.
+  </span>
+  &copy; 2021
+  <a href="https://heatherbooker.github.io" style="text-transform: capitalize;">heather booker</a>.
+
+  Powered by <a href="https://www.11ty.dev/">11ty</a>.
+  Made with modified <a href="https://github.com/renyuanz/leonids/">leonids theme</a>.
+</footer>
+
+      </div>
+    </div>
+
+    <!-- Current page: /posts/2016-06-15-vue-vs-react/ -->
+    </div>
+  </body>
+
+</html>
