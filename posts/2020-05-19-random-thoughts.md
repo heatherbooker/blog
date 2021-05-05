@@ -162,7 +162,7 @@ index 225ff25..f338ed7 100644
 
 I guess there's no scoping of css to certain pages automatically by jekyll; it has to be done manually. So I actually first released the blog with all the paragraphs being squished together, because I was SO EAGER and didn't double check the other pages. Just the new one. :joy: It was only afterwards that I addded the `.thoughts` scope to the `p + p`. Regression check, my friends!
 
-Last but certainly not least is the glorious thought generator. I largely copied the existing new post generator that I use ([by Xianny](/posts/2017-02-28-xiannys-awesome-jekyll-post-generator) (who I met!! it was so cool! people are just the best.[^1])), but simpler because thoughts don't have titles, or tags.
+Last but certainly not least is the glorious thought generator. I largely copied the existing new post generator that I use ([by Xianny](/blog/posts/2017-02-28-xiannys-awesome-jekyll-post-generator) (who I met!! it was so cool! people are just the best.[^1])), but simpler because thoughts don't have titles, or tags.
 
 ```git
 {% raw %}

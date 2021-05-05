@@ -72,7 +72,7 @@ function scrollToBottom() {
   animateScroll(duration);
 }
 ```
-I hope this helps you. If you’re using Vue.js, you can check out [vue-sticky-scroll](https://github.com/heatherbooker/vue-sticky-scroll) (alternate name: vue-glue?), a directive I published to simplify the lives of other people who also want what I wanted. I also wrote recently about the [making of Vue.js directives](/posts/2016-08-12-how-to-vue-directive
+I hope this helps you. If you’re using Vue.js, you can check out [vue-sticky-scroll](https://github.com/heatherbooker/vue-sticky-scroll) (alternate name: vue-glue?), a directive I published to simplify the lives of other people who also want what I wanted. I also wrote recently about the [making of Vue.js directives](/blog/posts/2016-08-12-how-to-vue-directive
 ) in general. Recently being like 20 minutes ago. Woohoo for Vue.js!
 
 *Note*: This post was migrated from its [original home on Medium](https://medium.com/@heatherbooker/how-to-auto-scroll-to-the-bottom-of-a-div-415e967e7a24#.etorqdgbe) on February 23, 2017.

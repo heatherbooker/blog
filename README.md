@@ -35,3 +35,4 @@ Then just run `new <look ma im blogging>` or whatever :)
 - make tags show on post pages (beside date)
 - fix individual tag pages (404)
 - render emogæs in post excerpts on home page
+- fix hacky solution for linking between posts

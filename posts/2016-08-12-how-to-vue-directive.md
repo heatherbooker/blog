@@ -6,7 +6,7 @@ tags:
 - how-to
 ---
 
-I like Vue.js. A lot. (See my [comparison with React.js here](/posts/2016-06-15-vue-vs-react).) It is a beautifully simple, straightforward, and superbly functional view-layer framework. I’ve gone over most of the docs multiple times, and I am absolutely enamoured with the clarity they exude. They don’t use stupidly obscure words or send you around in circles trying to find what you want. They make you and Vue Just Work.  
+I like Vue.js. A lot. (See my [comparison with React.js here](/blog/posts/2016-06-15-vue-vs-react).) It is a beautifully simple, straightforward, and superbly functional view-layer framework. I’ve gone over most of the docs multiple times, and I am absolutely enamoured with the clarity they exude. They don’t use stupidly obscure words or send you around in circles trying to find what you want. They make you and Vue Just Work.
 
 However, I had a weak spot — the “Custom Directives” page. <!--more-->I avoided it for the longest time. Not being familiar with Angular (which everyone else seemed to be comparing these “directives” to those “directives”), I did not understand what a “directive” was or why I might want to use it. I couldn’t find a page explicitly labelled “Normal Directives” so I decided these custom “directives” were probably super insanely advanced.  
 

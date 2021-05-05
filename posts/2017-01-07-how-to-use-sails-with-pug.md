@@ -6,7 +6,7 @@ tags:
 - how-to
 made-at-rc: true
 ---
-You may know by now that I like to make [tutorials for things with dismal search results](/posts/2016-08-24-how-to-vue-directive-npm), and this is no different. The search results when I queried for the title of this post included the following:  
+You may know by now that I like to make [tutorials for things with dismal search results](/blog/posts/2016-08-24-how-to-vue-directive-npm), and this is no different. The search results when I queried for the title of this post included the following:
 
 ![pugs on sailboats. not the sails or pugs I wanted.](/img/use-sails-with-pug.png)  
 
