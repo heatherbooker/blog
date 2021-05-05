@@ -32,7 +32,7 @@
   <div class="post-description">
     <p>
       {{ post.data.page.excerpt | md | safe }}
-      <a class="normal-text" href="{{ site.url }}{{ post.url }}" alt="see whole post">...</a>
+      <a class="normal-text" href="{{ post.url | url }}" alt="see whole post">...</a>
     </p>
   </div>
   {% endif %}
