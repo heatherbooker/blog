@@ -97,10 +97,10 @@
 <p>Idk if that last one makes any sense. But I swear it has to be something like that, because after reading a tutorial that (said I should be able to do it the way I <a href="http://www.modeo.co/blog/2015/1/8/heroku-scheduler-with-nodejs-tutorial">was doing it</a>, plus) specified adding and committing and pushing the file before trying to <code>heroku run</code> it, I definitely made sure I had done that.</p>
 <p>Anyway, where I <em>was</em> going with this was to say that it kept claiming it couldn't find the <code>javascriptfile.js</code> that I was telling it to run. Because my task wouldn't necessarily output anything every time it ran, I simply added an extra line  so it would email me every time the file was executed. I also added a similar line to the sibling file that I had copied into the /bin dir and removed the .js from and added the path/to/node to, plus a comment telling me which was which.</p>
 <p>My Heroku scheduled tasks now looked like this:</p>
-<p><img src="/img/heroku-scheduler.png" alt="'node task.js' and 'task'"></p>
+<p><img src="/blog/img/heroku-scheduler.png" alt="'node task.js' and 'task'"></p>
 <p>I gratefully soon received an email from my task! It was from the file I had originally included - the one that made structural sense to me. Phew. Maybe I do understand things after all.</p>
 <p>Now I wait to see if the other file will also send me an email! I hope the suspense doesn't kill me. If it doesn't, I'll just delete it. If it does, I'll delete it anyway.* Teehee - it's all for <strong>science</strong>!</p>
-<p>* I'll delete it anyway because I don't need two files for one task, and I wanna keep the one I came up with all on my own! <img src="/img/heart-emoji.png" alt="heart eyes face"></p>
+<p>* I'll delete it anyway because I don't need two files for one task, and I wanna keep the one I came up with all on my own! <img src="/blog/img/heart-emoji.png" alt="heart eyes face"></p>
 
   </article>
 

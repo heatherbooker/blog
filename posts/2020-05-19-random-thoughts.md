@@ -16,7 +16,7 @@ The [original implementation](https://github.com/marenbeam/thoughts) doesn't inv
 
 First thought is this hilarious ad on a website for a local music store that I thought was very cute and saved a few weeks ago, for this exact purpose:
 
-![steves music store - wash those hands!](/img/steves.png)
+![steves music store - wash those hands!](/blog/img/steves.png)
 
 20 May, 2020
 

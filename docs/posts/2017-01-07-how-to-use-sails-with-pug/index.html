@@ -80,7 +80,7 @@
 
   <article class="post-content">
     <p>You may know by now that I like to make <a href="/blog/posts/2016-08-24-how-to-vue-directive-npm">tutorials for things with dismal search results</a>, and this is no different. The search results when I queried for the title of this post included the following:</p>
-<p><img src="/img/use-sails-with-pug.png" alt="pugs on sailboats. not the sails or pugs I wanted."></p>
+<p><img src="/blog/img/use-sails-with-pug.png" alt="pugs on sailboats. not the sails or pugs I wanted."></p>
 <p>Yeah. Not exactly what I was looking for. So I started by following <a href="https://www.youtube.com/watch?v=ep6EQ5f82Ts&amp;list=PLf8i4fc0zJBzLhOe6FwHpGhBDgqwInJWZ&amp;index=3">a video tutorial</a> (just kidding, actually I started by blindly trying to merge the basic sails app with my pre-existing code, which was painfully unsuccessful) to the T just to get an idea of how sails works, seeing as I’m still more than a little confused about routing and http and servers and databases. I shall now extrapolate the process of converting this project to use pug, to a tutorial on starting a sails app with pug.</p>
 <p>Normally you would be able to generate a project using a different templating engine than the default EJS, but it seems the name transition from Jade → Pug is not complete. The closest we can get (until <a href="https://www.npmjs.com/package/sails-generate-views-pug">the Pug views generator</a> is published…) (<strong>Update: it’s a thing!</strong>) is to run</p>
 <pre class="language-bash"><code class="language-bash">sails new puggity-project --template<span class="token operator">=</span>jade</code></pre>

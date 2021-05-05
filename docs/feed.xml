@@ -83,7 +83,7 @@ So I&#39;ll work good...&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;https://github.com/marenbeam/thoughts&quot;&gt;original implementation&lt;/a&gt; doesn&#39;t involve any manual git-anythings, and makes a nice separate page for these random thoughts. However, I (apparently) am never going to get around to doing that, so a blog post that I update with the thoughts seems good enough. It will be weird, but I am fine with that. 😄&lt;/p&gt;
 &lt;p&gt;19 May, 2020&lt;/p&gt;
 &lt;p&gt;First thought is this hilarious ad on a website for a local music store that I thought was very cute and saved a few weeks ago, for this exact purpose:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/steves.png&quot; alt=&quot;steves music store - wash those hands!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/blog/img/steves.png&quot; alt=&quot;steves music store - wash those hands!&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;20 May, 2020&lt;/p&gt;
 &lt;p&gt;I think this format will not do; it is going to make me censor myself more, because this feels like a conversational blog post rather than a collection of random thoughts. But we must try anyway.&lt;/p&gt;
 &lt;p&gt;20 May, 2020&lt;/p&gt;
@@ -700,7 +700,7 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;AJ thought that was funny, because bash doesn&#39;t have a type system. What?! That explains this one problem I couldn&#39;t solve a while back, and why the internet wouldn&#39;t tell me how to coerce a string to a number in my shell script... -_-&lt;/p&gt;
 &lt;p&gt;Anyway, you can see this snippet from my (appallingly large collection of) desktop notes that &lt;em&gt;desperately&lt;/em&gt; desires this Jekyll-generating script in my life:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/post-generator-wanted.png&quot; alt=&quot;it has a lot of exclamation points. because i wanted it.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/blog/img/post-generator-wanted.png&quot; alt=&quot;it has a lot of exclamation points. because i wanted it.&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;And then, in checking out the Blaggregator feed (that I finally added myself to! *cue emoji with monkey covering its eyes*), I came upon Xianny&#39;s blog post where she wrote the PERFECT SCRIPT! &lt;s&gt;You should definitely &lt;a href=&quot;http://journal.xianny.com/2017/02/21/autogen-jekyll-new-post.html&quot;&gt;read it&lt;/a&gt;! Go. Right now.&lt;/s&gt; Link is dead! 😢&lt;/p&gt;
 &lt;p&gt;This was beyond perfect. I am so happy right now.&lt;/p&gt;
 &lt;p&gt;I made a couple of &lt;a href=&quot;https://gist.github.com/heatherbooker/50672cef429e667270b39c0d19f44fe3&quot;&gt;tweaks&lt;/a&gt;, namely:&lt;/p&gt;
@@ -720,7 +720,7 @@ TITLE+=&amp;quot;-${word,,}&amp;quot;
 &lt;p&gt;(Also I had to write the rest of the post and screenshot my note, but...ya know, that was CHILD&#39;S PLAY.)&lt;/p&gt;
 &lt;p&gt;Thank you Xianny!!&lt;/p&gt;
 &lt;p&gt;PS - If I forget to fill in the &lt;code&gt;categories&lt;/code&gt; field in the front matter, this happens:&lt;br /&gt;
-&lt;img src=&quot;https://heatherbooker.github.io/img/fill-me-in.png&quot; alt=&quot;nonsense categories on the post&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://heatherbooker.github.io/blog/img/fill-me-in.png&quot; alt=&quot;nonsense categories on the post&quot; /&gt;&lt;br /&gt;
 because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to that end I guess? I am snort-laughing because I tried to help myself but it turns out I am un-helpable.&lt;/p&gt;
 &lt;p&gt;PPS - If you don&#39;t use Jekyll, you may not know why I want to strip apostrophes, or what front matter is.&lt;/p&gt;
 &lt;p&gt;[1] I want to strip non-alphanumeric chars from titles when they become filenames. I have a feeling they don&#39;t belong there.&lt;br /&gt;
@@ -752,10 +752,10 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 &lt;p&gt;Idk if that last one makes any sense. But I swear it has to be something like that, because after reading a tutorial that (said I should be able to do it the way I &lt;a href=&quot;http://www.modeo.co/blog/2015/1/8/heroku-scheduler-with-nodejs-tutorial&quot;&gt;was doing it&lt;/a&gt;, plus) specified adding and committing and pushing the file before trying to &lt;code&gt;heroku run&lt;/code&gt; it, I definitely made sure I had done that.&lt;/p&gt;
 &lt;p&gt;Anyway, where I &lt;em&gt;was&lt;/em&gt; going with this was to say that it kept claiming it couldn&#39;t find the &lt;code&gt;javascriptfile.js&lt;/code&gt; that I was telling it to run. Because my task wouldn&#39;t necessarily output anything every time it ran, I simply added an extra line  so it would email me every time the file was executed. I also added a similar line to the sibling file that I had copied into the /bin dir and removed the .js from and added the path/to/node to, plus a comment telling me which was which.&lt;/p&gt;
 &lt;p&gt;My Heroku scheduled tasks now looked like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/heroku-scheduler.png&quot; alt=&quot;&#39;node task.js&#39; and &#39;task&#39;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/blog/img/heroku-scheduler.png&quot; alt=&quot;&#39;node task.js&#39; and &#39;task&#39;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I gratefully soon received an email from my task! It was from the file I had originally included - the one that made structural sense to me. Phew. Maybe I do understand things after all.&lt;/p&gt;
 &lt;p&gt;Now I wait to see if the other file will also send me an email! I hope the suspense doesn&#39;t kill me. If it doesn&#39;t, I&#39;ll just delete it. If it does, I&#39;ll delete it anyway.* Teehee - it&#39;s all for &lt;strong&gt;science&lt;/strong&gt;!&lt;/p&gt;
-&lt;p&gt;* I&#39;ll delete it anyway because I don&#39;t need two files for one task, and I wanna keep the one I came up with all on my own! &lt;img src=&quot;https://heatherbooker.github.io/img/heart-emoji.png&quot; alt=&quot;heart eyes face&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;* I&#39;ll delete it anyway because I don&#39;t need two files for one task, and I wanna keep the one I came up with all on my own! &lt;img src=&quot;https://heatherbooker.github.io/blog/img/heart-emoji.png&quot; alt=&quot;heart eyes face&quot; /&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -765,7 +765,7 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 		<updated>2017-02-24T05:00:00Z</updated>
 		<id>https://heatherbooker.github.io/blog/posts/2017-02-24-oh-god-vim-is-broken/</id>
 		<content type="html">&lt;p&gt;I tried to start writing another post but vim is back to its old habits of appearing to insert weeeeeiiiiiird characters as I type.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/vim-is-corrupt.png&quot; alt=&quot;weird stuff happening here. boxes with 0s and 1s and Bs, and qs and 6s.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/blog/img/vim-is-corrupt.png&quot; alt=&quot;weird stuff happening here. boxes with 0s and 1s and Bs, and qs and 6s.&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;It does this from time to time...I must have messed with some config somewhere. Anyway, PLZ HALP, AM NEED HALP.&lt;/p&gt;
 &lt;p&gt;I believe it has to do with the character encoding or colours for my shell or something. I am also suspicious that it might have happened when I uninstalled jedi-vim.&lt;/p&gt;
 &lt;p&gt;It&#39;s funny because the other day I was typing and I hardly noticed the weird visual corruption, which made me think of when Rose at RC  said  having a Linux system hasn&#39;t led to an improvement in her ability to solve problems with the OS; instead, her tolerance for living with things being screwed up has increased. I think that is definitely sometimes true. I will go through phases of tolerating-to-the-point-of-not-noticing glaring flaws in my setup, and then desparately trying to fix whatever it is. This has included:&lt;/p&gt;
@@ -825,7 +825,7 @@ The tests for some reason don&#39;t all pass! So I ran them one by one until I f
 		<updated>2017-01-07T05:00:00Z</updated>
 		<id>https://heatherbooker.github.io/blog/posts/2017-01-07-how-to-use-sails-with-pug/</id>
 		<content type="html">&lt;p&gt;You may know by now that I like to make &lt;a href=&quot;https://heatherbooker.github.io/blog/posts/2016-08-24-how-to-vue-directive-npm&quot;&gt;tutorials for things with dismal search results&lt;/a&gt;, and this is no different. The search results when I queried for the title of this post included the following:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/use-sails-with-pug.png&quot; alt=&quot;pugs on sailboats. not the sails or pugs I wanted.&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/blog/img/use-sails-with-pug.png&quot; alt=&quot;pugs on sailboats. not the sails or pugs I wanted.&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Yeah. Not exactly what I was looking for. So I started by following &lt;a href=&quot;https://www.youtube.com/watch?v=ep6EQ5f82Ts&amp;amp;list=PLf8i4fc0zJBzLhOe6FwHpGhBDgqwInJWZ&amp;amp;index=3&quot;&gt;a video tutorial&lt;/a&gt; (just kidding, actually I started by blindly trying to merge the basic sails app with my pre-existing code, which was painfully unsuccessful) to the T just to get an idea of how sails works, seeing as I’m still more than a little confused about routing and http and servers and databases. I shall now extrapolate the process of converting this project to use pug, to a tutorial on starting a sails app with pug.&lt;/p&gt;
 &lt;p&gt;Normally you would be able to generate a project using a different templating engine than the default EJS, but it seems the name transition from Jade → Pug is not complete. The closest we can get (until &lt;a href=&quot;https://www.npmjs.com/package/sails-generate-views-pug&quot;&gt;the Pug views generator&lt;/a&gt; is published…) (&lt;strong&gt;Update: it’s a thing!&lt;/strong&gt;) is to run&lt;/p&gt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;sails new puggity-project --template&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;jade&lt;/code&gt;&lt;/pre&gt;
@@ -1057,7 +1057,7 @@ I found it ridiculously difficult to add what I thought was a common, simple fea
 		<id>https://heatherbooker.github.io/blog/posts/2016-06-21-interactive-react-map/</id>
 		<content type="html">&lt;p&gt;I am going to share with you a great and magnificent secret: the stages of creating a clickable svg map in a React project. Are you ready? You might want to take notes, because it is super mind-blowing.&lt;/p&gt;
 &lt;p&gt;Wait, first here’s the map, being clicked on (ooh, ahh):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/map-being-clicked.gif&quot; alt=&quot;clickable map being clicked&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/blog/img/map-being-clicked.gif&quot; alt=&quot;clickable map being clicked&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;(And if you just want to skip straight to the good stuff, click &lt;a href=&quot;https://www.npmjs.com/package/react-world-map&quot;&gt;here to get my clickable SVG-based React component world map&lt;/a&gt; on npm!)&lt;/p&gt;
 &lt;p&gt;If you are ready, let us begin:&lt;/p&gt;
 &lt;p&gt;Stages of creating a clickable SVG map in a React project&lt;/p&gt;
@@ -1154,7 +1154,7 @@ you can use event listeners to communicate that a component has been clicked&lt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; dev/anyProject&lt;br /&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; dev/anyProject&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;npm is a dandy package manager we will be using to set up webpack and react. Make sure you have npm installed by typing &lt;code&gt;npm -v&lt;/code&gt; — check &lt;a href=&quot;https://docs.npmjs.com/getting-started/installing-node&quot;&gt;here&lt;/a&gt; or &lt;a href=&quot;http://blog.npmjs.org/post/85484771375/how-to-install-npm&quot;&gt;here&lt;/a&gt; for details.&lt;/p&gt;
 &lt;p&gt;Run &lt;code&gt;npm init -y&lt;/code&gt; to get started — this will initialize your project with a package.json file. The -y option tells npm to use default settings; if you forget to use it, just press enter until you have gone through all of the questions. Running npm init -f accomplishes the same, but it also warns you:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/npm-warn.png&quot; alt=&quot;npm being a know-it-all&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/blog/img/npm-warn.png&quot; alt=&quot;npm being a know-it-all&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Alarming! Better stick to -y which gets the job done without sassing you. (not the css type…)&lt;/p&gt;
 &lt;p&gt;Next, we install webpack:&lt;/p&gt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; i webpack -S&lt;/code&gt;&lt;/pre&gt;
@@ -1182,7 +1182,7 @@ For now, we will need to manually copy our index.html into the build directory:&
 &lt;p&gt;Now in your terminal/command line just type:&lt;/p&gt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run build&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And open dev/anyProject/build/index.html in your browser and you should see this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/img/hello-world.png&quot; alt=&quot;&#39;Hello world&#39; in top left corner of your page&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://heatherbooker.github.io/blog/img/hello-world.png&quot; alt=&quot;&#39;Hello world&#39; in top left corner of your page&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Awesome! It works! You have successfully set up a project with webpack and react! But you might be thinking : we copied that index.html file manually, that was stupid. You’re right! Let’s prepare this project a little more for the real world. We want to handle html files, and we might as well also use webpack for one of its great skills — requiring in all sorts of tidbits, such as images. I like using SVGs as they are highly editable, and resize well.&lt;/p&gt;
 &lt;p&gt;Start by installing html-webpack-plugin and file-loader:&lt;/p&gt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; i html-webpack-plugin file-loader -D&lt;/code&gt;&lt;/pre&gt;
