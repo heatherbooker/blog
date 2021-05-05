@@ -28,7 +28,7 @@ I am a parasite to humanity.
 
 21 May, 2020
 
-[I did it!]({{ '/thoughts' | relative_url }}) Bye!
+[I did it!]({{ '/thoughts' | url }}) Bye!
 
 23 May, 2020
 
