@@ -24,6 +24,12 @@ Then just run `new <look ma im blogging>` or whatever :)
 
 ## TODO
 
+BIG TODO
+- FIX RSS FEED LINK FROM SIDEBAR
+
+lesser todo
+
+- fix img nathan on thoughts page
 - PR upstream to https://prismjs.com/#languages-list for `sh` to join "`bash`, `shell`"
 - add [accessible footnotes](https://hugogiraudel.com/2020/11/24/accessible-footnotes-and-a-bit-of-react/)
 - change 'new' script to not add date to filename??
