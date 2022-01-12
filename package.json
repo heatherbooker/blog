@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "ELEVENTY_ENV=production eleventy",
+    "build": "ELEVENTY_ENV=production eleventy --quiet",
     "start": "ELEVENTY_ENV=development eleventy --serve --quiet",
     "debug": "DEBUG=* ELEVENTY_ENV=development eleventy"
   },
