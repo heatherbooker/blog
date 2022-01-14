@@ -1,5 +1,5 @@
 ---
-layout: thoughts.liquid
+layout: thoughts.njk
 title: Thoughts
 eleventyNavigation:
   key: Thoughts
