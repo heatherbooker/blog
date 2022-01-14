@@ -3,5 +3,5 @@ layout: thoughts.liquid
 title: Thoughts
 eleventyNavigation:
   key: Thoughts
-  order: 3
+  order: 2
 ---
