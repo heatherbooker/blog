@@ -4,15 +4,9 @@ layout: base.njk
 <h2>Thoughts</h2>
 <div class="thoughts">
   <div>
-    {% for thought in collections.page-of-thoughts reversed %}
-      {% if thought.templateContent.size > 0 %}
-        <span class="post-meta">
-          <a href="#{{ thought.date | date: '%Y-%m-%d-%H-%M-%S' }}" id="{{ thought.date | date: '%Y-%m-%d-%H-%M-%S' }}" class="post-date">
-            {{ thought.date | date: "%d %b %Y" | upcase }}
-          </a>
-        </span>
+    {% for thought in collections.page-of-thoughts %}
+      there's a thought! fo real! 
         <div>{{ thought.templateContent }}</div>
-      {% endif %}
     {% endfor %}
   </div>
 </div>
