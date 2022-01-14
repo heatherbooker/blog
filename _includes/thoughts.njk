@@ -1,0 +1,18 @@
+---
+layout: base.njk
+---
+<h2>Thoughts</h2>
+<div class="thoughts">
+  <div>
+    {% for thought in collections.pageOfThoughts | reverse %}
+      {% if thought.templateContent.length > 0 %}
+        <span class="post-meta">
+          <a href="#{{ thought.date | milliseconds }}" id="{{ thought.date | milliseconds }}" class="post-date">
+            {{ thought.date | readableDate | upper }}
+          </a>
+        </span>
+        <div>{{ thought.templateContent | safe }}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

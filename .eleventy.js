@@ -26,6 +26,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
   });
+  eleventyConfig.addFilter("milliseconds", dateObj => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toMillis();
+  });
   eleventyConfig.addFilter("md", function (content = "") {
     return markdownIt({ html: true }).render(content);
   });
