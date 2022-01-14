@@ -5,7 +5,7 @@
   "tagline": "Good morning.",
   "feed": {
     "filename": "feed.xml",
-    "path": "/feed.xml/"
+    "path": "/feed.xml"
   },
   "author": {
     "name": "heather booker",
