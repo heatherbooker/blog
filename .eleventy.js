@@ -120,8 +120,7 @@ module.exports = function(eleventyConfig) {
     templateFormats: [
       "md",
       "njk",
-      "html",
-      "liquid"
+      "html"
     ],
 
     // If your site lives in a different subdirectory, change this.
@@ -134,7 +133,7 @@ module.exports = function(eleventyConfig) {
     // You can also pass this in on the command line using `--pathprefix`
     pathPrefix: process.env.ELEVENTY_ENV === 'production' ? "/blog/" : '',
 
-    markdownTemplateEngine: "liquid",
+    markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
 
