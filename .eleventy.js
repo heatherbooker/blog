@@ -6,6 +6,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItEmoji = require("markdown-it-emoji");
+const markdownItFootnote = require("markdown-it-footnote");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -96,7 +97,9 @@ module.exports = function(eleventyConfig) {
     })
     .use(markdownItEmoji, {
       html: true
-    });
+    })
+    .use(markdownItFootnote)
+  ;
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides
