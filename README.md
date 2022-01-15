@@ -35,6 +35,5 @@ lesser todo
 - redirect from adventures-with-mozilla-con't to url without apostrophe
 - make tags page prettier
 - make tags show on post pages (beside date)
-- fix individual tag pages (404)
 - render emogæs in post excerpts on home page
 - fix hacky solution for linking between posts

@@ -7,7 +7,14 @@ eleventyNavigation:
 ---
 <h1>Tags</h1>
 
+<ul class="tag-cloud">
 {% for tag in collections.tagList %}
-  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  {% if tag == "pageOfThoughts" %}
+  {% else %}
+    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+    <li>
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    </li>
+  {% endif %}
 {% endfor %}
+</ul>
