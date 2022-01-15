@@ -34,6 +34,5 @@ lesser todo
 - make post urls be better (remove dates? at least don't have dates have slashes, that implies ability to see all of 2020/, but 2020- is better) (try https://gist.github.com/BrianMitchL/f93622a46f4476b7514995ff502d8d17 for redirect from previous urls)
 - redirect from adventures-with-mozilla-con't to url without apostrophe
 - make tags page prettier
-- make tags show on post pages (beside date)
 - render emogæs in post excerpts on home page
 - fix hacky solution for linking between posts

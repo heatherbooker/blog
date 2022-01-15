@@ -9,18 +9,24 @@ layout: base.njk
   <header class="post-header">
     <h1 title="{{ title }}">{{ title }}</h1>
     <span class="post-meta">
+
       <time class="post-date" datetime="{{ page.date | htmlDateString }}">
         {{ page.date | readableDate | upper }}
       </time>
-      {% if page.data.tags.size > 0 %}
+
+      {% if tags.length > 0 %}
       •
-      {% for tag in page.data.tags %}
-        <a class="post-tag" href="{{ metadata.url }}tags/#{{ tag }}">{{ tag }}</a>
+      {% for tag in tags %}
+        {%- if collections.tagList.indexOf(tag) != -1 -%}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <a class="post-tag" href="{{ tagUrl | url }}">{{ tag }}</a>
         {% if not loop.last %}
         <span>•</span>
         {% endif %}
+        {% endif %}
       {% endfor %}
       {% endif %}
+
     </span>
 
   </header>
