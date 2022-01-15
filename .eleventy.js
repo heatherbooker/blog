@@ -30,7 +30,7 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toMillis();
   });
   eleventyConfig.addFilter("md", function (content = "") {
-    return markdownIt({ html: true }).render(content);
+    return markdownLibrary.render(content);
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
