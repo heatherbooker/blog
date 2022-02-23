@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 layout: post
 title: "Still meta-talking about sex"
 tags:

@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 layout: post
 title: "Let's talk about sex baby"
 tags:
