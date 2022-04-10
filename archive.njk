@@ -1,0 +1,23 @@
+---
+layout: base.njk
+eleventyNavigation:
+  key: Archive
+  order: 3
+---
+
+{% set postslist = collections.posts %}
+
+<h2>Archive</h2>
+<ul class="archive">
+
+{% for post in collections.posts | reverse %}
+
+<li>
+  <a href="{{ post.url | url }}" class="postlist-link" title="{{ post.title }}">
+    {{ post.data.title }}
+  </a>
+</li>
+
+{% endfor %}
+
+</ul>
