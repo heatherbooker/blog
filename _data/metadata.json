@@ -1,6 +1,6 @@
 {
   "title": "Heather B-Log",
-  "url": "https://heatherbooker.github.io/blog/",
+  "url": "https://hboo.ca",
   "description": "These are the words that I've had to say in the past whenever. Go ahead and consume them.",
   "tagline": "Good morning.",
   "feed": {
@@ -13,7 +13,6 @@
     "bio2": " Go ahead and consume them.",
     "avatar": "heatherlearns.svg",
     "github": "heatherbooker",
-    "personal_site": "https://heatherbooker.github.io",
     "twitter": "hboo_codes"
   }
 }
