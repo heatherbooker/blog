@@ -3,7 +3,7 @@
 	<title>Heather B-Log</title>
 	<description>These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.</description>
 	
-	<link href="https://hboo.ca/blog/feed.xml" rel="self"/>
+	<link href="https://hboo.ca/feed.xml" rel="self"/>
 	<link href="https://hboo.ca"/>
 	<updated>2020-10-16T00:00:00Z</updated>
 	<id>Heather B-Log</id>
@@ -13,9 +13,9 @@
 	
 	<entry>
 		<title>Learning les chiffres en français</title>
-		<link href="https://hboo.ca/blog/posts/2020-10-16-learning-les-chiffres-en-francais/"/>
+		<link href="https://hboo.ca/posts/2020-10-16-learning-les-chiffres-en-francais/"/>
 		<updated>2020-10-16T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2020-10-16-learning-les-chiffres-en-francais/</id>
+		<id>https://hboo.ca/posts/2020-10-16-learning-les-chiffres-en-francais/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;Oh, Miss hboo:&lt;/p&gt;
 &lt;p&gt;Many years I have waited&lt;br /&gt;
@@ -65,7 +65,7 @@ So I&#39;ll work good...&lt;/p&gt;
 &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;what numba?&lt;br /&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;42&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;br /&gt;correct and goodbye&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Because right now it&#39;s like&lt;/p&gt;
 &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;what numba?&lt;br /&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;42&lt;/span&gt;&lt;br /&gt;what numba?&lt;br /&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;&lt;br /&gt;correct and goodbye&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And this stresses me out because I feel like I&#39;m leaving it halfway unfinished&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/blog/posts/2020-10-16-learning-les-chiffres-en-francais/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;And this stresses me out because I feel like I&#39;m leaving it halfway unfinished&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/posts/2020-10-16-learning-les-chiffres-en-francais/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;p&gt;Anyway, &lt;a href=&quot;https://github.com/heatherbooker/pratiquer-chiffres&quot;&gt;here&#39;s the code&lt;/a&gt;, have fun, submit issues/improvements, troll, learn, etc. 😃 À la prochaine !&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;PS. I installed a plugin to convert &lt;code&gt;:+1:&lt;/code&gt; emoji shorthands into actual visible emojis, which is rad. However, I predict it will make the previous post where I explain that I am using shorthands very confusing, since now they will just be actual emojis. You win some you lose some. 😂&lt;/p&gt;
@@ -73,7 +73,7 @@ So I&#39;ll work good...&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
-&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&amp;quot;Halfway unfinished&amp;quot; is a pretty weird thing to say, but I&#39;m kindof into it. &lt;a href=&quot;https://hboo.ca/blog/posts/2020-10-16-learning-les-chiffres-en-francais/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&amp;quot;Halfway unfinished&amp;quot; is a pretty weird thing to say, but I&#39;m kindof into it. &lt;a href=&quot;https://hboo.ca/posts/2020-10-16-learning-les-chiffres-en-francais/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -82,9 +82,9 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>Random thoughts</title>
-		<link href="https://hboo.ca/blog/posts/2020-05-19-random-thoughts/"/>
+		<link href="https://hboo.ca/posts/2020-05-19-random-thoughts/"/>
 		<updated>2020-05-19T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2020-05-19-random-thoughts/</id>
+		<id>https://hboo.ca/posts/2020-05-19-random-thoughts/</id>
 		<content type="html">&lt;p&gt;There is a super cool thing a friend of mine did, which I wish to emulate: have an adorable &lt;a href=&quot;https://glit.sh/~wesleyac/thoughts/&quot;&gt;page of random thoughts&lt;/a&gt;. It seems super low pressure, fun as a reader to get a glimpse into someone else&#39;s head, and fun as a creator to just collect a mish-mash of glorious tidbits.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&quot;https://github.com/marenbeam/thoughts&quot;&gt;original implementation&lt;/a&gt; doesn&#39;t involve any manual git-anythings, and makes a nice separate page for these random thoughts. However, I (apparently) am never going to get around to doing that, so a blog post that I update with the thoughts seems good enough. It will be weird, but I am fine with that. 😄&lt;/p&gt;
 &lt;p&gt;19 May, 2020&lt;/p&gt;
@@ -95,7 +95,7 @@ So I&#39;ll work good...&lt;/p&gt;
 &lt;p&gt;20 May, 2020&lt;/p&gt;
 &lt;p&gt;I am a parasite to humanity.&lt;/p&gt;
 &lt;p&gt;21 May, 2020&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://hboo.ca/blog/thoughts&quot;&gt;I did it!&lt;/a&gt; Bye!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hboo.ca/thoughts&quot;&gt;I did it!&lt;/a&gt; Bye!&lt;/p&gt;
 &lt;p&gt;23 May, 2020&lt;/p&gt;
 &lt;p&gt;So! How did I do it? Mostly in &lt;a href=&quot;https://github.com/heatherbooker/blog/commit/60a3504cbddbf12fc16e290ea313b8119a7b4f08&quot;&gt;this commit&lt;/a&gt; (where I have omitted less relevant parts from this post):&lt;/p&gt;
 &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;&lt;br /&gt;&lt;span class=&quot;token commit-sha1&quot;&gt;commit 60a3504cbddbf12fc16e290ea313b8119a7b4f08&lt;/span&gt;&lt;br /&gt;Author: hboo &amp;lt;nope&gt;&lt;br /&gt;Date:   Thu May 21 22:51:00 2020 -0400&lt;br /&gt;&lt;br /&gt;    Add proper thoughts page!&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -112,14 +112,14 @@ So I&#39;ll work good...&lt;/p&gt;
 &lt;p&gt;And import that style file:&lt;/p&gt;
 &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;&lt;br /&gt;diff --git a/_sass/leonids.scss b/_sass/leonids.scss&lt;br /&gt;index 225ff25..f338ed7 100644&lt;br /&gt;&lt;span class=&quot;token deleted&quot;&gt;--- a/_sass/leonids.scss&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+++ b/_sass/leonids.scss&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token coord&quot;&gt;@@ -21,3 +21,4 @@&lt;/span&gt;&lt;br /&gt; @import &lt;span class=&quot;token string&quot;&gt;&quot;pages/tags&quot;&lt;/span&gt;;&lt;br /&gt; @import &lt;span class=&quot;token string&quot;&gt;&quot;pages/archive&quot;&lt;/span&gt;;&lt;br /&gt; @import &lt;span class=&quot;token string&quot;&gt;&quot;pages/post&quot;&lt;/span&gt;;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+@import &quot;pages/thoughts&quot;;&lt;/span&gt;&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I guess there&#39;s no scoping of css to certain pages automatically by jekyll; it has to be done manually. So I actually first released the blog with all the paragraphs being squished together, because I was SO EAGER and didn&#39;t double check the other pages. Just the new one. 😂 It was only afterwards that I addded the &lt;code&gt;.thoughts&lt;/code&gt; scope to the &lt;code&gt;p + p&lt;/code&gt;. Regression check, my friends!&lt;/p&gt;
-&lt;p&gt;Last but certainly not least is the glorious thought generator. I largely copied the existing new post generator that I use (&lt;a href=&quot;https://hboo.ca/posts/2017-02-28-xiannys-awesome-jekyll-post-generator&quot;&gt;by Xianny&lt;/a&gt; (who I met!! it was so cool! people are just the best.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/blog/posts/2020-05-19-random-thoughts/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;)), but simpler because thoughts don&#39;t have titles, or tags.&lt;/p&gt;
+&lt;p&gt;Last but certainly not least is the glorious thought generator. I largely copied the existing new post generator that I use (&lt;a href=&quot;https://hboo.ca/posts/2017-02-28-xiannys-awesome-jekyll-post-generator&quot;&gt;by Xianny&lt;/a&gt; (who I met!! it was so cool! people are just the best.&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/posts/2020-05-19-random-thoughts/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;)), but simpler because thoughts don&#39;t have titles, or tags.&lt;/p&gt;
 &lt;pre class=&quot;language-git&quot;&gt;&lt;code class=&quot;language-git&quot;&gt;&lt;br /&gt;diff --git a/thought b/thought&lt;br /&gt;new file mode 100755&lt;br /&gt;index 0000000..ac77be4&lt;br /&gt;&lt;span class=&quot;token deleted&quot;&gt;--- /dev/null&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+++ b/thought&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token coord&quot;&gt;@@ -0,0 +1,19 @@&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+#!/bin/bash&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+# This script creates a new thought in jekyll with pre-filled front matter.&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+# Run `./thought` to generate a thought.&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+FILEDIR=&quot;_thoughts&quot;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+FILENAME=&quot;$FILEDIR/$(date +%F-%H-%M-%S).md&quot;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+echo &quot;---&quot; &gt; $FILENAME&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+echo &quot;date: $(date &#39;+%F %T&#39;)&quot; &gt;&gt; $FILENAME&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+echo &quot;---&quot; &gt;&gt; $FILENAME&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+if command -v nvim&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+then&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+    nvim $FILENAME&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+else&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+    vi $FILENAME&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+fi&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token inserted&quot;&gt;+echo $FILENAME&lt;/span&gt;&lt;br /&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Also, the filenames are based on date-time down to the second. I started this paragraph to say that it&#39;s not terribly robust, if you generate two thoughts within the same minute the second one will overwrite the first, but then I remembered it is &lt;em&gt;seconds&lt;/em&gt; not &lt;em&gt;minutes&lt;/em&gt;, and it would be pretty hard to write two thoughts in the same second. So nevermind.&lt;/p&gt;
 &lt;p&gt;Anyway, so far the whole thing is pretty sweet! You are actually looking at a lot of manipulated git history - I am quite liberal with my interactive rebases and force pushes, which allows me to pretend I wrote everything right the first time, which I definitely did not. ;D&lt;/p&gt;
 &lt;p&gt;Next up, I made some improvements to this script and the new post generator script.&lt;/p&gt;
 &lt;p&gt;Every time I would finish editing a post, when I would close it, the path to my editor would be printed in the terminal, because of this line:&lt;/p&gt;
 &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; -v nvim&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;That &lt;code&gt;command -v&lt;/code&gt; thing checks if &lt;code&gt;nvim&lt;/code&gt; is available. But then if it is, it prints the path to nvim, &lt;code&gt;/usr/bin/nvim&lt;/code&gt;, which is slightly confusing every time I see it. So the magical world of internet told me I could try appending &lt;code&gt;&amp;gt;/dev/null 2&amp;gt;&amp;amp;1&lt;/code&gt; to the end of the check. I don&#39;t know what each part of it does, something about not mashing standard error into standard out, but it sends the output into oblivion aka &lt;code&gt;/dev/null&lt;/code&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/blog/posts/2020-05-19-random-thoughts/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; which is good enough for me! So that line became&lt;/p&gt;
+&lt;p&gt;That &lt;code&gt;command -v&lt;/code&gt; thing checks if &lt;code&gt;nvim&lt;/code&gt; is available. But then if it is, it prints the path to nvim, &lt;code&gt;/usr/bin/nvim&lt;/code&gt;, which is slightly confusing every time I see it. So the magical world of internet told me I could try appending &lt;code&gt;&amp;gt;/dev/null 2&amp;gt;&amp;amp;1&lt;/code&gt; to the end of the check. I don&#39;t know what each part of it does, something about not mashing standard error into standard out, but it sends the output into oblivion aka &lt;code&gt;/dev/null&lt;/code&gt;&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/posts/2020-05-19-random-thoughts/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; which is good enough for me! So that line became&lt;/p&gt;
 &lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;command&lt;/span&gt; -v nvim &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;/dev/null &lt;span class=&quot;token operator&quot;&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;2&lt;/span&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token file-descriptor important&quot;&gt;&amp;amp;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I don&#39;t really know what &lt;code&gt;/dev/null&lt;/code&gt; is, except that it is oblivion. It is where perfectly useless information goes to die, get swept away and cleaned up, and not be accessed or accessible.&lt;/p&gt;
 &lt;p&gt;The next improvement brought the thought generator closer to that from which is was inspired. Since the original script goes through all of git add + commit + push, I wanted a little taste of that, but with the safety that comes with not pushing things to production automatically every time...since that is a little beyond my comfort level, as a mini control freak. 😛&lt;/p&gt;
@@ -141,9 +141,9 @@ So I&#39;ll work good...&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
-&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&amp;quot;people are just the best.&amp;quot; Help I sound like a dog !! 😂 &lt;a href=&quot;https://hboo.ca/blog/posts/2020-05-19-random-thoughts/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&amp;quot;people are just the best.&amp;quot; Help I sound like a dog !! 😂 &lt;a href=&quot;https://hboo.ca/posts/2020-05-19-random-thoughts/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;True story, once while I was at &lt;a href=&quot;https://www.recurse.com/&quot;&gt;the Recurse Center&lt;/a&gt; (or maybe somewhere else, I don&#39;t know now that I think about it 😂), I was showing someone something, or doing a presentation, and I had some code snippets that I was just playing around with in a folder called &lt;code&gt;~/dev/null&lt;/code&gt;, because &lt;code&gt;~/dev&lt;/code&gt; seemed like a reasonable location for all my code, and &lt;code&gt;null&lt;/code&gt; seemed like a reasonable location for nonsense code. I had never heard of &lt;code&gt;/dev/null&lt;/code&gt; and had no idea I was mimicking it, but whoever enlightened me certainly thought it was funny. 😂 &lt;a href=&quot;https://hboo.ca/blog/posts/2020-05-19-random-thoughts/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;True story, once while I was at &lt;a href=&quot;https://www.recurse.com/&quot;&gt;the Recurse Center&lt;/a&gt; (or maybe somewhere else, I don&#39;t know now that I think about it 😂), I was showing someone something, or doing a presentation, and I had some code snippets that I was just playing around with in a folder called &lt;code&gt;~/dev/null&lt;/code&gt;, because &lt;code&gt;~/dev&lt;/code&gt; seemed like a reasonable location for all my code, and &lt;code&gt;null&lt;/code&gt; seemed like a reasonable location for nonsense code. I had never heard of &lt;code&gt;/dev/null&lt;/code&gt; and had no idea I was mimicking it, but whoever enlightened me certainly thought it was funny. 😂 &lt;a href=&quot;https://hboo.ca/posts/2020-05-19-random-thoughts/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -152,14 +152,14 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>Where to gitignore what</title>
-		<link href="https://hboo.ca/blog/posts/2020-05-02-where-to-gitignore-what/"/>
+		<link href="https://hboo.ca/posts/2020-05-02-where-to-gitignore-what/"/>
 		<updated>2020-05-02T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2020-05-02-where-to-gitignore-what/</id>
+		<id>https://hboo.ca/posts/2020-05-02-where-to-gitignore-what/</id>
 		<content type="html">&lt;p&gt;I downloaded a little plugin the other day; you might use something like it yourself, if you&#39;re a super nerd (sorry..): it&#39;s called &lt;a href=&quot;https://github.com/dpacassi/disable-javascript&quot;&gt;disable-javascript&lt;/a&gt;. It&#39;s a browser addon that I use in Firefox to maximize speed and minimize annoyance when visiting one of the bajillions of overloaded how-to and fake-news and cooking websites, where by &amp;quot;overloaded&amp;quot; I mean there&#39;s 999 ads, and auto-playing videos and pop-ups and newsletter subscriptions all vying for my attention when all I want is basic content.  However, the addon also breaks many things you may want to use on the interwebs. You&#39;ve been warned.&lt;/p&gt;
 &lt;p&gt;Anyway, I was playing around with this addon - first I had it in &amp;quot;default on&amp;quot; mode (meaning JS is allowed), and so when I visited annoying websites, I would add them as an &amp;quot;exception&amp;quot;, which would mean they would have javascript disabled. But then I realized that was a losing battle, and it would be much better to use &amp;quot;default off&amp;quot; mode which disables JS everywhere. When I made the switch, however, my list of &amp;quot;exceptions&amp;quot; from phase 1 stuck around, and now they were exceptions in the &lt;em&gt;opposite&lt;/em&gt; direction; that is to say, all the websites I wanted to block were now being permitted. It turns out the exceptions list has no concept of whether sites should be blocked or allowed - it just does the opposite of whatever the current setting is. That&#39;s a little inconvenient for people like me who can&#39;t make up our minds. 😅&lt;/p&gt;
 &lt;p&gt;Now, what better to do when you find a problem than SOLVE IT?? Indeed dear readers, so I hunted down the &lt;a href=&quot;https://github.com/dpacassi/disable-javascript&quot;&gt;code&lt;/a&gt;, forked the project from Github, and started trying to add a flag for &amp;quot;block&amp;quot; vs &amp;quot;allow&amp;quot; locally. Part of the setup was &lt;code&gt;npm install&lt;/code&gt; which generates a local directory &lt;code&gt;node_modules/&lt;/code&gt;, full of libraries that you most definitely (probably, except in weird cases, I guess) do not want to track in Git. Generally this would be accomlished by having a row in the project&#39;s &lt;code&gt;.gitignore&lt;/code&gt;, telling Git not to worry about anything in &lt;code&gt;node_modules/&lt;/code&gt;, so that when you do &lt;code&gt;git status&lt;/code&gt; it doesn&#39;t say that everything in &lt;code&gt;node_modules&lt;/code&gt; is untracked, or when you do &lt;code&gt;git add .&lt;/code&gt; it doesn&#39;t try to add anything in &lt;code&gt;node_modules&lt;/code&gt;, etc. But the &lt;code&gt;.gitignore&lt;/code&gt; for this project (which existed! that was my first question) mysteriously did not contain any mention of &lt;code&gt;node_modules&lt;/code&gt;. Had previous contributors, including the main creator/maintainer, all just quietly and carefully ignored it themselves in their brains?&lt;/p&gt;
 &lt;p&gt;Idk, I&#39;m not a mind reader (as much as I sometimes try to be). Being the helpful human I am though, I made a pull request to add &lt;code&gt;node_modules&lt;/code&gt; to the project&#39;s &lt;code&gt;.gitignore&lt;/code&gt;. Now, here is where the plot thickens! The maintainer replied to me (very kindly, I must add - I opened a pile of PRs and issues at the same time and the maintainer was very patient with me 😉) to explain that, while they agree that &lt;code&gt;node_modules&lt;/code&gt; should not be committed, I should actually have it in my &lt;em&gt;global&lt;/em&gt; git config to ignore it everywhere. &amp;quot;Best practice!&amp;quot; they said. (Though not actually quite like that, alone as a sentence or with an explanation mark. That is me taking liberties with the editing.) Wow! I thought. I had never heard of such a concept, to centralize things like a python ENV or node_modules to a global .gitignore.&lt;/p&gt;
-&lt;p&gt;So I searched the internet high and low for &amp;quot;best practices on global vs project gitignores&amp;quot;. Just kidding, I searched for 2 minutes&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/blog/posts/2020-05-02-where-to-gitignore-what/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;′ &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/blog/posts/2020-05-02-where-to-gitignore-what/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;, before realizing the internet in general was not going to offer trustworthy answers and I had better find a true source of truth, which ended up being &lt;code&gt;man gitignore&lt;/code&gt;. The &lt;a href=&quot;https://github.com/git/git/blob/master/Documentation/gitignore.txt#L43&quot;&gt;relevant lines&lt;/a&gt; are there for you to investigate. The section I wanted was about &amp;quot;Which file to place a pattern in&amp;quot;, and the most important sections were the first and third (&amp;quot;other repositories&amp;quot; means other developers local copies of the same project):&lt;/p&gt;
+&lt;p&gt;So I searched the internet high and low for &amp;quot;best practices on global vs project gitignores&amp;quot;. Just kidding, I searched for 2 minutes&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/posts/2020-05-02-where-to-gitignore-what/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;′ &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/posts/2020-05-02-where-to-gitignore-what/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;, before realizing the internet in general was not going to offer trustworthy answers and I had better find a true source of truth, which ended up being &lt;code&gt;man gitignore&lt;/code&gt;. The &lt;a href=&quot;https://github.com/git/git/blob/master/Documentation/gitignore.txt#L43&quot;&gt;relevant lines&lt;/a&gt; are there for you to investigate. The section I wanted was about &amp;quot;Which file to place a pattern in&amp;quot;, and the most important sections were the first and third (&amp;quot;other repositories&amp;quot; means other developers local copies of the same project):&lt;/p&gt;
 &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; * Patterns which should be version-controlled and distributed to&lt;br /&gt;   other repositories via clone (i.e., files that all developers will want&lt;br /&gt;   to ignore) should go into a `.gitignore` file.&lt;br /&gt;&lt;br /&gt; * Patterns which a user wants Git to&lt;br /&gt;   ignore in all situations (e.g., backup or temporary files generated by&lt;br /&gt;   the user&#39;s editor of choice) generally go into a file specified by&lt;br /&gt;   `core.excludesFile` in the user&#39;s `~/.gitconfig`. Its default value is&lt;br /&gt;   $XDG_CONFIG_HOME/git/ignore. If $XDG_CONFIG_HOME is either not set or&lt;br /&gt;   empty, $HOME/.config/git/ignore is used instead.&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I had a &lt;em&gt;real&lt;/em&gt; hard time with the first sentence. My problem was interpreting &amp;quot;patterns&amp;quot; to mean &amp;quot;the actual files represented by the patterns&amp;quot;. So I thought it meant &amp;quot;Files which should be version-controlled ..(ie, those that all developers will want to ignore)...&amp;quot; which is utterly contradictory. Either you want them version controlled, or you want them ignored. You can&#39;t have it both ways people! I thought maybe they forgot a &amp;quot;n&#39;t&amp;quot; at the end of &amp;quot;should&amp;quot;. I went on a long voyage reading about &lt;a href=&quot;https://git-scm.com/community&quot;&gt;how to contribute to git using the mailing list&lt;/a&gt; so that I could fix the manpage, before eventually realizing that when it says &amp;quot;Patterns which should be ....&amp;quot;, &amp;quot;Pattern&amp;quot; literally means &lt;em&gt;the actual plaintext word in the .gitignore file&lt;/em&gt; and not the file itself. -__-&lt;/p&gt;
 &lt;p&gt;Luckily though, now we can go back to business with the disable-javascript project, because I have it on good word that my pull request actually does make sense, and if I love anything, it&#39;s being right. 😉 (Shh, don&#39;t tell.)&lt;/p&gt;
@@ -172,9 +172,9 @@ So I&#39;ll work good...&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
-&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;During my 2 minutes of searching I found &lt;a href=&quot;https://www.reddit.com/r/node/comments/7i229x/global_gitignore_node_modules/&quot;&gt;this reddit thread&lt;/a&gt;, which I now wish desperately to answer to help the next me who comes along, but the thread is closed. PUH. 😦 &lt;a href=&quot;https://hboo.ca/blog/posts/2020-05-02-where-to-gitignore-what/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;During my 2 minutes of searching I found &lt;a href=&quot;https://www.reddit.com/r/node/comments/7i229x/global_gitignore_node_modules/&quot;&gt;this reddit thread&lt;/a&gt;, which I now wish desperately to answer to help the next me who comes along, but the thread is closed. PUH. 😦 &lt;a href=&quot;https://hboo.ca/posts/2020-05-02-where-to-gitignore-what/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Also, can you tell I figured out how to make REAL FOOTNOTES?! Very cool. So much better than my haphazard asterisks system. I might have to go through old posts and fix them up. 😃 &lt;a href=&quot;https://hboo.ca/blog/posts/2020-05-02-where-to-gitignore-what/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;Also, can you tell I figured out how to make REAL FOOTNOTES?! Very cool. So much better than my haphazard asterisks system. I might have to go through old posts and fix them up. 😃 &lt;a href=&quot;https://hboo.ca/posts/2020-05-02-where-to-gitignore-what/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -183,15 +183,15 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>Glossary</title>
-		<link href="https://hboo.ca/blog/posts/2020-04-25-glossary/"/>
+		<link href="https://hboo.ca/posts/2020-04-25-glossary/"/>
 		<updated>2020-04-25T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2020-04-25-glossary/</id>
+		<id>https://hboo.ca/posts/2020-04-25-glossary/</id>
 		<content type="html">&lt;p&gt;Here&#39;s another glorious tidbit from the past, which is actually really exciting because it demonstrates to me that my grasp of French has, in fact, improved in the last few years! 😂 *&lt;/p&gt;
 &lt;p&gt;*: Some chat clients (slack, signal? discord, zulip) convert certain terms between colons(&lt;code&gt;:&lt;/code&gt;) into emojis! 😂 becomes the crying laughing face, 😭 the crying crying face, :lever_les_yeux_au_ciel: the rolling eyes face when you have slack configured to be in French. (My Francophone colleagues especially find it strange and bemusing that I use slack in French - nobody else does, and it leads me to find weird bugs and develop strange habits like referring to &amp;quot;@ici&amp;quot; instead of &amp;quot;@here&amp;quot;. But how else will I learn to say &amp;quot;roll your eyes&amp;quot;, if not by searching for the emoji in French?!)&lt;/p&gt;
 &lt;p&gt;Anyway, here&#39;s the little stub of a post that doesn&#39;t actually explain anything. Apparently I thought a glossary would be useful, which is cute, but like, a lot of maintenance. So, not gonna happen. 😄&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;8 MAR 2017&lt;/p&gt;
-&lt;p&gt;Voici une collection des termes que je pense que soient nEcessaires ou utiles pour comprendre mes postes. J&#39;espEre que cette vous aide. &lt;!--more--&gt;[&lt;a href=&quot;https://hboo.ca/blog/posts/2020-04-25-glossary/#c&#39;est-bon&quot;&gt;Why is this in French?&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Voici une collection des termes que je pense que soient nEcessaires ou utiles pour comprendre mes postes. J&#39;espEre que cette vous aide. &lt;!--more--&gt;[&lt;a href=&quot;https://hboo.ca/posts/2020-04-25-glossary/#c&#39;est-bon&quot;&gt;Why is this in French?&lt;/a&gt;]&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -222,7 +222,7 @@ So I&#39;ll work good...&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&quot;c&#39;est-bon&quot;&gt;C&#39;est bon &lt;a class=&quot;direct-link&quot; href=&quot;https://hboo.ca/blog/posts/2020-04-25-glossary/#c&#39;est-bon&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&quot;c&#39;est-bon&quot;&gt;C&#39;est bon &lt;a class=&quot;direct-link&quot; href=&quot;https://hboo.ca/posts/2020-04-25-glossary/#c&#39;est-bon&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;The preamble to this glossary is in French because I felt like it. It hopefully translates to &amp;quot;Here is a collection of terms that I think are necessary or useful for understanding my posts. I hope it helps.&amp;quot; I like other languages and hope you do too.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Back to the present:&lt;/p&gt;
@@ -235,9 +235,9 @@ So I&#39;ll work good...&lt;/p&gt;
 	
 	<entry>
 		<title>How to control spotify from the command line</title>
-		<link href="https://hboo.ca/blog/posts/2020-04-19-how-to-control-spotify-from-the-command-line/"/>
+		<link href="https://hboo.ca/posts/2020-04-19-how-to-control-spotify-from-the-command-line/"/>
 		<updated>2020-04-19T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2020-04-19-how-to-control-spotify-from-the-command-line/</id>
+		<id>https://hboo.ca/posts/2020-04-19-how-to-control-spotify-from-the-command-line/</id>
 		<content type="html">&lt;p&gt;Holy buhjeebus the amount of steps. I just want to listen to business casual. Ya know... Let&#39;s keep it business. Let&#39;s keep it casual. Let&#39;s keep it...fun.&lt;/p&gt;
 &lt;p&gt;So! Here comes, how to listen to spotify from the terminal in fedora. YMMV (Your mileage may vary).&lt;/p&gt;
 &lt;p&gt;Copy this handy AF simple AF (you&#39;re gonna have to look that acronym up yourself...unless you&#39;re my mom, then don&#39;t worry about it mom) script from this amazing life saving person, that I only found after downloading 298374 other super complicated things that didn&#39;t do what I wanted, at all. Like mobify or mobidy or mondiby or something.&lt;/p&gt;
@@ -313,9 +313,9 @@ and it should print out a happy little list of possible commands.&lt;/p&gt;
 	
 	<entry>
 		<title>Choosing an Outreachy project</title>
-		<link href="https://hboo.ca/blog/posts/2020-04-19-choosing-an-outreachy-project/"/>
+		<link href="https://hboo.ca/posts/2020-04-19-choosing-an-outreachy-project/"/>
 		<updated>2020-04-19T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2020-04-19-choosing-an-outreachy-project/</id>
+		<id>https://hboo.ca/posts/2020-04-19-choosing-an-outreachy-project/</id>
 		<content type="html">&lt;p&gt;So, this post was drafted years (no, &lt;em&gt;literally&lt;/em&gt; years) ago when I was applying to Outreachy, and it just stayed a draft forever because I guess I thought there was more to it. It turns out, there wasn&#39;t, because if there was, it would be there. Ha! I still think it&#39;s interesting though, and I want it out of my &amp;quot;untracked files&amp;quot; when I run &lt;code&gt;git status&lt;/code&gt;*, so here it comes, in all its overdue glory. 😉&lt;/p&gt;
 &lt;p&gt;*: I could have another branch for this draft, and commit it there. But then I will just forget it exists. Also if I did that and ever actually finished it, it would entail way more git overhead than I want to deal with. So - publish or bust, baby!&lt;/p&gt;
 &lt;hr /&gt;
@@ -342,9 +342,9 @@ and it should print out a happy little list of possible commands.&lt;/p&gt;
 	
 	<entry>
 		<title>im not a programmer</title>
-		<link href="https://hboo.ca/blog/posts/2019-12-24-im-not-a-programmer/"/>
+		<link href="https://hboo.ca/posts/2019-12-24-im-not-a-programmer/"/>
 		<updated>2019-12-24T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2019-12-24-im-not-a-programmer/</id>
+		<id>https://hboo.ca/posts/2019-12-24-im-not-a-programmer/</id>
 		<content type="html">&lt;p&gt;Why I don&#39;t feel like a programmer:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I use a mac at work&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Real programmers don&#39;t like Apple.&lt;br /&gt;
@@ -409,9 +409,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Should I stay or should I go now</title>
-		<link href="https://hboo.ca/blog/posts/2018-04-14-should-i-stay-or-should-i-go-now/"/>
+		<link href="https://hboo.ca/posts/2018-04-14-should-i-stay-or-should-i-go-now/"/>
 		<updated>2018-04-14T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2018-04-14-should-i-stay-or-should-i-go-now/</id>
+		<id>https://hboo.ca/posts/2018-04-14-should-i-stay-or-should-i-go-now/</id>
 		<content type="html">&lt;p&gt;&lt;strong&gt;: Wherein I discuss the weirdness of half ppl being like &amp;quot;GTFO L8ER !*#$&amp;amp;S&amp;quot;, and the other half like &amp;quot;wut where u goin jus chill out&amp;quot;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I am struck by a strange dichotomy of phenomenons that I find in tech job mentalities.&lt;/p&gt;
 &lt;p&gt;One goes a little like this:&lt;/p&gt;
@@ -453,9 +453,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>MobX + React: Can you use this.props in @computeds?</title>
-		<link href="https://hboo.ca/blog/posts/2017-11-27-mobx-n-react-can-you-use-this-n-props-in-computeds/"/>
+		<link href="https://hboo.ca/posts/2017-11-27-mobx-n-react-can-you-use-this-n-props-in-computeds/"/>
 		<updated>2017-11-27T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-11-27-mobx-n-react-can-you-use-this-n-props-in-computeds/</id>
+		<id>https://hboo.ca/posts/2017-11-27-mobx-n-react-can-you-use-this-n-props-in-computeds/</id>
 		<content type="html">&lt;p&gt;I am an &lt;code&gt;@computed&lt;/code&gt; evangelist when it comes to &lt;code&gt;get&lt;/code&gt;ters in the many MobX-React components my team writes for work. I prowl around PRs, hunting for unsuspecting plain ol&#39; innocent getters like this:&lt;/p&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;@observer &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Potato&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;React&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Component&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  @observable frend &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Ms. Beans&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token keyword&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grewInTheGround&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;earthlyInfo&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;source &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;the ground&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; look&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; i&lt;span class=&quot;token string&quot;&gt;&#39;m a paytaytoe { this.grewInTheGround &amp;amp;&amp;amp; &#39;&lt;/span&gt;from the ground&#39; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;...and POuNCinG on them: &amp;quot;What if we used &lt;code&gt;@computed&lt;/code&gt; for that grewInTheGround getter? Check out &lt;a href=&quot;https://mobx.js.org/refguide/computed-decorator.html&quot;&gt;the docs&lt;/a&gt;!&amp;quot;&lt;/p&gt;
@@ -491,9 +491,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Wat the FLIP does Firefox think it&#39;s doing with 138% of my CPU power?!</title>
-		<link href="https://hboo.ca/blog/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/"/>
+		<link href="https://hboo.ca/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/"/>
 		<updated>2017-04-21T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/</id>
+		<id>https://hboo.ca/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/</id>
 		<content type="html">&lt;p&gt;Oh my bananas, I am having a computer crisis. It all started when I was nOT tOUCHING mY cOMPUTER at all and the only application running (to my knowledge) was Firefox, which had like 4 tabs open. &amp;quot;So what?&amp;quot; you think. &amp;quot;Who cares?&amp;quot; you ask. Well, my fan was going as hard as it could for several iterations of several minutes. I was starting to worry for my baby&#39;s health. Also, lately my battery has been dying way too fast for a laptop in its first year of life. So I was concerned.&lt;/p&gt;
 &lt;p&gt;Let me walk you through my process over the last hour and a half.&lt;/p&gt;
 &lt;p&gt;I notice the fan going and going and GOING AND GOING AND GOING AND --&lt;/p&gt;
@@ -502,7 +502,7 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 &lt;p&gt;Anyway, turns out CPU usage is expressed (at least by &lt;code&gt;top&lt;/code&gt;, I don&#39;t know whether other tools follow the same principle) in usage of one processor.&lt;/p&gt;
 &lt;p&gt;Right, so Elasticsearch was doing all this (presumably) computationally expensive stuff, dealing with all the data I was giving it with 0 mappings or structure (types? what&#39;s a type?), using &amp;gt;100% CPU. The fan was going crazy then too, so the parallels between these situations are not looking good.&lt;/p&gt;
 &lt;p&gt;I &lt;code&gt;ctrl-alt-T&lt;/code&gt; and &lt;code&gt;top&lt;/code&gt; and &lt;code&gt;enter&lt;/code&gt; and FIREFOX WAS USING &amp;gt; 100% CPU! WAT THA FROCK! I close it, kill the process (why is that necessary? why didn&#39;t closing it like a normal person kill it? so many questions.), reopen it, and great, now 20-30% at rest and 60-70% while using.&lt;/p&gt;
-&lt;p&gt;I mean, small blessings? But to me, that still seems like an awful lot when I want to have Firefox and Sublime and Opera and Vim and Rhythmbox&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/blog/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; and a server or two running alongside it. There&#39;s not gonna be enough %s to go around, and somebody is going to be left in the dust.&lt;/p&gt;
+&lt;p&gt;I mean, small blessings? But to me, that still seems like an awful lot when I want to have Firefox and Sublime and Opera and Vim and Rhythmbox&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; and a server or two running alongside it. There&#39;s not gonna be enough %s to go around, and somebody is going to be left in the dust.&lt;/p&gt;
 &lt;p&gt;I do some googling, which suggests:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;My browser is outdated (no.)&lt;/li&gt;
@@ -522,14 +522,14 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;This comic is 39 pages long and I am on page 29. I&#39;ll get there eventually. Maybe. I do recommend checking it out though if you&#39;re interested.&lt;/p&gt;
 &lt;p&gt;Bonus - remember how I said I don&#39;t need to enable hardware acceleration? I decided this because in my settings, the checkbox for &amp;quot;Enable hardware acceleration&amp;quot; is ticked. Seems pretty clear right? Nah, jk. Checking some more advanced settings page tucked away somewhere (as these things always are) exposed that actually, apparently my OS was blocking this from happening. From what I understand, I don&#39;t want to force enable this because bad things could happen, ie, something about webby acceleration scripts exploiting OS vulnerabilities, or something. So I&#39;m just gonna not touch that.&lt;/p&gt;
-&lt;p&gt;To conclude, I learned some stuff about Google Chrome&#39;s design, and I solved nothing so my computer is still a minion&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/blog/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; to the browsers siphoning as much power as their grubby paws can. Do let me know if you think you are more smarticle than I in this matter and wish to assist. 😃&lt;/p&gt;
+&lt;p&gt;To conclude, I learned some stuff about Google Chrome&#39;s design, and I solved nothing so my computer is still a minion&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;https://hboo.ca/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt; to the browsers siphoning as much power as their grubby paws can. Do let me know if you think you are more smarticle than I in this matter and wish to assist. 😃&lt;/p&gt;
 &lt;p&gt;UPDATE OH MY DOG Opera has calmed down while I&#39;ve been writing and each process is now using under 10% it&#39;s a miracle??!!?&lt;/p&gt;
 &lt;hr class=&quot;footnotes-sep&quot; /&gt;
 &lt;section class=&quot;footnotes&quot;&gt;
 &lt;ol class=&quot;footnotes-list&quot;&gt;
-&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&amp;quot;Yo, why the heck you need two browsers and two text editors?!&amp;quot; Whatever, don&#39;t judge me! Sometimes one sucks and you gotta switch over but then that one sucks too so...well...NYEH. &lt;em&gt;sticks tongue out&lt;/em&gt; &lt;a href=&quot;https://hboo.ca/blog/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn1&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;&amp;quot;Yo, why the heck you need two browsers and two text editors?!&amp;quot; Whatever, don&#39;t judge me! Sometimes one sucks and you gotta switch over but then that one sucks too so...well...NYEH. &lt;em&gt;sticks tongue out&lt;/em&gt; &lt;a href=&quot;https://hboo.ca/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/#fnref1&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;This line used to read &amp;quot;...my computer is still a slave&amp;quot;. I am trying to remove uses of common tech terms that perpetuate white supremacy from 1) my vocabulary and 2) my bubble, starting with blacklist/whitelist and master/slave. &lt;a href=&quot;https://hboo.ca/blog/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;li id=&quot;fn2&quot; class=&quot;footnote-item&quot;&gt;&lt;p&gt;This line used to read &amp;quot;...my computer is still a slave&amp;quot;. I am trying to remove uses of common tech terms that perpetuate white supremacy from 1) my vocabulary and 2) my bubble, starting with blacklist/whitelist and master/slave. &lt;a href=&quot;https://hboo.ca/posts/2017-04-21-wat-the-flip-does-firefox-think-its-doing-with-138-of-my-cpu-power/#fnref2&quot; class=&quot;footnote-backref&quot;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -538,9 +538,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Adventures with Mozilla Con&#39;t</title>
-		<link href="https://hboo.ca/blog/posts/2017-03-20-adventures-with-mozilla-cont/"/>
+		<link href="https://hboo.ca/posts/2017-03-20-adventures-with-mozilla-cont/"/>
 		<updated>2017-03-20T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-03-20-adventures-with-mozilla-cont/</id>
+		<id>https://hboo.ca/posts/2017-03-20-adventures-with-mozilla-cont/</id>
 		<content type="html">&lt;p&gt;&amp;quot;Con&#39;t&amp;quot; is how I used to abbreviate &amp;quot;continued&amp;quot; when I took notes in HS/uni. The good old days. I could never use my laptop even in university (ie when I had one) to take notes in class because the instant I would get even remotely disinterested, I would be totally gone and only tune back in to be hella confused. Dis bad.&lt;/p&gt;
 &lt;p&gt;Anyway, since deciding that continuing to explore &amp;amp; contribute to Mozilla would be better than trying to (frantically, because that&#39;s apparently the &lt;em&gt;only&lt;/em&gt; way) apply for other jobs, I have found myself much happier.&lt;/p&gt;
 &lt;p&gt;Today I set up &lt;a href=&quot;https://opensource.com/resources/what-docker&quot;&gt;Docker&lt;/a&gt;!  Holy smokes finally the time has come! It always gets mentioned - even when I told Stanley I wanted to work on Blaggregator (RC&#39;s internal blog aggregator...don&#39;t you love that name!), he said:&lt;/p&gt;
@@ -566,9 +566,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>I applied to Outreachy, and I didn&#39;t use my name</title>
-		<link href="https://hboo.ca/blog/posts/2017-03-14-i-applied-to-outreachy-and-didnt-use-my-name/"/>
+		<link href="https://hboo.ca/posts/2017-03-14-i-applied-to-outreachy-and-didnt-use-my-name/"/>
 		<updated>2017-03-14T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-03-14-i-applied-to-outreachy-and-didnt-use-my-name/</id>
+		<id>https://hboo.ca/posts/2017-03-14-i-applied-to-outreachy-and-didnt-use-my-name/</id>
 		<content type="html">&lt;p&gt;It&#39;s all in the title. I formally submitted my application to participate in the wonderful Outreachy today. If you haven&#39;t heard of it, Outreachy is an amazing internship opportunity to be a (paid!) contributor to FOSS (Free and Open Source Software) for underrepresented groups in tech (more details &lt;a href=&quot;https://wiki.gnome.org/Outreachy&quot;&gt;here&lt;/a&gt;). For Outreachy, this means:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;women: cis and trans&lt;/li&gt;
@@ -607,9 +607,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Things that seem like they happen in jobs but never in job interviews</title>
-		<link href="https://hboo.ca/blog/posts/2017-03-08-things-that-seem-like-they-happen-in-jobs-but-never-in-job-interviews/"/>
+		<link href="https://hboo.ca/posts/2017-03-08-things-that-seem-like-they-happen-in-jobs-but-never-in-job-interviews/"/>
 		<updated>2017-03-08T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-03-08-things-that-seem-like-they-happen-in-jobs-but-never-in-job-interviews/</id>
+		<id>https://hboo.ca/posts/2017-03-08-things-that-seem-like-they-happen-in-jobs-but-never-in-job-interviews/</id>
 		<content type="html">&lt;p&gt;Maybe it&#39;s just because I&#39;ve been setting up wackloads of dev environments and picking projects, but this whole &lt;em&gt;Prepping for &lt;a href=&quot;https://wiki.gnome.org/Outreachy&quot;&gt;Outreachy&lt;/a&gt;&lt;/em&gt; business is making me think that there&#39;s a lot more to jobs than all these job interviews involving little code challenges get at.  There&#39;s a baloney-ton of:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Talking to people&lt;/li&gt;
@@ -668,9 +668,9 @@ I have no right to complain about noise or interruptions.&lt;/p&gt;
 	
 	<entry>
 		<title>Xianny&#39;s awesome Jekyll post generator</title>
-		<link href="https://hboo.ca/blog/posts/2017-02-28-xiannys-awesome-jekyll-post-generator/"/>
+		<link href="https://hboo.ca/posts/2017-02-28-xiannys-awesome-jekyll-post-generator/"/>
 		<updated>2017-02-28T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-02-28-xiannys-awesome-jekyll-post-generator/</id>
+		<id>https://hboo.ca/posts/2017-02-28-xiannys-awesome-jekyll-post-generator/</id>
 		<content type="html">&lt;p&gt;Oops, note to self - need to strip special characters such as apostrophes from file names. (Guess how I came up with that one..[1]).&lt;/p&gt;
 &lt;p&gt;Having got all this Jekyll stuff finally up and running, I was dying from manually formatting all of my posts and their titles. Seriously, typing out the whole date for every post&#39;s file name?! Terrible. Also, srsly, what kind of programmer am I if I keep doing something manually. What is even the point.&lt;/p&gt;
 &lt;p&gt;Unfortunately, shell scripting is &lt;em&gt;not&lt;/em&gt; my forte. It is so confusing. I remember one day at &lt;a href=&quot;https://recurse.com/&quot;&gt;RC&lt;/a&gt;, AJ (teehee, two two-letter acronyms, I am Heather-two-two over here) showed me a couple quick things about it and I was amazed. Then I read &lt;a href=&quot;https://strugee.net/blog/2017/02/rc-week-7&quot;&gt;this blog&lt;/a&gt; post where he talks about&lt;/p&gt;
@@ -711,16 +711,16 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 	
 	<entry>
 		<title>How to use Heroku Scheduler with Node.js</title>
-		<link href="https://hboo.ca/blog/posts/2017-02-27-how-to-use-heroku-scheduler-with-node/"/>
+		<link href="https://hboo.ca/posts/2017-02-27-how-to-use-heroku-scheduler-with-node/"/>
 		<updated>2017-02-27T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-02-27-how-to-use-heroku-scheduler-with-node/</id>
+		<id>https://hboo.ca/posts/2017-02-27-how-to-use-heroku-scheduler-with-node/</id>
 		<content type="html">&lt;p&gt;While there are &lt;a href=&quot;http://stackoverflow.com/a/13956024&quot;&gt;multiple&lt;/a&gt; &lt;a href=&quot;http://www.spacjer.com/blog/2014/02/10/defining-node-dot-js-task-for-heroku-scheduler/&quot;&gt;tutorials&lt;/a&gt; out there on using the Heroku Scheduling add-on with Node.js, they all seem to suggest the same strange series of steps. I can&#39;t understand why they all recommend&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;putting your scheduled task in a file without an extension...&lt;/li&gt;
 &lt;li&gt;in a directory called &#39;bin&#39;, and...&lt;/li&gt;
 &lt;li&gt;executing it without specifying &lt;code&gt;node&lt;/code&gt; in the command, but instead adding &lt;code&gt;#!/path/to/node&lt;/code&gt; to the top of the task file.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I originally didn&#39;t look at any of these tutorials - I guessed from the examples using other languages in the &lt;a href=&quot;https://hboo.ca/blog/posts/2017-02-27-how-to-use-heroku-scheduler-with-node/&quot;&gt;Heroku docs&lt;/a&gt; that I could just write a normal &lt;code&gt;javascriptfile.js&lt;/code&gt; and execute it by running &lt;code&gt;heroku run node javascriptfile.js&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I originally didn&#39;t look at any of these tutorials - I guessed from the examples using other languages in the &lt;a href=&quot;https://hboo.ca/posts/2017-02-27-how-to-use-heroku-scheduler-with-node/&quot;&gt;Heroku docs&lt;/a&gt; that I could just write a normal &lt;code&gt;javascriptfile.js&lt;/code&gt; and execute it by running &lt;code&gt;heroku run node javascriptfile.js&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;However, Heroku also asserts that you should be able to test your task by running &lt;code&gt;heroku run my task&lt;/code&gt; locally, but every time I tried this, it would fail with the following error:&lt;/p&gt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Wait, hold on just one cott&#39;n pickin&#39; secon&#39;. I just went to run it so I could dutifully copy the &lt;em&gt;exact&lt;/em&gt; error message for y&#39;all, and it ran WITHOUT GLITCHES. wAT?!??&lt;/p&gt;
@@ -741,9 +741,9 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 	
 	<entry>
 		<title>Oh god Vim is broken</title>
-		<link href="https://hboo.ca/blog/posts/2017-02-24-oh-god-vim-is-broken/"/>
+		<link href="https://hboo.ca/posts/2017-02-24-oh-god-vim-is-broken/"/>
 		<updated>2017-02-24T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-02-24-oh-god-vim-is-broken/</id>
+		<id>https://hboo.ca/posts/2017-02-24-oh-god-vim-is-broken/</id>
 		<content type="html">&lt;p&gt;I tried to start writing another post but vim is back to its old habits of appearing to insert weeeeeiiiiiird characters as I type.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://hboo.ca/img/vim-is-corrupt.png&quot; alt=&quot;weird stuff happening here. boxes with 0s and 1s and Bs, and qs and 6s.&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;It does this from time to time...I must have messed with some config somewhere. Anyway, PLZ HALP, AM NEED HALP.&lt;/p&gt;
@@ -762,9 +762,9 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 	
 	<entry>
 		<title>What is route protection?</title>
-		<link href="https://hboo.ca/blog/posts/2017-02-23-what-is-route-protection/"/>
+		<link href="https://hboo.ca/posts/2017-02-23-what-is-route-protection/"/>
 		<updated>2017-02-23T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-02-23-what-is-route-protection/</id>
+		<id>https://hboo.ca/posts/2017-02-23-what-is-route-protection/</id>
 		<content type="html">&lt;p&gt;When I searched this, I found a lot of mentions of Laravel and PHP. Whaat? What is this Laravel? And I certainly don’t want to start getting involved with PHP. Surely there is a simpler explanation for this!&lt;/p&gt;
 &lt;p&gt;Well, now there is! Right here. On your very own screen.&lt;/p&gt;
 &lt;p&gt;“Route protection” is a term referring to the idea that not all users should be able to access all parts of your app. These parts of your app are (theoretically) accessible at various &lt;em&gt;routes&lt;/em&gt; or &lt;em&gt;URLs&lt;/em&gt;. For example, perhaps users who are not logged in should be denied access to &lt;a href=&quot;http://somewebsite.com/fancystuffyouhadtopayfor&quot;&gt;somewebsite.com/fancystuffyouhadtopayfor&lt;/a&gt;. Therefore, you may wish to either use a service/plugin, or add some simple logic to your app to &amp;quot;protect&amp;quot; any private or restricted routes.&lt;/p&gt;
@@ -775,9 +775,9 @@ because I set it to do that, so I won&#39;t forget. It&#39;s sorta functional to
 	
 	<entry>
 		<title>Day Whatever @ RC</title>
-		<link href="https://hboo.ca/blog/posts/2017-01-24-day-whatever/"/>
+		<link href="https://hboo.ca/posts/2017-01-24-day-whatever/"/>
 		<updated>2017-01-24T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-01-24-day-whatever/</id>
+		<id>https://hboo.ca/posts/2017-01-24-day-whatever/</id>
 		<content type="html">&lt;p&gt;&lt;strong&gt;What am I doing?&lt;/strong&gt;&lt;br /&gt;
 I&#39;m waiting for git to finish cloning Mozilla&#39;s Bedrock repo.&lt;br /&gt;
 &lt;strong&gt;Why?&lt;/strong&gt;&lt;br /&gt;
@@ -801,9 +801,9 @@ The tests for some reason don&#39;t all pass! So I ran them one by one until I f
 	
 	<entry>
 		<title>How to use Sails.js with Pug</title>
-		<link href="https://hboo.ca/blog/posts/2017-01-07-how-to-use-sails-with-pug/"/>
+		<link href="https://hboo.ca/posts/2017-01-07-how-to-use-sails-with-pug/"/>
 		<updated>2017-01-07T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2017-01-07-how-to-use-sails-with-pug/</id>
+		<id>https://hboo.ca/posts/2017-01-07-how-to-use-sails-with-pug/</id>
 		<content type="html">&lt;p&gt;You may know by now that I like to make &lt;a href=&quot;https://hboo.ca/posts/2016-08-24-how-to-vue-directive-npm&quot;&gt;tutorials for things with dismal search results&lt;/a&gt;, and this is no different. The search results when I queried for the title of this post included the following:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://hboo.ca/img/use-sails-with-pug.png&quot; alt=&quot;pugs on sailboats. not the sails or pugs I wanted.&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Yeah. Not exactly what I was looking for. So I started by following &lt;a href=&quot;https://www.youtube.com/watch?v=ep6EQ5f82Ts&amp;amp;list=PLf8i4fc0zJBzLhOe6FwHpGhBDgqwInJWZ&amp;amp;index=3&quot;&gt;a video tutorial&lt;/a&gt; (just kidding, actually I started by blindly trying to merge the basic sails app with my pre-existing code, which was painfully unsuccessful) to the T just to get an idea of how sails works, seeing as I’m still more than a little confused about routing and http and servers and databases. I shall now extrapolate the process of converting this project to use pug, to a tutorial on starting a sails app with pug.&lt;/p&gt;
@@ -844,9 +844,9 @@ From this point you can basically follow &lt;a href=&quot;https://www.npmjs.com/
 	
 	<entry>
 		<title>Day 11 (or 8) @ RC</title>
-		<link href="https://hboo.ca/blog/posts/2016-11-16-where-am-i/"/>
+		<link href="https://hboo.ca/posts/2016-11-16-where-am-i/"/>
 		<updated>2016-11-16T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-11-16-where-am-i/</id>
+		<id>https://hboo.ca/posts/2016-11-16-where-am-i/</id>
 		<content type="html">&lt;p&gt;This post was originally labelled &amp;quot;Where am I&amp;quot;.&lt;br /&gt;
 I&#39;m not entirely sure whether I should count Monday to Fridays, or weekends too - weekends too I guess, since Fridays themselves aren&#39;t even techically normal work days.&lt;/p&gt;
 &lt;p&gt;Day 11 it is then.&lt;br /&gt;
@@ -882,9 +882,9 @@ Here&#39;s some things I have been doing:&lt;/p&gt;
 	
 	<entry>
 		<title>Day 3 @ RC</title>
-		<link href="https://hboo.ca/blog/posts/2016-11-09-day-3/"/>
+		<link href="https://hboo.ca/posts/2016-11-09-day-3/"/>
 		<updated>2016-11-09T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-11-09-day-3/</id>
+		<id>https://hboo.ca/posts/2016-11-09-day-3/</id>
 		<content type="html">&lt;p&gt;TO DO:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ask Michelle about Markov chains&lt;/li&gt;
@@ -894,9 +894,9 @@ Here&#39;s some things I have been doing:&lt;/p&gt;
 	
 	<entry>
 		<title>Day 2 @ RC</title>
-		<link href="https://hboo.ca/blog/posts/2016-11-08-day-2/"/>
+		<link href="https://hboo.ca/posts/2016-11-08-day-2/"/>
 		<updated>2016-11-08T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-11-08-day-2/</id>
+		<id>https://hboo.ca/posts/2016-11-08-day-2/</id>
 		<content type="html">&lt;p&gt;&lt;strong&gt;My Computer&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Su helped me fix my Windows partition!! Holy smokes! She is a magician!! ❤️&lt;br /&gt;
 I should definitely have been able to do it myself - we just reset the whole thing. But it was fun to not have Windows for a while and just live that way. Because whatever.&lt;/p&gt;
@@ -921,9 +921,9 @@ Then I was accidentally sitting in a checkin room and Michelle came in so I told
 	
 	<entry>
 		<title>RC: Day -2</title>
-		<link href="https://hboo.ca/blog/posts/2016-11-05-day-negative-2/"/>
+		<link href="https://hboo.ca/posts/2016-11-05-day-negative-2/"/>
 		<updated>2016-11-05T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-11-05-day-negative-2/</id>
+		<id>https://hboo.ca/posts/2016-11-05-day-negative-2/</id>
 		<content type="html">&lt;p&gt;Today is the day before the day before I will begin a series of days at &lt;a href=&quot;https://recurse.com/&quot;&gt;the Recurse Center&lt;/a&gt;. I have two reasons for writing this — One, they suggest keeping a blog to track your learning etc., but even before that, I read a few blogs from people who went to RC and did just that, like &lt;a href=&quot;https://jvns.ca/blog/2013/09/26/hacker-school-day-4-c-unit-testing/&quot;&gt;Julia Evans&lt;/a&gt;. It was really cool to see what they were doing, and I kindof want a place to organize my thoughts.&lt;/p&gt;
 &lt;p&gt;I was looking at some job postings and a surprising number of them mentioned ‘Scala’. I don’t even know what category of language Scala is. Also, a lot of them were data science or machine learning based; or maybe it just seems disproportionately that way because they are “off-limits” to me. I would love to dive into some of that stuff, machine learning and AI in particular, but I don’t see 3 months being quite sufficient to really get very far.&lt;/p&gt;
 &lt;p&gt;To Do:&lt;/p&gt;
@@ -938,9 +938,9 @@ Then I was accidentally sitting in a checkin room and Michelle came in so I told
 	
 	<entry>
 		<title>How to publish an Vue.js directive to npm</title>
-		<link href="https://hboo.ca/blog/posts/2016-08-24-how-to-vue-directive-npm/"/>
+		<link href="https://hboo.ca/posts/2016-08-24-how-to-vue-directive-npm/"/>
 		<updated>2016-08-24T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-08-24-how-to-vue-directive-npm/</id>
+		<id>https://hboo.ca/posts/2016-08-24-how-to-vue-directive-npm/</id>
 		<content type="html">&lt;p&gt;Wow, so I’m always amazed when something I want to know how to do doesn’t stare right back at me in the top 5 Google results. I’m sure you can guess why I am writing this article today (hint: check the title), but be assured that I have previously been unsuccessful in my mission to publish my Vue.js directive to npm. Please join me for a thrilling recount of my journey to enlightenment.&lt;/p&gt;
 &lt;p&gt;So the original version of &lt;a href=&quot;https://github.com/heatherbooker/vue-sticky-scroll&quot;&gt;my directive&lt;/a&gt; just had&lt;/p&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;Vue&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;directive&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;name-of-directive&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br /&gt;  &lt;span class=&quot;token comment&quot;&gt;// Definition&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -960,9 +960,9 @@ Then I was accidentally sitting in a checkin room and Michelle came in so I told
 	
 	<entry>
 		<title>How to make a reusable “directive” in Vue.js</title>
-		<link href="https://hboo.ca/blog/posts/2016-08-12-how-to-vue-directive/"/>
+		<link href="https://hboo.ca/posts/2016-08-12-how-to-vue-directive/"/>
 		<updated>2016-08-12T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-08-12-how-to-vue-directive/</id>
+		<id>https://hboo.ca/posts/2016-08-12-how-to-vue-directive/</id>
 		<content type="html">&lt;p&gt;I like Vue.js. A lot. (See my &lt;a href=&quot;https://hboo.ca/posts/2016-06-15-vue-vs-react&quot;&gt;comparison with React.js here&lt;/a&gt;.) It is a beautifully simple, straightforward, and superbly functional view-layer framework. I’ve gone over most of the docs multiple times, and I am absolutely enamoured with the clarity they exude. They don’t use stupidly obscure words or send you around in circles trying to find what you want. They make you and Vue Just Work.&lt;/p&gt;
 &lt;p&gt;However, I had a weak spot — the “Custom Directives” page. I avoided it for the longest time. Not being familiar with Angular (which everyone else seemed to be comparing these “directives” to those “directives”), I did not understand what a “directive” was or why I might want to use it. I couldn’t find a page explicitly labelled “Normal Directives” so I decided these custom “directives” were probably super insanely advanced.&lt;/p&gt;
 &lt;p&gt;Anyway, as it turns out, smack dab on the &lt;a href=&quot;https://vuejs.org/guide/overview.html&quot;&gt;Vue.js overview&lt;/a&gt; page is a succinct introduction to “directives”:&lt;/p&gt;
@@ -985,7 +985,7 @@ Wait, what &lt;em&gt;is&lt;/em&gt; the difference between a directive and a plug
 &lt;p&gt;Well, on this distinction, I admit I really &lt;em&gt;am&lt;/em&gt; seeing it clear as mud. It seems that a directive can be, or become, a plugin. Or is it that plugins can be encapsulated in directives? Perhaps if I end up needing to make a plugin, then my comprehension will be strengthened. Please do let me know if you are wiser than I on this topic.&lt;/p&gt;
 &lt;p&gt;Anyway, now that I’ve bored you to death with the blabbing, let’s dig right in and see a useful example of a custom directive. &lt;a href=&quot;https://github.com/heatherbooker/vue-sticky-scroll&quot;&gt;Check out the code on Github&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I created a directive (as all great things are created) out of necessity: I wanted a div of a fixed height to always auto-scroll down to the bottom if new content is added. A common problem you would think, no? Various attempts at solutions took hours upon hours — using libraries, requestAnimationFrame, home-hacked fixes, until I was satisfied. Then someone pointed out the excellent browser feature, Mutation Observers. This was an infinitely simpler implementation of the behaviour I desired.&lt;/p&gt;
-&lt;p&gt;(If what you are really after is how to solve this same problem, I wrote about the exact implementation &lt;a href=&quot;https://hboo.ca/blog/posts/2016-08-12-how-to-vue-directive/&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;(If what you are really after is how to solve this same problem, I wrote about the exact implementation &lt;a href=&quot;https://hboo.ca/posts/2016-08-12-how-to-vue-directive/&quot;&gt;here&lt;/a&gt;.)&lt;/p&gt;
 &lt;p&gt;My original directive was not a directive. It was just a function that took the class or id of the div in question as an argument, and used that to attach the behaviour to the element. An Angular.js veteran recommended that I extract this functionality into a directive, so that it would automatically attach to the desired element. What witchcraft is this?! That was my reaction to this push that I needed to finally explore directives.&lt;/p&gt;
 &lt;p&gt;Oops, that was definitely not digging right in. That was blabbing.&lt;/p&gt;
 &lt;p&gt;Javascript:&lt;/p&gt;
@@ -1009,9 +1009,9 @@ Wait, what &lt;em&gt;is&lt;/em&gt; the difference between a directive and a plug
 	
 	<entry>
 		<title>How to auto-scroll to the bottom of a div</title>
-		<link href="https://hboo.ca/blog/posts/2016-08-12-how-to-autoscroll/"/>
+		<link href="https://hboo.ca/posts/2016-08-12-how-to-autoscroll/"/>
 		<updated>2016-08-12T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-08-12-how-to-autoscroll/</id>
+		<id>https://hboo.ca/posts/2016-08-12-how-to-autoscroll/</id>
 		<content type="html">&lt;p&gt;This article is just going to be a little nublet of an article. Or a nugget. Whatever.&lt;br /&gt;
 I found it ridiculously difficult to add what I thought was a common, simple feature to a web app: the ability for a div to automatically scroll to the bottom whenever new content is added. I didn’t want the page to scroll, and I didn’t want the div height to grow, or the content to expand outside the div.&lt;/p&gt;
 &lt;p&gt;I tried using a library which is supposed to provide this functionality, but I was having no luck. It would sometimes jump around for the first couple of additions, but was terribly inconsistent, and I couldn’t understand the source code well enough to tweak and make it work.&lt;/p&gt;
@@ -1032,9 +1032,9 @@ I found it ridiculously difficult to add what I thought was a common, simple fea
 	
 	<entry>
 		<title>How to make an interactive map in React</title>
-		<link href="https://hboo.ca/blog/posts/2016-06-21-interactive-react-map/"/>
+		<link href="https://hboo.ca/posts/2016-06-21-interactive-react-map/"/>
 		<updated>2016-06-21T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-06-21-interactive-react-map/</id>
+		<id>https://hboo.ca/posts/2016-06-21-interactive-react-map/</id>
 		<content type="html">&lt;p&gt;I am going to share with you a great and magnificent secret: the stages of creating a clickable svg map in a React project. Are you ready? You might want to take notes, because it is super mind-blowing.&lt;/p&gt;
 &lt;p&gt;Wait, first here’s the map, being clicked on (ooh, ahh):&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://hboo.ca/img/map-being-clicked.gif&quot; alt=&quot;clickable map being clicked&quot; /&gt;&lt;/p&gt;
@@ -1098,9 +1098,9 @@ you can use event listeners to communicate that a component has been clicked&lt;
 	
 	<entry>
 		<title>Vue.js vs React.js</title>
-		<link href="https://hboo.ca/blog/posts/2016-06-15-vue-vs-react/"/>
+		<link href="https://hboo.ca/posts/2016-06-15-vue-vs-react/"/>
 		<updated>2016-06-15T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-06-15-vue-vs-react/</id>
+		<id>https://hboo.ca/posts/2016-06-15-vue-vs-react/</id>
 		<content type="html">&lt;p&gt;Ooh, this is going to be a juicy one! I’m sure many people are fierce supporters of one of these technologies and zealous bashers of the other. Both Vue.js and React.js are both pretty new to the scene — let’s get some background information to begin. I’ll go in reverse alphabetical order to avoid offending anyone right out of the gates. 😉&lt;/p&gt;
 &lt;p&gt;First of all, Vue and React are very similar. They are both libraries intended to be used to make composable “views”(Vue’s words) or “user interfaces”(React’s words), with reactive data binding. Composable, in this case, meaning based on the separation of view concerns into units described as “components”. In terms of data, both recommend a uni-directional flow of data.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://vuejs.org/&quot;&gt;Vue.js&lt;/a&gt; was created and maintained by Evan You and released publicly in early 2014. It positions itself as a simpler, more straightforward implementation of the component-based data-binding view concept.&lt;/p&gt;
@@ -1125,9 +1125,9 @@ you can use event listeners to communicate that a component has been clicked&lt;
 	
 	<entry>
 		<title>Getting started with React and Webpack</title>
-		<link href="https://hboo.ca/blog/posts/2016-06-09-getting-started-react-webpack/"/>
+		<link href="https://hboo.ca/posts/2016-06-09-getting-started-react-webpack/"/>
 		<updated>2016-06-09T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-06-09-getting-started-react-webpack/</id>
+		<id>https://hboo.ca/posts/2016-06-09-getting-started-react-webpack/</id>
 		<content type="html">&lt;p&gt;I &lt;a href=&quot;https://hboo.ca/posts/2016-05-28-if-gulp-were-a-person&quot;&gt;recently wrote about&lt;/a&gt; the wonders of gulp. Ironically, as soon as it was published, I ditched gulp for webpack. Actually that’s not quite true — I first tried to incorporate browserify into gulp. I knew I needed some sort of packaging system in order to use JSX and React, and of these two most popular, browserify and webpack, webpack was touted to be a real mind-bender to set up. Everywhere I looked suggested that people who weren’t terribly experienced with other module-requiring systems like CommonJS should probably use browserify. So I got to work setting it up, only to realize that webpack would pay off in the long run.&lt;/p&gt;
 &lt;p&gt;Scratch browserify. Move on to webpack. The internet was right — it was a pain to set up. Let’s dig right in and see if we can’t set up our own project right now using React and Webpack. (If you can’t be bothered to follow along, feel free to git clone my &lt;a href=&quot;https://github.com/heatherbooker/webpack-react-starter&quot;&gt;Webpack-React starter&lt;/a&gt; — a complete environment to use React and Webpack, as well as SCSS.)&lt;/p&gt;
 &lt;p&gt;We will be creating a project ‘anyProject’ in a directory ‘dev’. Feel free to adapt these to your needs.&lt;/p&gt;
@@ -1186,9 +1186,9 @@ For now, we will need to manually copy our index.html into the build directory:&
 	
 	<entry>
 		<title>Prototyping a web app on Linux</title>
-		<link href="https://hboo.ca/blog/posts/2016-05-30-prototyping-web-on-linux/"/>
+		<link href="https://hboo.ca/posts/2016-05-30-prototyping-web-on-linux/"/>
 		<updated>2016-05-30T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-05-30-prototyping-web-on-linux/</id>
+		<id>https://hboo.ca/posts/2016-05-30-prototyping-web-on-linux/</id>
 		<content type="html">&lt;p&gt;I take great pride and pleasure in using an operating system sometimes thought of as difficult, risky, and geared towards programmers. Being the extremely novice developer that I am, I like to boost my sense of competence by using this somewhat elite OS so that I can bask in the surprise of others when they find out that I am using neither Windows nor MAC.&lt;/p&gt;
 &lt;p&gt;However, along with the perks of using an a slightly atypical OS come its inevitable, intrinsically linked downfalls: in this case, namely a lack of support for and access to popular proprietary programs. Luckily, the open-source community is beautiful and prolific, its efforts affording the ability to hack together a solution to nearly any problem you should wish to tackle.&lt;/p&gt;
 &lt;p&gt;My latest endeavour, prototyping my next project, has been no exception. The objective: create a high-fidelity, really pretty, visually-identical, interactive approximation of what I envision my web app looking like and being able to do. I began by trying out some web apps advertised for prototyping, InVision and Marvel App — which, of course, are indifferent to my OS — I was off to a good start. InVision didn’t work out, but Marvel App was promising, allowing you create designs with its &lt;a href=&quot;http://blog.marvelapp.com/introducing-canvas-design-wireframe-and-animate-directly-in-marvel/&quot;&gt;canvas function&lt;/a&gt;. However, there was a glaring flaw: once you move on from creating screen1 to screen2, screen3 &lt;em&gt;must&lt;/em&gt; be based off screen2 — there’s no way to use screen1 as a starting point. This becomes extremely frustrating extremely quickly, and I was getting really tempted to cut corners and just omit entire interactions and features.&lt;/p&gt;
@@ -1206,14 +1206,14 @@ Usually I am too stubborn — I try until I’m mad and then declare it impo
 	
 	<entry>
 		<title>If GULP were a person…</title>
-		<link href="https://hboo.ca/blog/posts/2016-05-28-if-gulp-were-a-person/"/>
+		<link href="https://hboo.ca/posts/2016-05-28-if-gulp-were-a-person/"/>
 		<updated>2016-05-28T00:00:00Z</updated>
-		<id>https://hboo.ca/blog/posts/2016-05-28-if-gulp-were-a-person/</id>
+		<id>https://hboo.ca/posts/2016-05-28-if-gulp-were-a-person/</id>
 		<content type="html">&lt;p&gt;Ze* would be pretty amazing. I don’t know zir* very well yet, but ze* sure seems to have a lot of people who like zir. Granted, there are also a fair few who are not afraid to speak out against gulp — but that’s hardly unusual when someone wonderful shows up on the scene.&lt;/p&gt;
 &lt;p&gt;Gulp was a little hard to follow at first. Ze uses all this language that, like everyone in the field, is a little perplexing until you’re used to it. I suppose you would call that &lt;em&gt;jargon&lt;/em&gt;. Zir four main capabilities are expressed as &lt;code&gt;.task&lt;/code&gt;, &lt;code&gt;.pipe&lt;/code&gt;, &lt;code&gt;.src&lt;/code&gt;, and &lt;code&gt;.dest&lt;/code&gt;. The latter two are simply used to denote the source and destination of the files you would like gulp to operate on. &lt;code&gt;.task&lt;/code&gt; is, of course, a description of the task you would like gulp to execute. Now, &lt;code&gt;.pipe&lt;/code&gt; is, to my untrained eyes, the most wonderful and curious constituent of gulp. Ze isn’t showy about it, but once you understand it, it is the backbone of all the incredible functionality gulp so humbly offers. You see, the aptly named &lt;code&gt;.pipe&lt;/code&gt; function takes a reference to a plugin you would like to see used on your code, and then pipes your code through that plugin from &lt;code&gt;.src&lt;/code&gt; to &lt;code&gt;.dest&lt;/code&gt;, leaving a new, neatly wrapped, perfectly articulated version of your code in wherever you have designated as the destination. The most beautiful thing about gulp, in my view, is the conceptualization afforded by the use of this code that represents sending code through a pipeline where it undergoes various transformations.&lt;/p&gt;
 &lt;p&gt;If there’s one thing I know for sure, it’s that gulp loves to accessorize. In fact, ze wouldn’t be that notable at all without all zir little friends. Gulp gets along with pug (formerly jade) for html, sass for css, mocha for testing, and basically anyone or anything else you’d like zir to. Ze can help you uglify your code for running, while leaving your original code untouched so when you come back to edit it/check it out, you aren’t bewildered by the wall of text that is uglified code. Ze can also lint your code, simplify the use of frameworks like react.js and express, compile coffeescript, and do a million other handy things that just makes zir a great companion.&lt;/p&gt;
 &lt;p&gt;Now, don’t get me wrong — there are probably other gizmos and gadgets that accomplish the same things in various permutations and combinations. But gulp can just do so MUCH! By golly, just in researching this article I discovered that ze can work with git for version control! Unbelievable! I tell ya folks, whatever you want to, you talk to gulp and the two of you will work something out to your satisfaction. With all zir connections, you won’t be disappointed.&lt;/p&gt;
-&lt;p&gt;*Note on “ze”, “zir” &amp;amp; “zirs”: these are commonly used gender-neutral pronouns, intended to lack any connotation of gender. I do not wish to assign a gender to Gulp, and thus I have selected these non-specific pronouns. For more information, feel free to check out this &lt;a href=&quot;https://hboo.ca/blog/posts/2016-05-28-if-gulp-were-a-person/%5Cgenderneutralpronoun.wordpress.com&quot;&gt;explanation&lt;/a&gt; from the Gender Neutral Pronoun Blog.&lt;/p&gt;
+&lt;p&gt;*Note on “ze”, “zir” &amp;amp; “zirs”: these are commonly used gender-neutral pronouns, intended to lack any connotation of gender. I do not wish to assign a gender to Gulp, and thus I have selected these non-specific pronouns. For more information, feel free to check out this &lt;a href=&quot;https://hboo.ca/posts/2016-05-28-if-gulp-were-a-person/%5Cgenderneutralpronoun.wordpress.com&quot;&gt;explanation&lt;/a&gt; from the Gender Neutral Pronoun Blog.&lt;/p&gt;
 &lt;p&gt;**Thanks to Dylan Harness for motivating this post.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: This post was migrated from its &lt;a href=&quot;https://medium.com/@heatherbooker/if-gulp-were-a-person-82a6cd6e3e38#.fhs0i3owm&quot;&gt;original home on Medium&lt;/a&gt; on February 23, 2017.&lt;/p&gt;
 </content>
