@@ -8,7 +8,7 @@ tags:
 
 I tried to start writing another post but vim is back to its old habits of appearing to insert weeeeeiiiiiird characters as I type. 
 
-![weird stuff happening here. boxes with 0s and 1s and Bs, and qs and 6s.](/blog/img/vim-is-corrupt.png)
+![weird stuff happening here. boxes with 0s and 1s and Bs, and qs and 6s.](/img/vim-is-corrupt.png)
 
 <!--more-->  
 It does this from time to time...I must have messed with some config somewhere. Anyway, PLZ HALP, AM NEED HALP. 

@@ -16,7 +16,7 @@ The [original implementation](https://github.com/marenbeam/thoughts) doesn't inv
 
 First thought is this hilarious ad on a website for a local music store that I thought was very cute and saved a few weeks ago, for this exact purpose:
 
-![steves music store - wash those hands!](/blog/img/steves.png)
+![steves music store - wash those hands!](/img/steves.png)
 
 20 May, 2020
 
@@ -162,7 +162,7 @@ index 225ff25..f338ed7 100644
 
 I guess there's no scoping of css to certain pages automatically by jekyll; it has to be done manually. So I actually first released the blog with all the paragraphs being squished together, because I was SO EAGER and didn't double check the other pages. Just the new one. :joy: It was only afterwards that I addded the `.thoughts` scope to the `p + p`. Regression check, my friends!
 
-Last but certainly not least is the glorious thought generator. I largely copied the existing new post generator that I use ([by Xianny](/blog/posts/2017-02-28-xiannys-awesome-jekyll-post-generator) (who I met!! it was so cool! people are just the best.[^1])), but simpler because thoughts don't have titles, or tags.
+Last but certainly not least is the glorious thought generator. I largely copied the existing new post generator that I use ([by Xianny](/posts/2017-02-28-xiannys-awesome-jekyll-post-generator) (who I met!! it was so cool! people are just the best.[^1])), but simpler because thoughts don't have titles, or tags.
 
 ```git
 {% raw %}

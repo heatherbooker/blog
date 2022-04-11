@@ -96,13 +96,13 @@
   </header>
 
   <article class="post-content">
-    <p>I <a href="/blog/posts/2016-05-28-if-gulp-were-a-person">recently wrote about</a> the wonders of gulp. Ironically, as soon as it was published, I ditched gulp for webpack. Actually that’s not quite true — I first tried to incorporate browserify into gulp. I knew I needed some sort of packaging system in order to use JSX and React, and of these two most popular, browserify and webpack, webpack was touted to be a real mind-bender to set up. Everywhere I looked suggested that people who weren’t terribly experienced with other module-requiring systems like CommonJS should probably use browserify. So I got to work setting it up, only to realize that webpack would pay off in the long run.</p>
+    <p>I <a href="/posts/2016-05-28-if-gulp-were-a-person">recently wrote about</a> the wonders of gulp. Ironically, as soon as it was published, I ditched gulp for webpack. Actually that’s not quite true — I first tried to incorporate browserify into gulp. I knew I needed some sort of packaging system in order to use JSX and React, and of these two most popular, browserify and webpack, webpack was touted to be a real mind-bender to set up. Everywhere I looked suggested that people who weren’t terribly experienced with other module-requiring systems like CommonJS should probably use browserify. So I got to work setting it up, only to realize that webpack would pay off in the long run.</p>
 <p>Scratch browserify. Move on to webpack. The internet was right — it was a pain to set up. Let’s dig right in and see if we can’t set up our own project right now using React and Webpack. (If you can’t be bothered to follow along, feel free to git clone my <a href="https://github.com/heatherbooker/webpack-react-starter">Webpack-React starter</a> — a complete environment to use React and Webpack, as well as SCSS.)</p>
 <p>We will be creating a project ‘anyProject’ in a directory ‘dev’. Feel free to adapt these to your needs.</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">mkdir</span> dev/anyProject<br><span class="token builtin class-name">cd</span> dev/anyProject</code></pre>
 <p>npm is a dandy package manager we will be using to set up webpack and react. Make sure you have npm installed by typing <code>npm -v</code> — check <a href="https://docs.npmjs.com/getting-started/installing-node">here</a> or <a href="http://blog.npmjs.org/post/85484771375/how-to-install-npm">here</a> for details.</p>
 <p>Run <code>npm init -y</code> to get started — this will initialize your project with a package.json file. The -y option tells npm to use default settings; if you forget to use it, just press enter until you have gone through all of the questions. Running npm init -f accomplishes the same, but it also warns you:</p>
-<p><img src="/blog/img/npm-warn.png" alt="npm being a know-it-all"></p>
+<p><img src="/img/npm-warn.png" alt="npm being a know-it-all"></p>
 <p>Alarming! Better stick to -y which gets the job done without sassing you. (not the css type…)</p>
 <p>Next, we install webpack:</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> i webpack -S</code></pre>
@@ -130,7 +130,7 @@ For now, we will need to manually copy our index.html into the build directory:<
 <p>Now in your terminal/command line just type:</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run build</code></pre>
 <p>And open dev/anyProject/build/index.html in your browser and you should see this:</p>
-<p><img src="/blog/img/hello-world.png" alt="'Hello world' in top left corner of your page"></p>
+<p><img src="/img/hello-world.png" alt="'Hello world' in top left corner of your page"></p>
 <p>Awesome! It works! You have successfully set up a project with webpack and react! But you might be thinking : we copied that index.html file manually, that was stupid. You’re right! Let’s prepare this project a little more for the real world. We want to handle html files, and we might as well also use webpack for one of its great skills — requiring in all sorts of tidbits, such as images. I like using SVGs as they are highly editable, and resize well.</p>
 <p>Start by installing html-webpack-plugin and file-loader:</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> i html-webpack-plugin file-loader -D</code></pre>
