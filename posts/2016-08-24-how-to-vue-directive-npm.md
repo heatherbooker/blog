@@ -44,7 +44,7 @@ if (typeof module !== 'undefined' && this.module !== module && module.exports) {
 }
 // Continue as above, replacing final 'try/catch' with above 'if'
 ```
-But there is some discourse on the best way to do this — whether checking the first and last clauses is sufficient ([Underscore](http://underscorejs.org/docs/underscore.html#section-11) does it this way) or the first and second clauses are a preferable pair. Let me know if you have thoughts on the `try/catch` vs `if (module)` dilemma.  
+But there is some discourse on the best way to do this — whether checking the first and last clauses is sufficient ([Underscore](https://underscorejs.org/docs/underscore.html#section-11) does it this way) or the first and second clauses are a preferable pair. Let me know if you have thoughts on the `try/catch` vs `if (module)` dilemma.
 
 Of course, everything should be wrapped in an anonymous, self-invoking function to prevent bloating of the global namespace if users are not using node.  
 ```js
