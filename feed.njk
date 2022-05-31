@@ -4,7 +4,7 @@ permalink: "{{ metadata.feed.filename }}"
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 	<title>{{ metadata.title }}</title>
 	<description>{{ metadata.description }}</description>
 	{% set absoluteUrl %}{{ metadata.feed.path | url | absoluteUrl(metadata.url) }}{% endset %}

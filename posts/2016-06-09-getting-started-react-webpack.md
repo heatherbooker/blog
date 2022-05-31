@@ -18,7 +18,7 @@ mkdir dev/anyProject
 cd dev/anyProject
 ```
 
-npm is a dandy package manager we will be using to set up webpack and react. Make sure you have npm installed by typing `npm -v` — check [here](https://docs.npmjs.com/getting-started/installing-node) or [here](http://blog.npmjs.org/post/85484771375/how-to-install-npm) for details.
+npm is a dandy package manager we will be using to set up webpack and react. Make sure you have npm installed by typing `npm -v` — check [here](https://docs.npmjs.com/getting-started/installing-node) or [here](https://blog.npmjs.org/post/85484771375/how-to-install-npm) for details.
 
 Run `npm init -y` to get started — this will initialize your project with a package.json file. The -y option tells npm to use default settings; if you forget to use it, just press enter until you have gone through all of the questions. Running npm init -f accomplishes the same, but it also warns you:  
 
