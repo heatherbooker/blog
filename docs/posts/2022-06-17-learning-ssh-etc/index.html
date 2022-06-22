@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning SSH etc</title>
+    <meta name="description" content="These are the words that I&#39;ve had to say in the past whenever. Go ahead and consume them.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="Heather B-Log">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="table cover">
+          <div class="cover-card table-cell table-middle">
+  <img src="/img/heatherlearns.svg" alt="cartoon of my face" class="avatar">
+  <a href="/" class="author_name">heather booker</a>
+  <span class="author_job">Good morning.</span>
+  <span class="author_bio metadata.author_bio1 mbm">These are the words that I&#39;ve had to say in the past whenever.</span>
+  <span class="author_bio mbm"> Go ahead and consume them.</span>
+  <nav class="nav">
+    <ul class="nav-list">
+       
+      <li class="nav-item">
+        <a href="/">Home</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="/thoughts/">Thoughts</a>
+      </li>
+        
+      <li class="nav-item">
+        <a href="/archive/">Archive</a>
+      </li>
+       
+    </ul>
+  </nav>
+  <div class="social-links">
+    <ul>
+      
+        <li><a href="https://twitter.com/hboo_codes" class="social-link-item"><i class="fa fa-fw fa-twitter"></i></a></li>
+      
+
+      
+        <li><a href="https://github.com/heatherbooker" class="social-link-item"><i class="fa fa-fw fa-github"></i></a></li>
+      
+
+      
+        <li><a href="/feed.xml" class="social-link-item"><i class="fa fa-fw fa-rss"></i></a></li>
+      
+    </ul>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+    <div class="col s12 m9">
+      <div class="post-listing">
+        <main>
+
+          <a class="btn" href="/" >
+  Home
+</a>
+
+<div id="post">
+  <header class="post-header">
+    <h1 title="Learning SSH etc">Learning SSH etc</h1>
+    <span class="post-meta">
+
+      <time class="post-date" datetime="2022-06-17">
+        17 JUN 2022
+      </time>
+
+      
+      •
+      
+      
+          <a class="post-tag" href="/tags/code/">code</a>
+        
+        
+      
+      
+
+    </span>
+
+  </header>
+
+  <article class="post-content">
+    <p>I am job searching! Fun times. I also have a weirdly high proportion of friends simultaneously job searching, which is cool because we can discuss interview stuff. This is exactly what led me down the road labelled &quot;learn SSH&quot; - my friend and co-job-searcher behind <a href="https://www.heyheatheritsmeagain.com/">Hey Heather, it's me again</a> mentioned that an interviewer asked &quot;If you needed to get some files onto a remote server, how would you do that?&quot;, and my response was externally a cool, blank stare, and internally a spiral-of-doom-panic. 😅</p>
+<p>But my friend knew! They answered &quot;scp&quot;, and then the interviewer added &quot;sure! or rsync.&quot;. And then I asked this question to a different friend, who answered &quot;ssh&quot;. So now I had 3 things to learn about! I had heard of all of these, and I know my team at my previous job used <code>rsync</code> for our deployments.</p>
+<p>So, I got together with my friend who went through the interview, and we started slowly chewing through the many topics we had on the menu. The main objective was: &quot;Use each other's computer as a remote server, and try to get some files onto it!&quot;</p>
+<p>We started by listing what we already knew (or <em>thought</em> we knew):</p>
+<ul>
+<li>FTP: An antiquated way to transfer files (this &quot;knowledge&quot; came from me using it several years ago to make a website for someone.).</li>
+<li>SSH: How to use another computer's command line remotely.</li>
+<li>SCP: SSH, but just for copying files.</li>
+<li>rsync: Another way to copy files???</li>
+</ul>
+<p>Unfortunately, (or perhaps fortunately? the more learning, the better?), the explanations of what these things are always references other unknowns, and so on and so forth until you have unraveled a giant tangle of things-you-don't-know, and suddenly it's not looking like a one-day project anymore. It reminds me of this type of dictionary definition which I cursed just recently:</p>
+<blockquote>
+<p><strong>heretical</strong>:<br>
+Of or relating to heresy or heretics.<br>
+Characterized by, revealing, or approaching departure from established beliefs or standards.<br>
+Containing heresy; of the nature of, or characterized by, heresy.</p>
+</blockquote>
+<p>Two thirds of those definitions just mean you need to learn MOAR DEFINITIONS. (As defined when <a href="https://duckduckgo.com/?t=ffab&amp;q=heretical&amp;ia=definition">searched via DuckDuckGo</a>.)</p>
+<p>And so it is that we learned many things that day. Mostly that everything internet-protocol-y (IP-y!)<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> is badly named:</p>
+<ul>
+<li>
+<p>SCP's original implementation was flawed, so now, under the hood, calling <code>scp</code> just gives you a secure version of FTP: SFTP, which is FTP over SSH.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+</li>
+<li>
+<p>TLS/SSL has both in the name because SSL was essentially under copyright, but SSL was the well-known name for the protocol, so TLS was just a fancy new name given to the new version of SSL. Except people kept jamming the names together because nobody knew what TLS was, so it needed SSL to hold its hand while it got famous too, and now the pair of names has stuck. <a href="https://tim.dierks.org/2014/05/security-standards-and-name-changes-in.html">Read about the meeting that decided this</a> (and the actual details, because &quot;copyright&quot; is the wrong word).</p>
+</li>
+</ul>
+<p>I also ended up reading some of Julia Evan's zines, specifically the <a href="https://wizardzines.com/zines/http/">HTTP</a> and <a href="https://wizardzines.com/zines/dns/">DNS</a> ones. Reading the HTTP zine made me think: I really oughtta memorize HTTP response codes. Because while I definitely laugh a socially appropriate amount at any HTTP status code jokes, I don't actually remember which one is which, and that's a bit strange for a web developer. No problem though, because <a href="https://httpstatusdogs.com/">HTTP dogs</a><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> are here to help me (and you!) learn while LOOKING AT CUTE DOGGIES 😍.</p>
+<p>Here they are, grouped by the 100:</p>
+<ul>
+<li>200: OK</li>
+<li>300: Redirect</li>
+<li>400: <em>You</em>, the user, did a booboo.</li>
+<li>500: <em>They</em>, the server, did a booboo.</li>
+</ul>
+<p>And for a bonus level, we can get into specific codes:</p>
+<ul>
+<li>403: &quot;permission denied&quot;</li>
+<li>404: a crowd favourite—&quot;not found&quot;</li>
+</ul>
+<p>While looking at this graphic of the parts of a URL (from <a href="https://wizardzines.com/comics/how-urls-work/">https://wizardzines.com/comics/how-urls-work/</a>):</p>
+<p><img src="/img/url-wizard-zine.png" alt="&quot;parts of a url&quot; from wizard zines"></p>
+<p>, I discovered the &quot;port&quot; is a part of the URL that we don't usually see when browsing the web, but you can sneak around and try putting it in the URL to see what happens -<code>:80</code> for <code>http://</code> sites and <code>:443</code> for <code>https://</code> sites. I found that some sites (stackoverflow over https) loaded just the same, but others (I forget what, over http) did not appreciate having the port specified. XD Or perhaps it was that we specified <code>:80</code>, the port designated for HTTP, while having typed <code>https://</code> at the start of the URL? I'll admit I forget. Please do try it out and write me with your results.</p>
+<p>Once we figured out how to get each other's IP addresses -</p>
+<p>Oops, time for a sub-lesson!</p>
+<p>I used <code>ip address</code>, which spits out a lot of output, and the <em>first IP that isn't localhost (127.0.0.1)</em> you see is the useful one. (I don't know what the others are. MOAR THINGS TO LEARN! 😃)</p>
+<p>It seems that I get a new IP depending on which router I am connected to, which makes sense, because I only exist on the internet when I am connected to it, and I have to connect through the router, and how else would other internet devices find me, if not by starting at my router? I just found it cool to see how the IP of each device connected to that router shared almost the entire IP address, and only one portion was incremented, ie (these are all fake IPs):</p>
+<p>172.666.1.9 - my friend's computer!<br>
+172.666.2.9 - random other wifi-connected device, say, a smart thermostat<br>
+172.666.4.9 - my computer!</p>
+<p>I admittedly couldn't remember whether the second-last digit should be incremented, or the very last digit; while trying to find the answer, I unearthed one hundred billion more questions, like do I have a public <em>and</em> a private IP?! (No, I have a private IP that my router knows, and my router has a public IP that the rest of the internet knows.), and how do <a href="https://www.signal.org/">Signal</a> messages get to me if I don't have a public IP?! (The internet can never initiate sending things to me; I must always ask for it. Messages can get to me by the app leaving a TCP connection open, or by sending requests for updates frequently, by example.) There's also a thing called NAT traversal, or Network Address Translation traversal, which is a way of cutting out any middle parties, to decrease the overall bandwidth used. NAT traversal is often used for video calls among other things. Sorry for mentioning it and basically teaching you nothing specific about it; have fun looking it up yourself! ;D</p>
+<p>It also seems that the router reserves some number for devices which are intermittently connected. I say this because we used <code>nmap</code> to see which devices were on the network, and it showed that no devices had the number 3, but that the router gave me an IP address with the digit 4 when I connected to the network. <code>nmap</code> is a magical and spooky tool that can tell you which other devices are connected to the same network. It can tell you their IP, their MAC address; it can guess which OS they are running, and it can tell you the device's name. This is just one terrifying part of what we will later find out amounts to a significant argument for never working in a café again.<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup> To return to the IP addressing: we couldn't identify my friend's phone as any of the devices that nmap found on the network; it turned out that the phone disconnected from the wifi while it wasn't in use, and once a browser tab was opened, the phone now showed on the nmap output, with the skipped IP address! I'd like to know how it manages this; surely it can't keep addresses reserved for offline devices forever, or else I would have gotten a much higher number than 4 (it was actually 6, I thought I could get away with simplifying things!).</p>
+<p>Now that I've typed &quot;router&quot; 20 times, I'm feeling self-conscious about the difference between a router and a modem. Should I have been saying &quot;modem&quot; this whole time?! I can't look it up because firefox keeps crashing today. Too bad! 😂</p>
+<p>So, as I was saying, once we figured out how to get each other's IP addresses, I started a tiny server on my computer using the npm module http-server, in a directory with just a dog.txt file containing this adorable ascii dog (<a href="https://ascii.co.uk/art/dog">source</a>):</p>
+<pre class="language-txt"><code class="language-txt">         ,--._______,-. <br>       ,','  ,    .  ,_`-. <br>      / /  ,' , _` ``. |  )       `-.. <br>     (,';'""`/ '"`-._ ` \/ ______    \\ <br>       : ,o.-`- ,o.  )\` -'      `---.)) <br>       : , d8b ^-.   '|   `.      `    `. <br>       |/ __:_     `. |  ,  `       `    \ <br>       | ( ,-.`-.    ;'  ;   `       :    ; <br>       | |  ,   `.      /     ;      :    \ <br>       ;-'`:::._,`.__),'             :     ; <br>      / ,  `-   `--                  ;     | <br>     /  \                   `       ,      | <br>    (    `     :              :    ,\      | <br>     \   `.    :     :        :  ,'  \    : <br>      \    `|-- `     \ ,'    ,-'     :-.-'; <br>      :     |`--.______;     |        :    : <br>       :    /           |    |         |   \ <br>       |    ;           ;    ;        /     ; <br>     _/--' |   -hrr-   :`-- /         \_:_:_| <br>   ,',','  |           |___ \ <br>   `^._,--'           / , , .) <br>                      `-._,-' </code></pre>
+<p>And my friend typed my IP address into the URL bar on their computer, followed by <code>:8080</code>, and saw a link to that dog.txt, and clicked it, and saw the dog! And voilà, just like that, we have succeeded at transferring files between computers - an excellent first step to our interview mission. We then followed up with me running my development server for my blog which is configured to port <code>:8080</code>, and my friend could see that too!</p>
+<p>Now this suddenly seemed very terrifying, because when you do an nmap scan, it also gives you a list of ports in use on each device, meaning that a stranger in a café could see that a computer with X IP was serving something on Y port, and then they could access it just like my friend just did - without my realizing, without my meaning to.</p>
+<p>Naturally, we tested this out in the other direction too: with me trying to type 172.666.my-friend-IP:friend-port in my browser's URL bar, but I couldn't see anything! I forget which kind of &quot;access denied&quot; page it was; I think it just says something like &quot;unable to connect&quot;. Unfair!! Why can't I spy on a website about me?! 😂</p>
+<p>More investigation reveals that my friend's blog uses Jekyll, my blog uses 11ty, and the dog art server I just made uses http-server. They have different default ports too - at first I read something that indicated <code>:8080</code> is for public use, and since my blog was using that port, I suspected this was the explanation. However, using all sorts of different ports on the dog art server did not prevent my beautiful dog art from being accessed right out from under my watchful eyes. Yet more investigation reveals that setting the default host address to <code>0.0.0.0</code> makes a server accessible from other IPs, while <code>127.0.0.1</code> keeps it private - for <code>localhost</code> only. The help page for http-server indicates how to change this, but I have yet to figure it out for Eleventy which is the framework my blog uses. It's wild to me that something that seems so significant could be so...undocumented? Un-obvious? I mean, admittedly http-server lists it as an option in the help dialogue, but it's not in the readme and I had a hard time searching for it. I admit I have a fear of man-pages and help-dialogues...they just have...</p>
+<p>SO MANY WORDS.<br>
+SO LITTLE TIME.<br>
+MUST CONTROL-FIND.<br>
+😂</p>
+<p>Side note, now that I'm reading about these IPs, I'm just garnering more and more questions, like how can a host have multiple IPs? That's gonna have to be more questions for another day.</p>
+<p>So that was a significant aside, but we eventually got back to our main squeeze, putting a file on a server. (Servers don't tend to have web browsers or care about ascii art, but maybe they should...?)</p>
+<p><code>rsync</code> is purportedly also a handy tool for getting files onto a server - my friend read the wikipedia intro paragraph and proclaimed &quot;It's like git, but for transferring files&quot;. This comparison is because they both use delta encoding<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup>. Delta encoding means that instead of copying the whole file every time, it checks which parts changed, and sends (in the case of rsync) or saves (in the case of git) only those parts. In a massive app like the one I used to work on, rsync could mean significant bandwidth savings. But if I have the updated files on my computer, and the server has an old set of files, how does rsync know what the diff is, without first sending one of the versions to the other? I suppose it could use a sort of hash? This is conjecture, I need to do a part 2.</p>
+<p>Moving on for now to <code>ssh</code> and <code>scp</code>. It seems to me that <code>ssh</code> only helps insofar as you can use a <code>scp</code> command from the server, rather than using the same <code>scp</code> command but with arguments (file_from, file_to) reversed but from the computer that you're sshing from. So:</p>
+<pre><code>computer has dog.txt
+server wants dog.txt
+
+start in computer shell:
+
+computer$ ssh into_server
+server$   scp remote_file to_local
+
+or
+
+start in computer shell:
+
+computer$ scp local_file to_remote
+</code></pre>
+<p>Again, total conjecture. I used <code>ssh</code> a few times at my old job but was always terrified of accidentally deleting the entire database<sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup>. All tutorials on the internet indicated that <code>scp</code>ing onto a server should be as easy as</p>
+<pre><code>scp dog.txt 192.666.their.ip:/home/directory
+</code></pre>
+<p>Alas, a solitary computer is not a server, or at the very least it's not a server that wants to be <code>ssh</code>ed into or <code>scp</code>ed onto, because I was rudely &quot;disconnected&quot; several times. It seems that you must set things up, share keys perhaps, and all that is going to need to be a lesson for another time, because we were hungry or maybe hangry and that was the end of our lesson.</p>
+<p>But progress has been made. Many things were learned, explored, examined, and insulted that day, yet our eagerness to answer interview questions more deeply than was ever expected remains strong. Thanks for sticking along for this wild ride of computer learnings, and I hope you're out there having your own fun and asking your own turtles-all-the-way-down questions.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>did you know that IP just stands for <em>internet protocol</em>?! Well, I didn't. 😂 I've been watching the <a href="https://www.youtube.com/watch?v=tpIctyqH29Q&amp;list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo">Crash Course Computer Science</a> videos, and they are just amazing. They explain stuff so simply and are just a joy to watch. That's where I learned what IP and MAC address mean. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>SFTP or FTP over SSH is not to be confused with FTPS - FTP over SSL, or the other SFTP - Simple FTP; see <a href="https://en.wikipedia.org/wiki/File_Transfer_Protocol#Derivatives">Wikipedia FTP derivatives</a>). <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>Oh, the website says HTTP cats came first. Well, my friend knew about the dogs one, and I was too busy admiring those lil cuties to read the fine print. 😂 <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p>I am certain that I have seen nmap used before, and that in fact someone probably demonstrated exactly how nosy it can be, when I was at the Recurse Center several years ago. Alas, the message didn't stick, and I continue to be obtusely unconvinced to trade convenience for security. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p>Reading more about delta encoding led me to the idea of <a href="https://en.wikipedia.org/wiki/Delta_encoding#Delta_encoding_in_HTTP">using it for websites</a>, which is quite cool. I'm thinking it would be a cool project to build a...what could you build to simulate this? A website? A package that could be used on any website? Probably not a browser extension. <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p>Which definitely never happened and wasn't a story that got passed around to spread fear into the hearts of innocent developers like me. Nope. <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+  </article>
+
+  <nav class="post-navigation" role="navigation">
+  <div class="row">
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-prev">
+        
+        
+        <a href="/posts/2022-05-19-i-love-bixi-but/" title="">
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="primary-text-color"><i class="fa fa-angle-left"></i></span>&nbsp;
+              <span class="hidden-md primary-text-color">Older</span>
+            </div>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <div class="col shrink-to-link">
+      <a href="/">
+        <div class="leonids-icon">
+          <i class="fas fa-glasses"></i>HOME
+        </div>
+      </a>
+    </div>
+
+    <div class="col shrink-to-link">
+      <div class="post-nav-next">
+        
+        
+          <div class="post-nav-btn">
+            <div class="post-nav-text">
+              <span class="hidden-md">The end!</span>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+</div>
+
+        </main>
+
+        <footer>
+  <span>
+    <i class="rc-logo__mini"></i>
+    You should check out <a class="rc-link" href="https://www.recurse.com">the Recurse Center</a>.
+  </span>
+  &copy; 2022
+  <a href="https://heatherbooker.github.io" style="text-transform: capitalize;">heather booker</a>.
+
+  Powered by <a href="https://www.11ty.dev/">11ty</a>.
+  Made with modified <a href="https://github.com/renyuanz/leonids/">leonids theme</a>.
+</footer>
+
+      </div>
+    </div>
+
+    <!-- Current page: /posts/2022-06-17-learning-ssh-etc/ -->
+    </div>
+  </body>
+
+</html>
